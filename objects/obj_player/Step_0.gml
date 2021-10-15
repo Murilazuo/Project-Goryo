@@ -39,6 +39,8 @@ switch(player_state){
 	case PlayerState.Fall:
 		break;
 	case PlayerState.Slide:
+		vsp = -global.gravity_force;
+
 		hsp -= slide_decrease;
 		if hsp <= 0 change_PlayerState(PlayerState.Fall);
 		break;
