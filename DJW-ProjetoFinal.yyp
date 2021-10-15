@@ -5,6 +5,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":2,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":0,},
     {"id":{"name":"obj_hud_manager","path":"objects/obj_hud_manager/obj_hud_manager.yy",},"order":0,},
+    {"id":{"name":"spr_player_slide","path":"sprites/spr_player_slide/spr_player_slide.yy",},"order":1,},
     {"id":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],

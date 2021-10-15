@@ -1,8 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 302E9965
-/// @DnDArgument : "code" "key_up = "W";$(13_10)key_right = "D";$(13_10)key_down = "S";$(13_10)key_left = "A";$(13_10)"
-key_up = "W";
-key_right = "D";
-key_down = "S";
-key_left = "A";
+/// @DnDArgument : "code" "key_slide = vk_shift;$(13_10)key_jump = vk_space;$(13_10)key_right = ord("D");$(13_10)key_left = ord("A");$(13_10)$(13_10)$(13_10)global.gravity_force = 3; $(13_10)global.base_speed = 2;$(13_10)$(13_10)"
+key_slide = vk_shift;
+key_jump = vk_space;
+key_right = ord("D");
+key_left = ord("A");
+
+
+global.gravity_force = 3; 
+global.base_speed = 2;

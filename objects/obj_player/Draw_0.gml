@@ -1,0 +1,2 @@
+draw_self();
+draw_text(x,y-50,state_text);
