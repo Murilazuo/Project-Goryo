@@ -1,0 +1,2 @@
+
+shoot = mb_left;

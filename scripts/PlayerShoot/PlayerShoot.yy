@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "MouseAim",
+  "name": "PlayerShoot",
   "tags": [],
   "resourceType": "GMScript",
 }
