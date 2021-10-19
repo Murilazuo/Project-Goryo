@@ -5,6 +5,7 @@
     {"id":{"name":"CenterCameraDistance","path":"scripts/CenterCameraDistance/CenterCameraDistance.yy",},"order":2,},
     {"id":{"name":"PlayerShoot","path":"scripts/PlayerShoot/PlayerShoot.yy",},"order":1,},
     {"id":{"name":"spr_Runcycle_flipTest","path":"sprites/spr_Runcycle_flipTest/spr_Runcycle_flipTest.yy",},"order":1,},
+    {"id":{"name":"spr_Ballistic_Projectile","path":"sprites/spr_Ballistic_Projectile/spr_Ballistic_Projectile.yy",},"order":3,},
     {"id":{"name":"MouseAim","path":"scripts/MouseAim/MouseAim.yy",},"order":0,},
     {"id":{"name":"shooterDebugRoom","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},"order":1,},
     {"id":{"name":"spr_Aiming_arm","path":"sprites/spr_Aiming_arm/spr_Aiming_arm.yy",},"order":2,},
