@@ -3,11 +3,21 @@
 
 function PlayerShoot()
 {
-	mouse_check_button(shoot)
+	//if(inputShoot)
+	if(mouse_check_button(mb_left))
 	{
-		objBulletPrefab = instance_create_layer(obj_aimingArm.x+3,obj_aimingArm.y, "projectiles", obj_projectile);
-		objBulletPrefab.direction = 0 + random_range(-gunPrecision, gunPrecision);;
-		objBulletPrefab.
+		if(canShoot = true)
+		{
+			objBulletPrefab = instance_create_layer(obj_aimingArm.x,obj_aimingArm.y, "projectiles", obj_projectile);
+			precisionVariation = direction + random_range(-5,5);
+			//precisionVariation = direction + random_range(-gunPrecision,gunPrecision);
+			objBulletPrefab.image_angle = precisionVariation;
+			objBulletPrefab.direction = precisionVariation;
+			objBulletPrefab.speed = 10;
+			canShoot = false;
+			alarm_set(0,(60/3));
+			//alarm_set(0,(60/gunRPS));
+		}
 	}
 
 
