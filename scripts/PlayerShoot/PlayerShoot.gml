@@ -4,7 +4,7 @@
 function PlayerShoot()
 {
 	//if(inputShoot)
-	if(mouse_check_button(mb_left))
+	if(mouse_check_button(obj_GameManager.inputShoot))
 	{
 		if(canShoot = true)
 		{

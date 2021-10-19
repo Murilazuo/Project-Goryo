@@ -32,8 +32,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Player",
+    "path": "folders/Objects/Runner/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_aimingArm",
