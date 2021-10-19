@@ -15,4 +15,4 @@ uziOverheat = 8;
 uziCooldown = 4;
 uziPrecision = 5;
 
-global.baseSpeed = 2;
+global.baseSpeed = 5;
