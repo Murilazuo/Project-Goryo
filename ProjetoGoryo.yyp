@@ -16,6 +16,7 @@
     {"id":{"name":"PlayerStateMachine","path":"scripts/PlayerStateMachine/PlayerStateMachine.yy",},"order":0,},
     {"id":{"name":"obj_projectile","path":"objects/obj_projectile/obj_projectile.yy",},"order":1,},
     {"id":{"name":"obj_playerBody","path":"objects/obj_playerBody/obj_playerBody.yy",},"order":1,},
+    {"id":{"name":"Debug","path":"scripts/Debug/Debug.yy",},"order":5,},
     {"id":{"name":"spr_ground_debug","path":"sprites/spr_ground_debug/spr_ground_debug.yy",},"order":0,},
     {"id":{"name":"obj_HudManager","path":"objects/obj_HudManager/obj_HudManager.yy",},"order":2,},
     {"id":{"name":"spr_Runcycle","path":"sprites/spr_Runcycle/spr_Runcycle.yy",},"order":0,},

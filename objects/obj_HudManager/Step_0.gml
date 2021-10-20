@@ -1,1 +1,2 @@
 //Murilo
+ManagerDebugMode();
