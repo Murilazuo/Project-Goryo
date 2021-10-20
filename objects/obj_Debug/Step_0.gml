@@ -15,3 +15,5 @@ if(keyboard_check(vk_numpad3)){
 if keyboard_check_pressed(vk_numpad0) debug = !debug;
 
 ManagerDebugMode();
+
+FollowPlayer(60,-80);

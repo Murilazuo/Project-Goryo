@@ -1,5 +1,6 @@
 //Murilo
-x = obj_playerBody.x
-y = obj_playerBody.y
+image_blend = default_color;
+
+FollowPlayer(0,-80);
 
 SetSpeed(0);
