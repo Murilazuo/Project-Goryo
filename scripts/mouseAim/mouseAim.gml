@@ -8,12 +8,14 @@ function MouseAim()
 	if(direction >= 90 && direction <= 270 )
 	{
 		objPlayerBody.sprite_index = sprLookBackwards;
+		bulletSpawnOffset = -13;
 		image_yscale = -1;
 	}
 	else
 	{
 		image_yscale = 1;
 		objPlayerBody.sprite_index = sprLookForwards;
+		bulletSpawnOffset = 13;
 	}
 
 		image_angle = direction;

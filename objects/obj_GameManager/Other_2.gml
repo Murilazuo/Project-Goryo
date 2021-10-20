@@ -3,16 +3,27 @@ inputShoot = mb_left;
 //Move
 inputLeft = ord("A");
 inputRight = ord("D");
+inputUp = ord("W");
+inputDown = ord("S");
 inputJump = vk_space;
 inputSlide = vk_shift;
 
 
+//COMBAT VARIABLES
+bulletSpeed = 15;
+
+//SHOOTER VARIABLES
+bikeSpeed =6;
 
 
-uziDamage = 3;
-uziRPS = 3;
+//RANGED WEAPONS DMG
+uziDamage = .9;
+uziRPS = 10;
 uziOverheat = 8;
 uziCooldown = 4;
-uziPrecision = 5;
+uziPrecision = 10;
+
+//MELEE WEAPONS DMG
+laserKatanaDMG = 100;
 
 global.baseSpeed = 5;

@@ -19,8 +19,8 @@ function CheckDebugMode(){ // check if the dubug mode is true
 }
 
 function FollowPlayer(extraPositionX,extraPositionY){ 
-	if(instance_exists(obj_playerBody)){
-		x = obj_playerBody.x + extraPositionX;
-		y = obj_playerBody.y + extraPositionY; 
+	if(instance_exists(obj_aimingArm.objPlayerBody)){
+		x = obj_aimingArm.objPlayerBody.x + extraPositionX;
+		y = obj_aimingArm.objPlayerBody.y + extraPositionY; 
 	}
 }
