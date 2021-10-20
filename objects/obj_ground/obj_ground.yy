@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_ground_debug",
+    "path": "sprites/spr_ground_debug/spr_ground_debug.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
