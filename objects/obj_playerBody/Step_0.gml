@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+//Murilo
+#region //Left and right controlls
 if(CenterCameraDistance(id,axis.X) > playerCameraLimit){	//check if the player is in the limit of the camera
 	SetSpeed(0.1);
 }
@@ -16,3 +17,9 @@ if(CenterCameraDistance(id,axis.X) < -playerCameraLimit){	//check if the player 
 }else if (keyboard_check_released(gameManager.inputLeft)){
 	SetSpeed(0);	
 }
+#endregion
+
+#region // Jump
+
+
+#endregion
