@@ -19,7 +19,21 @@ if(CenterCameraDistance(id,axis.X) < -playerCameraLimit){	//check if the player 
 }
 #endregion
 
+vspeed = vsp;
+
 #region // Jump
 
+if keyboard_check_pressed(gameManager.inputJump) && canJump {
+	vsp = -jump_min_force;
+	canJump = false;
+}
+else if keyboard_check(gameManager.inputJump){
+	vsp -= jump_force;
+}
+else if place_meeting(x,y+groundCheckPosition, groundCheck){
+	vsp = 0;
+	canJump = true;
+}
+else vsp = jump_gravity;
 
 #endregion

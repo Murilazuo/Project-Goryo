@@ -7,18 +7,20 @@ function Debug(){
 }
 
 function ManagerDebugMode(){ //change the visibility of debug objcts
-	if (instance_exists(obj_Debug)) && (obj_Debug.debug == true) image_index = 1;
-	else image_index = 0;	
+	if (instance_exists(obj_Debug)) && (obj_Debug.debug == true) image_alpha = 255;
+	else image_alpha = 0;	
 }
 
-function CheckDebugMode(){
-	if (instance_exists(obj_Debug)) && (obj_Debug.debug == true) return true;
-	else return false;
+function CheckDebugMode(){ // check if the dubug mode is true
+	if instance_exists(obj_Debug){
+		if obj_Debug.debug == true return true;
+		else return false;
+	} else show_debug_message("Debug Object not found");
 }
 
-function FollowPlayer(positionX,positionY){
+function FollowPlayer(extraPositionX,extraPositionY){ 
 	if(instance_exists(obj_playerBody)){
-		x = obj_playerBody.x + positionX;
-		y = obj_playerBody.y + positionY; 
+		x = obj_playerBody.x + extraPositionX;
+		y = obj_playerBody.y + extraPositionY; 
 	}
 }

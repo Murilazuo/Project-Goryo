@@ -3,7 +3,7 @@
     "name": "spr_ground_debug",
     "path": "sprites/spr_ground_debug/spr_ground_debug.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

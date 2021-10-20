@@ -4,7 +4,7 @@ enum axis { X,Y }
 
 //Returns the distance to the center viwe
 function CenterCameraDistance(obj, axisToCheck){ 
-	if(object_exists(obj_HudManager))
+	if(!object_exists(obj_HudManager)) && (CheckDebugMode())
 		show_debug_message("Object Hud Manager is not found");
 
 	switch(axisToCheck){
@@ -13,8 +13,10 @@ function CenterCameraDistance(obj, axisToCheck){
 		case axis.Y:
 			return obj.y - obj_HudManager.y;
 		default:
+			if (CheckDebugMode()){
 			show_debug_message("Axis is not found");			
 			return obj.x - obj_HudManager.x;
+			}
 	}
 }
 

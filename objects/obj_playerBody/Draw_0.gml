@@ -4,4 +4,7 @@
 
 draw_self();
 
-if CheckDebugMode()	draw_point(x,groundCheck);
+if CheckDebugMode() == true	{
+
+
+}

@@ -4,3 +4,5 @@ SetSpeed(0);
 
 canJump = false;
 
+vsp = 0;
+
