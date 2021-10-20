@@ -8,9 +8,11 @@ function MouseAim()
 	if(direction >= 90 && direction <= 270 )
 	{
 		objPlayerBody.sprite_index = sprLookBackwards;
+		image_yscale = -1;
 	}
 	else
 	{
+		image_yscale = 1;
 		objPlayerBody.sprite_index = sprLookForwards;
 	}
 

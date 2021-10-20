@@ -15,8 +15,8 @@ function PlayerShoot()
 			objBulletPrefab.direction = precisionVariation;
 			objBulletPrefab.speed = 10;
 			canShoot = false;
-			alarm_set(0,(60/3));
-			//alarm_set(0,(60/gunRPS));
+			//alarm_set(0,(60/3));
+			alarm_set(0,(60/obj_GameManager.gunRPS));
 		}
 	}
 
