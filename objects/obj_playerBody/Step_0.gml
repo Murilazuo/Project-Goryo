@@ -19,21 +19,35 @@ if(CenterCameraDistance(id,axis.X) < -playerCameraLimit){	//check if the player 
 }
 #endregion
 
-vspeed = vsp;
+y += vsp;
 
 #region // Jump
 
-if keyboard_check_pressed(gameManager.inputJump) && canJump {
-	vsp = -jump_min_force;
+if keyboard_check_pressed(gameManager.inputJump) && (canJump = true) {
+	vsp = -jump_min;
 	canJump = false;
+	jumping = true;
 }
-else if keyboard_check(gameManager.inputJump){
-	vsp -= jump_force;
+else if keyboard_check(gameManager.inputJump) && jumping == true{
+	vsp -= jump_speed;
+	jump_counter += 1;
+	if(jump_counter >= jump_max_time){
+		jumping = false;
+	}
+}
+else if keyboard_check_released(gameManager.inputJump) {
+	jumping = false;
+	jump_counter = 0;
 }
 else if place_meeting(x,y+groundCheckPosition, groundCheck){
 	vsp = 0;
+	gravity_acereration = 0;
 	canJump = true;
+	jumping = false;
 }
-else vsp = jump_gravity;
+else {
+	vsp = jump_gravity + gravity_mod;
+	gravity_mod += gravity_acereration;
+	}
 
 #endregion
