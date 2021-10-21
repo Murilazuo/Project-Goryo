@@ -26,4 +26,6 @@ uziPrecision = 10;
 //MELEE WEAPONS DMG
 laserKatanaDMG = 100;
 
+player = noone;
+
 global.baseSpeed = 5;

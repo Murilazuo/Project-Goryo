@@ -2,12 +2,6 @@
 // You can write your code in this 
 MouseAim();
 PlayerShoot();
-if(obj_GameManager.isShooter)
-{
-	FollowPlayer(16,-8);
-}
-else
-{
-	FollowPlayer(0,-8);
-}
-ShooterMovement();
+
+FollowPlayer(obj_GameManager.player.x_positionArm,obj_GameManager.player.y_positionArm);
+

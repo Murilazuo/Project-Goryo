@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Aiming_arm",
-    "path": "sprites/spr_Aiming_arm/spr_Aiming_arm.yy",
+    "name": "spr_bikerArms",
+    "path": "sprites/spr_bikerArms/spr_bikerArms.yy",
   },
   "solid": false,
   "visible": true,

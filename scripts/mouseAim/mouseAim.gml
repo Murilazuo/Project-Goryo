@@ -4,17 +4,19 @@
 //sprLookForwards e sprLookBackwards
 function MouseAim()
 {	
+	if(obj_GameManager.player == noone) return;
+	
 	direction = point_direction(x,y, mouse_x, mouse_y);
 	if(direction >= 90 && direction <= 270 )
 	{
-		objPlayerBody.sprite_index = sprLookBackwards;
+		obj_GameManager.player.sprite_index = obj_GameManager.player.sprLookBackwards;
 		bulletSpawnOffset = -13;
 		image_yscale = -1;
 	}
 	else
 	{
 		image_yscale = 1;
-		objPlayerBody.sprite_index = sprLookForwards;
+		obj_GameManager.player.sprite_index = obj_GameManager.player.sprLookForwards;
 		bulletSpawnOffset = 13;
 	}
 

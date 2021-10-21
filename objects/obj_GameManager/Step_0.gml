@@ -3,3 +3,5 @@
 ManagerDebugMode();
 
 FollowPlayer(-60,-80)
+
+show_debug_message(player);

@@ -11,6 +11,7 @@
     {"id":{"name":"spr_bikerArms","path":"sprites/spr_bikerArms/spr_bikerArms.yy",},"order":2,},
     {"id":{"name":"runnerInimigosDebugRoom","path":"rooms/runnerInimigosDebugRoom/runnerInimigosDebugRoom.yy",},"order":3,},
     {"id":{"name":"MouseAim","path":"scripts/MouseAim/MouseAim.yy",},"order":0,},
+    {"id":{"name":"Player","path":"scripts/Player/Player.yy",},"order":2,},
     {"id":{"name":"obj_Debug","path":"objects/obj_Debug/obj_Debug.yy",},"order":1,},
     {"id":{"name":"spr_playerBikerBackwards","path":"sprites/spr_playerBikerBackwards/spr_playerBikerBackwards.yy",},"order":1,},
     {"id":{"name":"shooterDebugRoom","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},"order":1,},
@@ -20,6 +21,7 @@
     {"id":{"name":"obj_playerBike","path":"objects/obj_playerBike/obj_playerBike.yy",},"order":0,},
     {"id":{"name":"PlayerStateMachine","path":"scripts/PlayerStateMachine/PlayerStateMachine.yy",},"order":0,},
     {"id":{"name":"obj_projectile","path":"objects/obj_projectile/obj_projectile.yy",},"order":1,},
+    {"id":{"name":"obj_basePlayer","path":"objects/obj_basePlayer/obj_basePlayer.yy",},"order":8,},
     {"id":{"name":"obj_playerBody","path":"objects/obj_playerBody/obj_playerBody.yy",},"order":1,},
     {"id":{"name":"Debug","path":"scripts/Debug/Debug.yy",},"order":5,},
     {"id":{"name":"spr_ground_debug","path":"sprites/spr_ground_debug/spr_ground_debug.yy",},"order":0,},
@@ -40,10 +42,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"shooterDebugRoom","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},},
-    {"roomId":{"name":"runnerPlayerDebugRoom","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"runnerInimigosDebugRoom","path":"rooms/runnerInimigosDebugRoom/runnerInimigosDebugRoom.yy",},},
+    {"roomId":{"name":"shooterDebugRoom","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},},
+    {"roomId":{"name":"runnerPlayerDebugRoom","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
