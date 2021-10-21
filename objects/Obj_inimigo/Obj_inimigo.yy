@@ -21,8 +21,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ProjetoGoryo",
-    "path": "ProjetoGoryo.yyp",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_inimigo",
