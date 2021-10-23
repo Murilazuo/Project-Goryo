@@ -22,6 +22,7 @@
     {"id":{"name":"obj_playerBike","path":"objects/obj_playerBike/obj_playerBike.yy",},"order":0,},
     {"id":{"name":"PlayerStateMachine","path":"scripts/PlayerStateMachine/PlayerStateMachine.yy",},"order":0,},
     {"id":{"name":"obj_projectile","path":"objects/obj_projectile/obj_projectile.yy",},"order":0,},
+    {"id":{"name":"spr_playerSlide","path":"sprites/spr_playerSlide/spr_playerSlide.yy",},"order":4,},
     {"id":{"name":"obj_basePlayer","path":"objects/obj_basePlayer/obj_basePlayer.yy",},"order":4,},
     {"id":{"name":"obj_playerBody","path":"objects/obj_playerBody/obj_playerBody.yy",},"order":1,},
     {"id":{"name":"Debug","path":"scripts/Debug/Debug.yy",},"order":5,},
@@ -94,7 +95,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.4.580",
   },
   "resourceVersion": "1.4",
   "name": "ProjetoGoryo",

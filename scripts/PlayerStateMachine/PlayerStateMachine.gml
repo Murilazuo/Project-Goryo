@@ -1,5 +1,1 @@
 //Murilo
-
-function PlayerStateMachine(){
-
-}
