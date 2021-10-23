@@ -21,7 +21,7 @@ uziDamage = .9;
 uziRPS = 10;
 uziOverheat = 8;
 uziCooldown = 4;
-uziPrecision = 10;
+uziPrecision = 5;
 
 //MELEE WEAPONS DMG
 laserKatanaDMG = 100;

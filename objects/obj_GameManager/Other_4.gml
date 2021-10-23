@@ -16,8 +16,8 @@ if(!isShooter){
 }
 else
 {
-	projectileDMG = 2*uziDamage;
-	gunRPS = 2*uziRPS;
+	projectileDMG = uziDamage;
+	gunRPS = uziRPS;
 	gunOverheat = 2*uziOverheat;
 	gunCooldown = uziCooldown;
 	gunPrecision = uziPrecision;

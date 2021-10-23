@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bikerArms",
-    "path": "sprites/spr_bikerArms/spr_bikerArms.yy",
+    "name": "spr_armRight",
+    "path": "sprites/spr_armRight/spr_armRight.yy",
   },
   "solid": false,
   "visible": true,
@@ -34,7 +34,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Player",
-    "path": "folders/Objects/Runner/Player.yy",
+    "path": "folders/Objects/Shooter/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_aimingArm",
