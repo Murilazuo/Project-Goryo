@@ -7,4 +7,5 @@ x -= mySpeed * obj_GameManager.stageDifficulty;
 if(myHealth <= 0)
 {
 	DestroyVehicle();
+	AddToScore(scoreValue);
 }
