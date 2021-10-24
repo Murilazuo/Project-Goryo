@@ -5,7 +5,7 @@
 function MouseAim()
 {	
 	if(obj_GameManager.player == noone) return;
-	if(obj_GameManager.player.canAim == false) return;  
+	if(obj_GameManager.player.playerState == RunnerPlayerState.Slide) return;  
 	
 	direction = point_direction(x,y, mouse_x, mouse_y);
 	if(direction >= 90 && direction <= 270 )

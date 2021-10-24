@@ -19,17 +19,13 @@ function SetPlayerState(newPlayerState){
 	playerState = newPlayerState;
 	switch(playerState){
 	case RunnerPlayerState.Run:
-		canAim = true;
 		break;
 	case RunnerPlayerState.Jumping:
-		canAim = true;
 		break;	
 	case RunnerPlayerState.Fall:
-		canAim = true;
 		break;
 	case RunnerPlayerState.Slide:
 		slide_counter = 0;
-		canAim = false;
 		sprite_index = sprPlayerSlide;
 		break;
 	}

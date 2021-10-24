@@ -44,11 +44,12 @@ else if keyboard_check(gameManager.inputJump) && (playerState == RunnerPlayerSta
 else if keyboard_check_released(gameManager.inputJump) && (jump_counter < jump_min_time){
 	jump_counter = 0;
 }
-else if place_meeting(x,y-1, groundCheck){
+else if place_meeting(x,y+1, groundCheck){
 	vsp = 0;
 	gravity_acereration = 0;
-	if (playerState =  RunnerPlayerState.Fall)
-		SetPlayerState(RunnerPlayerState.Run);
+	if (playerState = RunnerPlayerState.Fall){
+	SetPlayerState(RunnerPlayerState.Run);
+	}
 }
 else {
 	vsp = jump_gravity + gravity_mod;
