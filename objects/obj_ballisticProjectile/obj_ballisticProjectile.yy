@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Ballistic_Projectile",
-    "path": "sprites/spr_Ballistic_Projectile/spr_Ballistic_Projectile.yy",
+    "name": "spr_enemyBallisticProjectile",
+    "path": "sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,17 +24,18 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_inimigo","path":"objects/Obj_inimigo/Obj_inimigo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_basePlayer","path":"objects/obj_basePlayer/obj_basePlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [],
+  "properties": [
+    {"varType":0,"value":"2","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"damage","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [],
   "parent": {
     "name": "Projectiles",
     "path": "folders/Objects/Projectiles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_projectile",
+  "name": "obj_ballisticProjectile",
   "tags": [],
   "resourceType": "GMObject",
 }
