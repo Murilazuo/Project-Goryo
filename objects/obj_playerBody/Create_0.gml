@@ -4,7 +4,6 @@ SetPlayerInGameManager(id);
 
 SetSpeed(0);
 
-groundController = false;
 
 jump_counter = 0;
 gravity_mod = 0;
@@ -23,7 +22,6 @@ function SetPlayerState(newPlayerState){
 		canAim = true;
 		break;
 	case RunnerPlayerState.Jumping:
-	groundController = false;
 		canAim = true;
 		break;	
 	case RunnerPlayerState.Fall:

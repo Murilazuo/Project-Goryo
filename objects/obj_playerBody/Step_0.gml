@@ -31,7 +31,7 @@ if(CenterCameraDistance(id,axis.X) < -playerCameraLimit){	//check if the player 
 y += vsp; //gravity and jump
 
 if keyboard_check_pressed(gameManager.inputJump) && (playerState = RunnerPlayerState.Run) {
-	vsp = -jump_min;
+	vsp = -jump_start_speed;
 	SetPlayerState(RunnerPlayerState.Jumping);
 }
 else if keyboard_check(gameManager.inputJump) && (playerState == RunnerPlayerState.Jumping){
@@ -41,14 +41,13 @@ else if keyboard_check(gameManager.inputJump) && (playerState == RunnerPlayerSta
 		SetPlayerState(RunnerPlayerState.Fall);
 	}
 }
-else if keyboard_check_released(gameManager.inputJump) {
+else if keyboard_check_released(gameManager.inputJump) && (jump_counter < jump_min_time){
 	jump_counter = 0;
 }
-else if place_meeting(x,y+groundCheckPosition, groundCheck){
+else if place_meeting(x,y-1, groundCheck){
 	vsp = 0;
 	gravity_acereration = 0;
-	if groundController == false
-		groundController = true;
+	if (playerState =  RunnerPlayerState.Fall)
 		SetPlayerState(RunnerPlayerState.Run);
 }
 else {
