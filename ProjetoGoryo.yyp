@@ -30,6 +30,7 @@
     {"id":{"name":"spr_Aiming_arm","path":"sprites/spr_Aiming_arm/spr_Aiming_arm.yy",},"order":2,},
     {"id":{"name":"ShooterMovement","path":"scripts/ShooterMovement/ShooterMovement.yy",},"order":0,},
     {"id":{"name":"obj_HoverMine","path":"objects/obj_HoverMine/obj_HoverMine.yy",},"order":0,},
+    {"id":{"name":"AddToScore","path":"scripts/AddToScore/AddToScore.yy",},"order":0,},
     {"id":{"name":"obj_GameManager","path":"objects/obj_GameManager/obj_GameManager.yy",},"order":0,},
     {"id":{"name":"spr_StalkerHor","path":"sprites/spr_StalkerHor/spr_StalkerHor.yy",},"order":2,},
     {"id":{"name":"spr_bulletHitMetal","path":"sprites/spr_bulletHitMetal/spr_bulletHitMetal.yy",},"order":0,},
