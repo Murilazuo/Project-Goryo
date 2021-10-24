@@ -9,3 +9,20 @@ y = yy + shift;
 
 //MOVE LEFT
 x -= mySpeed * obj_GameManager.stageDifficulty;
+
+
+//CHECK DEATH CONDITION
+if(myHealth<=0)
+{
+	DestroyVehicle();
+}
+
+//CHANGE SPRITE 
+if(keyboard_check(obj_GameManager.inputLeft)|| keyboard_check(obj_GameManager.inputRight))
+{
+	sprite_index = spr_StalkerVer;
+}
+else
+{
+	sprite_index = spr_StalkerHor;
+}

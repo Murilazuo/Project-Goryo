@@ -9,5 +9,6 @@ amplitude = 180; //amplitude
 yy=y;
 
 //tiro
-fireInterval = random_range(30,60);
-FireInterval();
+fireInterval = choose(90);
+//setar sprite levemente diferente p cada frequencia de tiro
+
