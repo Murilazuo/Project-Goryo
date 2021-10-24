@@ -6,7 +6,3 @@ if(instance_exists(obj_GameManager.player)){
 	FollowPlayer(obj_GameManager.player.x_positionArm,obj_GameManager.player.y_positionArm);
 	ShooterMovement();
 }
-else
-{
-	instance_deactivate_object(obj_aimingArm);
-}

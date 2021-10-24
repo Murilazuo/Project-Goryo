@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this 
 //Movement
-x -= 6;
+x -= mySpeed * obj_GameManager.stageDifficulty;
 
 //checkDeathCondidition
 if(myHealth <= 0)
