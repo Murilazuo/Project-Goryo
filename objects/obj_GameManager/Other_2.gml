@@ -8,7 +8,8 @@ inputUp = ord("W");
 inputDown = ord("S");
 inputJump = vk_space;
 inputSlide = vk_shift;
-
+//Other Input
+inputInteract = ord("E");
 
 //COMBAT VARIABLES
 bulletSpeed = 15;
