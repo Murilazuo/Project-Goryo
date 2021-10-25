@@ -30,3 +30,14 @@ laserKatanaDMG = 100;
 player = noone;
 
 global.baseSpeed = 5;
+normalBaseSpeed = global.baseSpeed;
+function StopBaseSpeed(){
+	normalBaseSpeed = global.baseSpeed;
+	global.baseSpeed = 0;
+}
+
+function ResumeBaseSpeed(){
+	if global.baseSpeed	== normalBaseSpeed return;
+	
+	global.baseSpeed = normalBaseSpeed;
+}

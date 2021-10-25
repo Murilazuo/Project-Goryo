@@ -4,29 +4,13 @@ SetPlayerInGameManager(id);
 
 SetSpeed(0);
 
+lastBaseSpeed = global.baseSpeed;
 
-jump_counter = 0;
-gravity_mod = 0;
+//jump_counter = 0;
 vsp = 0;
 
 slide_counter = 0;
+jump_counter = 0;
 
-playerState = RunnerPlayerState.Run;
-
-enum RunnerPlayerState {Run,Jumping,Fall,Slide}
-
-function SetPlayerState(newPlayerState){
-	playerState = newPlayerState;
-	switch(playerState){
-	case RunnerPlayerState.Run:
-		break;
-	case RunnerPlayerState.Jumping:
-		break;	
-	case RunnerPlayerState.Fall:
-		break;
-	case RunnerPlayerState.Slide:
-		slide_counter = 0;
-		sprite_index = sprPlayerSlide;
-		break;
-	}
-}
+playerStateName = "";
+playerState = RunnerPlayerState.Fall;

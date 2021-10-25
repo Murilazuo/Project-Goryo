@@ -6,7 +6,7 @@
     "path": "folders/Scripts/StateMachine.yy",
   },
   "resourceVersion": "1.0",
-  "name": "PlayerStateMachine",
+  "name": "RunnerStateMachine",
   "tags": [],
   "resourceType": "GMScript",
 }

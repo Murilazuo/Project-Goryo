@@ -3,9 +3,8 @@
 //Murilo
 
 draw_self();
-SetPlayerState(RunnerPlayerState.Fall);
 
 if CheckDebugMode() == true	{
-	draw_text(x,y-30,playerState);
+	draw_text(x,y-30,playerStateName);
 
 }

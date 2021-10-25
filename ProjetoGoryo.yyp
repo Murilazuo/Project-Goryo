@@ -37,7 +37,7 @@
     {"id":{"name":"spr_StalkerHor","path":"sprites/spr_StalkerHor/spr_StalkerHor.yy",},"order":2,},
     {"id":{"name":"spr_bulletHitMetal","path":"sprites/spr_bulletHitMetal/spr_bulletHitMetal.yy",},"order":0,},
     {"id":{"name":"obj_playerBike","path":"objects/obj_playerBike/obj_playerBike.yy",},"order":0,},
-    {"id":{"name":"PlayerStateMachine","path":"scripts/PlayerStateMachine/PlayerStateMachine.yy",},"order":0,},
+    {"id":{"name":"RunnerStateMachine","path":"scripts/RunnerStateMachine/RunnerStateMachine.yy",},"order":0,},
     {"id":{"name":"obj_projectile","path":"objects/obj_projectile/obj_projectile.yy",},"order":0,},
     {"id":{"name":"obj_Stalker","path":"objects/obj_Stalker/obj_Stalker.yy",},"order":1,},
     {"id":{"name":"spr_playerSlide","path":"sprites/spr_playerSlide/spr_playerSlide.yy",},"order":4,},

@@ -5,4 +5,3 @@ if(instance_exists(obj_GameManager.player)){
 FollowPlayer(-60,-80)
 }
 
-show_debug_message(player);
