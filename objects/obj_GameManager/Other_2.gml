@@ -34,6 +34,11 @@ laserKatanaDMG = 100;
 
 player = noone;
 
+//GAME STATE
+gameState = GameState.Menu;
+level = 0;
+
+//RUNNER SPEED
 global.baseSpeed = 5;
 normalBaseSpeed = global.baseSpeed;
 function StopBaseSpeed(){

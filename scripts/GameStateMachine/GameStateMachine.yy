@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "System",
-    "path": "folders/Scripts/System.yy",
+    "name": "StateMachine",
+    "path": "folders/Scripts/StateMachine.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Debug",
+  "name": "GameStateMachine",
   "tags": [],
   "resourceType": "GMScript",
 }
