@@ -5,6 +5,7 @@
 function MouseAim()
 {	
 	if(obj_GameManager.player == noone) return;
+	//if(obj_GameManager.player.playerState == RunnerPlayerState.Slide) return;  
 	
 	direction = point_direction(x,y, mouse_x, mouse_y);
 	if(direction >= 90 && direction <= 270 )
@@ -19,6 +20,5 @@ function MouseAim()
 		obj_GameManager.player.sprite_index = obj_GameManager.player.sprLookForwards;
 		bulletSpawnOffset = 13;
 	}
-
 		image_angle = direction;
 }

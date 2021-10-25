@@ -1,5 +1,8 @@
 player = noone;
 
+//SCORING SYSTEM
+currentScore = 0;
+
 if(instance_exists(obj_playerBike)){
 	player = obj_playerBike;	
 } else if(instance_exists(obj_playerBody)){
@@ -16,8 +19,8 @@ if(!isShooter){
 }
 else
 {
-	projectileDMG = 2*uziDamage;
-	gunRPS = 2*uziRPS;
+	projectileDMG = uziDamage;
+	gunRPS = uziRPS;
 	gunOverheat = 2*uziOverheat;
 	gunCooldown = uziCooldown;
 	gunPrecision = uziPrecision;

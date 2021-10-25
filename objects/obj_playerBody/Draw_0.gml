@@ -5,6 +5,6 @@
 draw_self();
 
 if CheckDebugMode() == true	{
-
+	draw_text(x,y-30,playerStateName);
 
 }

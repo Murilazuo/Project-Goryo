@@ -3,4 +3,6 @@ image_blend = default_color;
 
 FollowPlayer(0,-80);
 
-SetSpeed(0);
+if(obj_GameManager.isShooter == false){
+	SetSpeed(0);
+}else show_debug_message("Shooter");

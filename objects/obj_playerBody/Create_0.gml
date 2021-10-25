@@ -4,10 +4,14 @@ SetPlayerInGameManager(id);
 
 SetSpeed(0);
 
-canJump = false;
-jump_counter = 0;
-jumping = false;
-
-gravity_mod = 0;
+//jump_counter = 0;
 vsp = 0;
 
+slide_counter = 0;
+jump_counter = 0;
+parry_counter = 0;
+parry_cooldown = 0;
+
+
+playerStateName = "";
+playerState = RunnerPlayerState.Fall;

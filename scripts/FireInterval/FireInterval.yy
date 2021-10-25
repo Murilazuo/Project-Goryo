@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "StateMachine",
-    "path": "folders/Scripts/StateMachine.yy",
+    "name": "Shooter",
+    "path": "folders/Scripts/Shooter.yy",
   },
   "resourceVersion": "1.0",
-  "name": "PlayerStateMachine",
+  "name": "FireInterval",
   "tags": [],
   "resourceType": "GMScript",
 }
