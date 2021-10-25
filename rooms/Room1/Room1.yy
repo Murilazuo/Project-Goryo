@@ -43,7 +43,7 @@
   },
   "parent": {
     "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "path": "folders/Scripts/StateMachine/Rooms.yy",
   },
   "resourceVersion": "1.0",
   "name": "Room1",
