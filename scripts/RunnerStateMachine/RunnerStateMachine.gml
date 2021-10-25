@@ -82,13 +82,13 @@ function IdleState(){
 	StopBaseSpeed();
 }
 
-function Parry(){
+function ParryState(){
 	parry_cooldown++;
 	playerStateName = "Parry";
 	SetSpeed(0);	
 
 	//change state situation
-	if(parry_counter > parry_cooldownTime){
+	if(parry_cooldown > parry_cooldownTime){
 		parry_cooldown = 0;
 		playerState = RunnerPlayerState.Run;
 	}
