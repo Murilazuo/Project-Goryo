@@ -8,7 +8,7 @@ function PlayerShoot()
 	{
 		if(canShoot = true)
 		{
-			objBulletPrefab = instance_create_layer(obj_aimingArm.x,obj_aimingArm.y, "projectiles", obj_projectile);
+			objBulletPrefab = instance_create_layer(obj_aimingArm.x,obj_aimingArm.y, "projectiles", obj_playerProjectile);
 			precisionVariation = direction + random_range(-obj_GameManager.gunPrecision,obj_GameManager.gunPrecision);
 			objBulletPrefab.image_angle = precisionVariation;
 			objBulletPrefab.direction = precisionVariation;

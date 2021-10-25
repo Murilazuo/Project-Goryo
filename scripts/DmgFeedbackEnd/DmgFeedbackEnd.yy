@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Shooter",
-    "path": "folders/Scripts/Shooter.yy",
+    "name": "System",
+    "path": "folders/Scripts/System.yy",
   },
   "resourceVersion": "1.0",
   "name": "DmgFeedbackEnd",

@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "System",
-    "path": "folders/Scripts/System.yy",
+    "name": "Enemies",
+    "path": "folders/Scripts/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "DamageFeedback",
+  "name": "PointAtPlayer",
   "tags": [],
   "resourceType": "GMScript",
 }

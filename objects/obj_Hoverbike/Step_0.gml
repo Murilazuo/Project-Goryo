@@ -1,4 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
-//ShooterMovement();
-x-=5;
+
+
+if(hasRider = false)
+{
+	x-=obj_GameManager.bikeSpeed;
+}
+if(myHealth<=0)
+{
+	//start countdown -> destroy
+	instance_destroy();
+}
