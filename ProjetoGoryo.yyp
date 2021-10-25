@@ -58,6 +58,7 @@
     {"id":{"name":"obj_laserProjectile","path":"objects/obj_laserProjectile/obj_laserProjectile.yy",},"order":2,},
     {"id":{"name":"Obj_inimigo","path":"objects/Obj_inimigo/Obj_inimigo.yy",},"order":5,},
     {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"order":0,},
+    {"id":{"name":"obj_enemyRhino","path":"objects/obj_enemyRhino/obj_enemyRhino.yy",},"order":1,},
     {"id":{"name":"spr_HoverMine","path":"sprites/spr_HoverMine/spr_HoverMine.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],

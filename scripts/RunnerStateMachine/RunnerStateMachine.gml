@@ -1,6 +1,6 @@
 //Murilo
 
-enum RunnerPlayerState {Run,Jump,Fall,Slide,Idle,Parry}
+enum RunnerPlayerState {Run,Jump,Fall,Slide,Idle,Parry,ExitLevel}
 
 
 function RunState(){
@@ -92,4 +92,9 @@ function ParryState(){
 		parry_cooldown = 0;
 		playerState = RunnerPlayerState.Run;
 	}
+}
+
+function ExitLevelState(){
+	playerStateName = "Exit Level";
+
 }

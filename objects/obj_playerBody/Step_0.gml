@@ -21,8 +21,8 @@ switch(playerState){
 	case RunnerPlayerState.Parry:
 		ParryState();	
 		break;
+		case RunnerPlayerState.ExitLevel:
+		ExitLevelState();	
+		break;
 	}
 
-if place_free(x,y){
-	parry_counter = 0;
-}
