@@ -1,6 +1,6 @@
 //Murilo
 
-enum RunnerPlayerState {Run,Jump,Fall,Slide,Idle}
+enum RunnerPlayerState {Run,Jump,Fall,Slide,Idle,Parry}
 
 
 function RunState(){
@@ -26,6 +26,8 @@ function RunState(){
 	if keyboard_check_pressed(obj_GameManager.inputSlide) playerState = RunnerPlayerState.Slide;
 	else if keyboard_check_pressed(obj_GameManager.inputJump) playerState = RunnerPlayerState.Jump;
 	else if place_free(x,y) playerState = RunnerPlayerState.Fall;
+	else if mouse_check_button_pressed(obj_GameManager.inputAttakMelee) playerState = RunnerPlayerState.Parry;
+
 }
 
 function SlideState(){
@@ -67,6 +69,7 @@ function FallState(){
 
 	vsp += gravity_acereration;
 	
+	//change state situation
 	if(place_meeting(x,y + vsp,groundCheck)){ 
 		playerState = RunnerPlayerState.Run;
 	}	
@@ -77,4 +80,16 @@ function FallState(){
 function IdleState(){
 	playerStateName = "Idle";
 	StopBaseSpeed();
+}
+
+function Parry(){
+	parry_cooldown++;
+	playerStateName = "Parry";
+	SetSpeed(0);	
+
+	//change state situation
+	if(parry_counter > parry_cooldownTime){
+		parry_cooldown = 0;
+		playerState = RunnerPlayerState.Run;
+	}
 }

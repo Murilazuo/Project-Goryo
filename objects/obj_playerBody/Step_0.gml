@@ -25,3 +25,6 @@ switch(playerState){
 		break;
 	}
 
+if place_free(x,y){
+	parry_counter = 0;
+}

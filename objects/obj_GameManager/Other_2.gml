@@ -1,5 +1,6 @@
 //attack
 inputShoot = mb_left;
+inputAttakMelee = mb_right;
 //Move
 inputLeft = ord("A");
 inputRight = ord("D");
