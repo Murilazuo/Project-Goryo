@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-//SET VARIABLES
-myHP = 60;
+//ShooterMovement();
+x-=5;

@@ -1,3 +1,3 @@
 
-PlayerVehicleTakeDamage();
+PlayerTakeDamage();
 DamageFeedback(8);
