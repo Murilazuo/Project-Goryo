@@ -57,10 +57,6 @@ function JumpState(){
 		playerState = RunnerPlayerState.Fall;
 		jump_counter = 0;
 	}
-	else if(place_meeting(x,y + vsp,groundCheck)){ 
-		playerState = RunnerPlayerState.Run;
-		jump_counter = 0;
-	}
 	
 	y+=vsp;
 }
