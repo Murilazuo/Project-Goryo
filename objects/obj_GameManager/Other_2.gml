@@ -16,6 +16,9 @@ bulletSpeed = 15;
 //SHOOTER VARIABLES
 bikeSpeed =6;
 stageDifficulty = 1; //aumentar em determinados momentos do shooter
+bulletSpawnVarX = 0;
+bulletSpawnVarY = 0;
+
 
 
 //RANGED WEAPONS DMG

@@ -2,13 +2,13 @@
 
 //FUNÇÃO SENO
 
-t = random_range(0,50); //variação angular q move a função. Usar p alterar o padrão
+t = choose(25,50,75); //variação angular q move a função. Usar p alterar o padrão
 
 increment = 2; // altera a frequencia
 amplitude = 180; //amplitude
 yy=y;
 
 //tiro
-fireInterval = choose(90);
+fireInterval = 90;
 //setar sprite levemente diferente p cada frequencia de tiro
 
