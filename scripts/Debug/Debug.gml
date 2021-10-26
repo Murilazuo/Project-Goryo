@@ -19,8 +19,11 @@ function CheckDebugMode(){ // check if the dubug mode is true
 }
 
 function FollowPlayer(extraPositionX,extraPositionY){ 
+	
 	if(obj_GameManager.player != noone){
-		x = obj_GameManager.player.x + extraPositionX;
 		y = obj_GameManager.player.y + extraPositionY; 
+
+		
+		x = obj_GameManager.player.x + extraPositionX;
 	}
 }

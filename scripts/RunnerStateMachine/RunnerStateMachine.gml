@@ -73,13 +73,11 @@ function FallState(){
 	if(place_meeting(x,y + vsp,groundCheck)){ 
 		playerState = RunnerPlayerState.Run;
 	}	
-	
 	y+=vsp
 }
 
 function IdleState(){
 	playerStateName = "Idle";
-	StopBaseSpeed();
 }
 
 function ParryState(){
@@ -96,5 +94,16 @@ function ParryState(){
 
 function ExitLevelState(){
 	playerStateName = "Exit Level";
-
+	var distanceToEndRoom = room_width - x;
+	
+	if(distanceToEndRoom < -64){
+	obj_GameManager.gameState = GameState.Shooter;
+	room_goto(shooterDebugRoom)	
+	}else if (distanceToEndRoom < 64){
+		vsp += -0.5;
+	}else if (distanceToEndRoom < 96){
+		vsp = -3;
+	}else vsp = 0;
+	
+	y += vsp;
 }

@@ -41,13 +41,4 @@ level = 0;
 //RUNNER SPEED
 global.baseSpeed = 5;
 normalBaseSpeed = global.baseSpeed;
-function StopBaseSpeed(){
-	normalBaseSpeed = global.baseSpeed;
-	global.baseSpeed = 0;
-}
 
-function ResumeBaseSpeed(){
-	if global.baseSpeed	== normalBaseSpeed return;
-	
-	global.baseSpeed = normalBaseSpeed;
-}

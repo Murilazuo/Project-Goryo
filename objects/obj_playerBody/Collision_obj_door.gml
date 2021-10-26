@@ -3,8 +3,10 @@
 
 if keyboard_check_pressed(obj_GameManager.inputInteract){
 	
-	var nextFloor = (32 * other.floorHeight);
-	y += nextFloor;
-	obj_LevelManager.y += nextFloor;
+	var nextFloorY = (32 * other.floorHeight);
+	x= other.xPosition;
+	y += nextFloorY;
+	obj_LevelManager.y += nextFloorY;
+	obj_LevelManager.x = other.xPosition;
 
 }
