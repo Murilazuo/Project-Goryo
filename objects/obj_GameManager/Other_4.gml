@@ -5,7 +5,7 @@ currentScore = 0;
 
 //GAME STATE
 if(instance_exists(obj_LevelManager)){
-	gameState = obj_LevelManager.stateLevel;
+	SetGameState(obj_LevelManager.stateLevel)
 	
 	switch(gameState){
 	case GameState.Shooter:
@@ -16,18 +16,17 @@ if(instance_exists(obj_LevelManager)){
 		break;
 	}
 	
-	show_debug_message(gameState);
 }
 
 //VARIÁVEIS DE ARMAS E PROJETEIS DO PLAYER
-if(!isShooter){
+if(gameState = GameState.Runner){
 	projectileDMG = uziDamage;
 	gunRPS = uziRPS;
 	gunOverheat = uziOverheat;
 	gunCooldown = uziCooldown;
 	gunPrecision = uziPrecision;
 }
-else
+else if(gameState = GameState.Shooter)
 {
 	projectileDMG = uziDamage;
 	gunRPS = uziRPS;

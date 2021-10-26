@@ -31,8 +31,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Runner",
-    "path": "folders/Objects/Runner.yy",
+    "name": "System",
+    "path": "folders/Objects/System.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_LevelManager",
