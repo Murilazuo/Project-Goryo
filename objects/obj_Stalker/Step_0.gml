@@ -15,7 +15,7 @@ x -= mySpeed * obj_GameManager.stageDifficulty;
 if(myHealth<=0)
 {
 	AddToScore(scoreValue);
-	DestroyVehicle();
+	DestroyVehicle("large");
 }
 
 //CHANGE SPRITE 

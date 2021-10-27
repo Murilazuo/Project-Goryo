@@ -6,6 +6,6 @@ x -= mySpeed * obj_GameManager.stageDifficulty;
 //checkDeathCondidition
 if(myHealth <= 0)
 {
-	DestroyVehicle();
+	DestroyVehicle("large");
 	AddToScore(scoreValue);
 }
