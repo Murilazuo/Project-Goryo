@@ -4,7 +4,7 @@
 if(global.baseSpeed == newBaseSpeed) return;
 
 if(global.baseSpeed > newBaseSpeed)
-	global.baseSpeed -= 0.1;
-else global.baseSpeed += 0.1;
+	global.baseSpeed -= acceleration;
+else global.baseSpeed += acceleration;
 
 alarm_set(0,1);

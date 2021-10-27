@@ -13,14 +13,14 @@ inputInteract = ord("E");
 
 //COMBAT VARIABLES
 bulletSpeed = 15;
+playerHealth = 3;
+playerMoney = 0;
 
 //SHOOTER VARIABLES
 bikeSpeed = 6;
 stageDifficulty = 1; //aumentar em determinados momentos do shooter
 bulletSpawnVarX = 0;
 bulletSpawnVarY = 0;
-
-
 
 //RANGED WEAPONS DMG
 uziDamage = .9;
