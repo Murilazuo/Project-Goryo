@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"obj_aimingLeftArm","path":"objects/obj_aimingLeftArm/obj_aimingLeftArm.yy",},"order":1,},
     {"id":{"name":"obj_aimingArm","path":"objects/obj_aimingArm/obj_aimingArm.yy",},"order":2,},
+    {"id":{"name":"spr_HidenArea","path":"sprites/spr_HidenArea/spr_HidenArea.yy",},"order":8,},
     {"id":{"name":"spr_overheat","path":"sprites/spr_overheat/spr_overheat.yy",},"order":6,},
     {"id":{"name":"spr_StalkerVer","path":"sprites/spr_StalkerVer/spr_StalkerVer.yy",},"order":1,},
     {"id":{"name":"spr_endLevel","path":"sprites/spr_endLevel/spr_endLevel.yy",},"order":4,},
@@ -12,6 +13,7 @@
     {"id":{"name":"DamageFeedback","path":"scripts/DamageFeedback/DamageFeedback.yy",},"order":2,},
     {"id":{"name":"obj_Hoverbike","path":"objects/obj_Hoverbike/obj_Hoverbike.yy",},"order":2,},
     {"id":{"name":"obj_overheat","path":"objects/obj_overheat/obj_overheat.yy",},"order":3,},
+    {"id":{"name":"obj_hidenArea","path":"objects/obj_hidenArea/obj_hidenArea.yy",},"order":5,},
     {"id":{"name":"spr_enemyLaserProjectile","path":"sprites/spr_enemyLaserProjectile/spr_enemyLaserProjectile.yy",},"order":2,},
     {"id":{"name":"obj_Uibase","path":"objects/obj_Uibase/obj_Uibase.yy",},"order":1,},
     {"id":{"name":"PlayerShoot","path":"scripts/PlayerShoot/PlayerShoot.yy",},"order":1,},
