@@ -7,3 +7,4 @@ sprLookForwards = sprFreeFalling;
 instance_deactivate_object(obj_aimingArm);
 instance_deactivate_object(obj_aimingLeftArm);
 alarm[0] = 10;
+

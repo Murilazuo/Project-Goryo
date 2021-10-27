@@ -5,7 +5,6 @@ if(hasRider = false)
 {
 	x-=obj_GameManager.bikeSpeed;
 	isHot=true;
-	//DESATIVAR O IS HOT QND O PLAYER MONTAR NELA PLMDS
 }
 else
 {

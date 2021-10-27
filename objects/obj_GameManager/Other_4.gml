@@ -18,6 +18,9 @@ if(instance_exists(obj_LevelManager)){
 	
 }
 
+//VARIAVEIS DE PATHFINDING
+global.isLagBehindFree = true;
+
 //VARIÁVEIS DE ARMAS E PROJETEIS DO PLAYER
 if(gameState = GameState.Runner){
 	projectileDMG = uziDamage;

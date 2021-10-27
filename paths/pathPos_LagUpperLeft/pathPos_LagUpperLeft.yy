@@ -1,0 +1,25 @@
+{
+  "kind": 1,
+  "closed": false,
+  "precision": 4,
+  "points": [
+    {"speed":100.0,"x":864.0,"y":64.0,},
+    {"speed":100.0,"x":832.828857,"y":66.6250153,},
+    {"speed":100.0,"x":735.2038,"y":62.1250153,},
+    {"speed":100.0,"x":636.5788,"y":65.41896,},
+    {"speed":100.0,"x":543.5788,"y":61.41896,},
+    {"speed":100.0,"x":447.3288,"y":64.79396,},
+    {"speed":100.0,"x":348.881958,"y":60.3351746,},
+    {"speed":100.0,"x":256.540466,"y":65.43271,},
+    {"speed":100.0,"x":158.638031,"y":60.3351746,},
+    {"speed":100.0,"x":64.0,"y":64.0,},
+  ],
+  "parent": {
+    "name": "HoverBiker",
+    "path": "folders/Paths/HoverBiker.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "pathPos_LagUpperLeft",
+  "tags": [],
+  "resourceType": "GMPath",
+}
