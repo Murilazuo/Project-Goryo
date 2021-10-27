@@ -9,7 +9,7 @@ if(instance_exists(obj_LevelManager)){
 	
 	switch(gameState){
 	case GameState.Shooter:
-		player = obj_playerBike;	
+		player = obj_playerPilot;	
 		break;
 	case GameState.Runner:
 		player = obj_playerBody;	

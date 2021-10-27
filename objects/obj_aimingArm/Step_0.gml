@@ -6,7 +6,8 @@ if(instance_exists(obj_GameManager.player)){
 	MouseAim();
 	PlayerShoot();
 	FollowPlayer(obj_GameManager.player.x_positionArm,obj_GameManager.player.y_positionArm);
-	ShooterMovement();
+	ShooterMovement(1);
+	depth = -1;
 }
 
 if (x >= room_width){

@@ -1,10 +1,10 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function ShooterMovement(){
+function ShooterMovement(modifier){
 
 	if(keyboard_check(obj_GameManager.inputUp))
 	{
-		y -= obj_GameManager.bikeSpeed;
+		y -= obj_GameManager.bikeSpeed * modifier;
 	}
 	if(keyboard_check(obj_GameManager.inputDown))
 	{

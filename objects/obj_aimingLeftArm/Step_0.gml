@@ -4,5 +4,6 @@ if(instance_exists(obj_GameManager.player)){
 MouseAim();
 PlayerShoot();
 FollowPlayer(obj_GameManager.player.x_positionArm,obj_GameManager.player.y_positionArm);
-ShooterMovement();
+depth = 150;
+ShooterMovement(1);
 }
