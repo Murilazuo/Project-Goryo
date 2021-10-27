@@ -10,4 +10,6 @@ if(myHealth<=0)
 {
 	//start countdown -> destroy
 	instance_destroy();
+	AddToScore(myPtsValue)
+	instance_create_layer(x,y,"instances", obj_Explosion);
 }
