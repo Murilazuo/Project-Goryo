@@ -7,7 +7,11 @@ if(myHealth <=0)
 
 }
 
-if(path_position =1 && (currentPath = path_StartAbove || currentPath = path_StartBelow))
+if(path_position =1 && currentPath = path_StartBelow)
 {
-	PathManagerHoverbike(choose("lagBehind","Mirror"));
+	PathManagerHoverbike(choose("lagBehind","mirror"));
+}
+else if(path_position = 1 && currentPath = path_StartAbove)
+{
+		PathManagerHoverbike(choose("lagBehind","mirrorAbove"));
 }

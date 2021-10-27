@@ -15,8 +15,12 @@ switch (myPath)
 	path_start(path_LagBehind,obj_GameManager.bikeSpeed-2,path_action_stop,0);
 	currentPath = path_LagBehind;
 	break;
-	case "Mirror":
+	case "mirror":
 	path_start(path_Mirror,obj_GameManager.bikeSpeed-4, path_action_reverse,0);
+	currentPath = path_Mirror;
+	break;
+	case "mirrorAbove":
+	path_start(path_MirrorAbove,obj_GameManager.bikeSpeed-4, path_action_reverse,0);
 	currentPath = path_Mirror;
 	break;
 }
