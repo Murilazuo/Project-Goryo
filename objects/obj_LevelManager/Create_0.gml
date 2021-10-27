@@ -1,8 +1,6 @@
 //Murilo
 image_blend = default_color;
 
+canMove = false;
 
-if(obj_GameManager.gameState == GameState.Runner){
-	SetSpeed(0);
-	FollowPlayer(0,0);
-}
+//alarm_set(0,160);
