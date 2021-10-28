@@ -3,6 +3,9 @@
 //Murilo
 
 switch(playerState){
+	case RunnerPlayerState.Attack:
+		AttackState();
+		break;
 	case RunnerPlayerState.Run:
 		RunState();
 		break;
@@ -18,11 +21,19 @@ switch(playerState){
 	case RunnerPlayerState.Idle:
 		IdleState();
 		break;
-	case RunnerPlayerState.Parry:
-		ParryState();	
-		break;
 		case RunnerPlayerState.ExitLevel:
 		ExitLevelState();	
 		break;
+	
 	}
+
+if (CenterCameraDistance(id,axis.X) < playerCameraLimit + 5) && (CenterCameraDistance(id,axis.X) > -playerCameraLimit -5){
+	//show_debug_message("true");
+	inCamera = true;
+}else {
+	//show_debug_message("false");
+	inCamera = false;
+}
+
+//show_debug_message(CenterCameraDistance(id,axis.X));
 

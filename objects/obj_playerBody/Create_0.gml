@@ -9,9 +9,15 @@ vsp = 0;
 
 slide_counter = 0;
 jump_counter = 0;
-parry_counter = 0;
-parry_cooldown = 0;
+attack_counter = 0;
+attack_cooldown = 0;
 
+inAttack = false;
+
+inCamera = false;
 
 playerStateName = "";
 playerState = RunnerPlayerState.Fall;
+
+attackState = PlayerAttackState.None;
+attackStateName = "None";
