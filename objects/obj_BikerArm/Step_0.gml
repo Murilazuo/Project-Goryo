@@ -6,7 +6,7 @@ if(instance_exists(obj_GameManager.player)){
 
 if(hasBiker = true)
 {
-	SnapToRider();
+	SnapToRider(+20,-12);
 	
 	if(!instance_exists(myBiker))
 	{

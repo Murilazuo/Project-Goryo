@@ -8,7 +8,7 @@ if(hasRider = false)
 }
 else
 {
-	SnapToBike();
+		SnapToRider(0,0);
 }
 if(myHealth<=0)
 {

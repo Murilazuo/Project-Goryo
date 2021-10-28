@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function SnapToBike(){
-	x = myBiker.x;
-	y = myBiker.y;
+function SnapToBike(snapX,snapY){
+	x = myHoverbike.x+snapX;
+	y = myHoverbike.y+snapY;
 }
