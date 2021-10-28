@@ -125,32 +125,37 @@ function ExitLevelState(){
 }
 
 function AttackState(){	
-	playerStateName = "Attack";
-	if (image_index >= 0 && image_index <= 4)
+//	playerStateName = "Attack";
+//	if (image_index >= 0 && image_index <= 4)
+//		inAttack = true;
+	//else inAttack = false;
+if(inAttack == false){
+			
 		inAttack = true;
-	else inAttack = false;
-		
 	switch(attackState){
 		case PlayerAttackState.Up:
-			SetAttackState(spr_AttackUp,"Up");
+			SetAttackState(spr_AttackUp,"Up",-90);
 			break;
 
 		case PlayerAttackState.Middle:
-			SetAttackState(spr_AttackMiddle,"Middle");
+			SetAttackState(spr_AttackMiddle,"Middle",0);
 			break;
 		case PlayerAttackState.Down:
-			SetAttackState(spr_AttackDown,"Down");
+			SetAttackState(spr_AttackDown,"Down",90);
 
 			break;
 		default:
 	}
-		
+
+}
 	SetSpeed(0);
 
 	
 }
 
-function SetAttackState(sprAttack, stateName){
+function SetAttackState(sprAttack, stateName, attackAngle){
 	sprite_index = sprAttack;
 	attackStateName = stateName;		
+	var fxAttack = instance_create_depth(x,y,depth + 1,obj_fxAttack);
+	fxAttack.image_angle = attackAngle;
 }
