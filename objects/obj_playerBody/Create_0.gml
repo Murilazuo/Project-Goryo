@@ -10,7 +10,6 @@ vsp = 0;
 slide_counter = 0;
 jump_counter = 0;
 attack_counter = 0;
-attack_cooldown = 0;
 
 inAttack = false;
 

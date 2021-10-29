@@ -125,10 +125,12 @@ function ExitLevelState(){
 }
 
 function AttackState(){	
-//	playerStateName = "Attack";
+	playerStateName = "Attack";
 //	if (image_index >= 0 && image_index <= 4)
 //		inAttack = true;
 	//else inAttack = false;
+	attack_counter++;
+
 if(inAttack == false){
 			
 		inAttack = true;
@@ -142,14 +144,19 @@ if(inAttack == false){
 			break;
 		case PlayerAttackState.Down:
 			SetAttackState(spr_AttackDown,"Down",90);
-
 			break;
-		default:
 	}
 
 }
 	SetSpeed(0);
+	
+	show_debug_message(attack_counter);
 
+	if(attack_counter >= attack_cooldown){
+		inAttack = false;
+		attack_counter = 0;
+		playerState = RunnerPlayerState.Run;
+	}
 	
 }
 
