@@ -1,2 +1,0 @@
-
-SpawnBiker(200);

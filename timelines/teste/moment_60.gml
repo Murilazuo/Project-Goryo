@@ -1,1 +1,1 @@
-SpawnBiker(50);
+Spawn2Caras();

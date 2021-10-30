@@ -10,6 +10,7 @@
     {"id":{"name":"GameStateMachine","path":"scripts/GameStateMachine/GameStateMachine.yy",},"order":1,},
     {"id":{"name":"obj_fxAttack","path":"objects/obj_fxAttack/obj_fxAttack.yy",},"order":3,},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},"order":4,},
+    {"id":{"name":"Spawn2Caras","path":"scripts/Spawn2Caras/Spawn2Caras.yy",},"order":1,},
     {"id":{"name":"spr_AttackDown","path":"sprites/spr_AttackDown/spr_AttackDown.yy",},"order":7,},
     {"id":{"name":"spr_turtleAttack","path":"sprites/spr_turtleAttack/spr_turtleAttack.yy",},"order":1,},
     {"id":{"name":"spr_manager","path":"sprites/spr_manager/spr_manager.yy",},"order":1,},
