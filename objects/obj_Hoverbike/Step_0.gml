@@ -13,7 +13,8 @@ else
 if(myHealth<=0)
 {
 	//start countdown -> destroy
-	instance_destroy();
-	AddToScore(myPtsValue)
-	DestroyVehicle("large");
+	myHealth=200;
+	alarm[10] = 90; 
+	ExplosionWarning();
+
 }

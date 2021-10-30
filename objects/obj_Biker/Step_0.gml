@@ -3,14 +3,16 @@
 if(myHealth <=0)
 {
 	myHoverbike.hasRider = false;
+	myHoverbike.riderDied = true;
 	AddToScore(scoreValue);
 	instance_destroy();
 
 }
 
-if(path_position = 1 && (currentPath != path_verticalSwing && currentPath != path_horizontalSwing && currentPath != path_Idle))
+if(path_position = 1 && currentPath != path_vertical && currentPath != path_horizontalSwing && currentPath != path_Idle)
 {
-	PathManagerHoverbike(choose("horizontal", "vertical"));
+	PathManagerHoverbike(choose("horizontal"));
+	//, "vertical"
 }
 
 if(hasCarona = true)

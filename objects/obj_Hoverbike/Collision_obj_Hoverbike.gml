@@ -1,4 +1,4 @@
-if(other.isHot)
+if(isHot)
 {
-	myHealth -=200;
+	DestroyVehicle("large");
 }

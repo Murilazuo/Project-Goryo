@@ -7,11 +7,11 @@
     {"speed":100.0,"x":672.0,"y":64.0,},
   ],
   "parent": {
-    "name": "HoverBiker",
-    "path": "folders/Paths/HoverBiker.yy",
+    "name": "Paths",
+    "path": "folders/Paths.yy",
   },
   "resourceVersion": "1.0",
-  "name": "path_verticalSwing",
+  "name": "path_vertical",
   "tags": [],
   "resourceType": "GMPath",
 }

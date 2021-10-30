@@ -8,6 +8,7 @@ function DestroyVehicle(explosionSize){
 		break;
 	}
 	//create explosion obj
+	AddToScore(myPtsValue);
 	instance_destroy();
 	
 }
