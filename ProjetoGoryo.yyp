@@ -59,6 +59,7 @@
     {"id":{"name":"spr_Aiming_arm","path":"sprites/spr_Aiming_arm/spr_Aiming_arm.yy",},"order":2,},
     {"id":{"name":"spr_turtle","path":"sprites/spr_turtle/spr_turtle.yy",},"order":0,},
     {"id":{"name":"obj_attackBox","path":"objects/obj_attackBox/obj_attackBox.yy",},"order":1,},
+    {"id":{"name":"Object45","path":"objects/Object45/Object45.yy",},"order":11,},
     {"id":{"name":"teste","path":"timelines/teste/teste.yy",},"order":0,},
     {"id":{"name":"spr_attackBox","path":"sprites/spr_attackBox/spr_attackBox.yy",},"order":10,},
     {"id":{"name":"ShooterMovement","path":"scripts/ShooterMovement/ShooterMovement.yy",},"order":0,},
