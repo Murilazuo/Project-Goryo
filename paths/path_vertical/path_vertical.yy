@@ -7,8 +7,8 @@
     {"speed":100.0,"x":672.0,"y":64.0,},
   ],
   "parent": {
-    "name": "Paths",
-    "path": "folders/Paths.yy",
+    "name": "HoverBiker",
+    "path": "folders/Paths/HoverBiker.yy",
   },
   "resourceVersion": "1.0",
   "name": "path_vertical",

@@ -3,5 +3,5 @@
 if(myHealth!=200)
 {
 	myHealth -= obj_GameManager.projectileDMG;
-	DamageFeedback(3.5);
+	DamageFeedback(4);
 }

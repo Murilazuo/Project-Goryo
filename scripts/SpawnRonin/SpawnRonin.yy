@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Shooter",
-    "path": "folders/Scripts/Shooter.yy",
+    "name": "Spawning",
+    "path": "folders/Scripts/Shooter/Spawning.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ExplosionWarning",
+  "name": "SpawnRonin",
   "tags": [],
   "resourceType": "GMScript",
 }
