@@ -12,13 +12,21 @@ if(path_position = 1 && currentPath != path_vertical && currentPath != path_Idle
 }
 if(canMove)
 {
-	
-	move_towards_point(x, nextPosition, mySpeed)
+	move_towards_point(x, nextPosition, mySpeed);
 }
-if(y <= nextPosition +5 && y>= nextPosition -5)
+if(y <= nextPosition +5 && y>= nextPosition)
 {
 	canMove = false;
 	PathManagerHoverbike("idle");
-	instance_create_layer(x,y,"projectiles",obj_laserBeam);
-	alarm[1] = 180;
+
+	if(canFire)
+	{
+		instance_create_layer(x,y-10,"projectiles",obj_laserBeam);
+		canFire = false;
+	}
+	if(alarm[1]<0)
+	{
+		alarm[1] = 180;
+	}
+
 }

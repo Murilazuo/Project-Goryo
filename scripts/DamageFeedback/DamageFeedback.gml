@@ -10,4 +10,5 @@ function DamageFeedback(feedbackTime){
 	{
 		image_blend = c_red;
 	}
+
 }

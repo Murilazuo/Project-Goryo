@@ -1,3 +1,4 @@
 
 PlayerTakeDamage();
-DamageFeedback(8);
+show_debug_message(myHealth);
+//DamageFeedback(8);

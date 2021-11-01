@@ -9,6 +9,12 @@ if(myHealth <=0)
 	DestroyVehicle("large");
 }
 
+if(myHealth != lastHealth)
+{
+	DamageFeedback(8);
+}
+lastHealth = myHealth;
+
 if(keyboard_check(vk_space))
 {
 	instance_create_layer(x,y,"Instances",obj_Hoverbike);
