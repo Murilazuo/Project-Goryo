@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+/*
 if (distance_to_object(obj_GameManager.player) < 300)
 {movimento = "perseguir";}else movimento = "parado"
 
@@ -9,4 +10,9 @@ if (movimento = "perseguir")
 }
 else{
     speed = 0;
+}*/
+
+if IsActive(){
+	SetSpeed(-mySpeed);
 }
+else speed = 0;

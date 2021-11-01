@@ -1,0 +1,2 @@
+/// @description stun
+isStun = false;

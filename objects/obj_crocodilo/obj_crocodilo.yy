@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_crocodile",
+    "path": "sprites/spr_crocodile/spr_crocodile.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -27,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Runner/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_crocodilo",

@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-//movimento = "parado";
+if(myHealth <= 0){
+	instance_destroy(id);	
+}
