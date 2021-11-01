@@ -1,0 +1,2 @@
+SpawnHoverMine();
+SpawnStalker(0);
