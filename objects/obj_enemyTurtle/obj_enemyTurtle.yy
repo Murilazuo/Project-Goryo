@@ -26,10 +26,10 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [
-    {"varType":0,"value":"3","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"enemy_speed","tags":[],"resourceType":"GMObjectProperty",},
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"mySpeed","path":"objects/Obj_inimigo/Obj_inimigo.yy",},"objectId":{"name":"Obj_inimigo","path":"objects/Obj_inimigo/Obj_inimigo.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
-  "overriddenProperties": [],
   "parent": {
     "name": "Enemies",
     "path": "folders/Objects/Runner/Enemies.yy",

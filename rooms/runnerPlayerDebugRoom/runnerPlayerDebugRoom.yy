@@ -34,6 +34,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_hidenArea","path":"objects/obj_hidenArea/obj_hidenArea.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":83.9375,"scaleY":13.9375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":6912.0,"resourceVersion":"1.0","name":"inst_7ED1F339","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_hidenArea","path":"objects/obj_hidenArea/obj_hidenArea.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":85.0,"scaleY":17.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":7392.0,"resourceVersion":"1.0","name":"inst_63F3A818","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemyTurtle","path":"objects/obj_enemyTurtle/obj_enemyTurtle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1472.0,"y":7296.0,"resourceVersion":"1.0","name":"inst_6E72016","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"HidenArea","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[
@@ -127,6 +128,7 @@
     {"name":"inst_7824A801","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
     {"name":"inst_7ED1F339","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
     {"name":"inst_63F3A818","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
+    {"name":"inst_6E72016","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

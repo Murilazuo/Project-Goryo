@@ -3,15 +3,15 @@
 
 distance_to_player = distance_to_object(obj_basePlayer);
 
-//if (distance_to_player <= los)
+if (distance_to_object(obj_basePlayer))
 {
   //event_type = step;
-active = true;
+	//active = true;
+
+}else{
+
+//active = false;
 
 }
-//else
-{
 
-active = false;
 
-}
