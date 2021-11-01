@@ -1,8 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
-damage = 0;
-
-if(alarm[0]<0)
+if(canHit)
 {
-	alarm[0] = 30;
+	damage = 10;
+	canHit = false;
+
+		alarm[0] = 30;
+	
+}
+else
+{
+	damage = 0;
 }

@@ -3,7 +3,7 @@
 
 if(hasRider = false)
 {
-	x-=obj_GameManager.bikeSpeed;
+	x-=obj_GameManager.bikeSpeed-(obj_GameManager.bikeSpeed/5);
 	isHot=true;
 }
 else
