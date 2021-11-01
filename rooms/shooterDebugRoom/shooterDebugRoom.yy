@@ -21,7 +21,6 @@
         {"properties":[
             {"propertyId":{"name":"textToShow","path":"objects/obj_ShowTextInHud/obj_ShowTextInHud.yy",},"objectId":{"name":"obj_ShowTextInHud","path":"objects/obj_ShowTextInHud/obj_ShowTextInHud.yy",},"value":"obj_GameManager.currentScore","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_ShowTextInHud","path":"objects/obj_ShowTextInHud/obj_ShowTextInHud.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":32.0,"resourceVersion":"1.0","name":"inst_54280851","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_aimingLeftArm","path":"objects/obj_aimingLeftArm/obj_aimingLeftArm.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":665.0,"y":317.0,"resourceVersion":"1.0","name":"inst_1663D1E2","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"textToShow","path":"objects/obj_ShowTextInHud/obj_ShowTextInHud.yy",},"objectId":{"name":"obj_ShowTextInHud","path":"objects/obj_ShowTextInHud/obj_ShowTextInHud.yy",},"value":"obj_GameManager.playerMoney","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"imageIndex","path":"objects/obj_ShowTextInHud/obj_ShowTextInHud.yy",},"objectId":{"name":"obj_ShowTextInHud","path":"objects/obj_ShowTextInHud/obj_ShowTextInHud.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -36,8 +35,9 @@
           ],"isDnd":false,"objectId":{"name":"obj_overheat","path":"objects/obj_overheat/obj_overheat.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":32.0,"resourceVersion":"1.0","name":"inst_115B92C2","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Hoverbike","path":"objects/obj_Hoverbike/obj_Hoverbike.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":160.0,"resourceVersion":"1.0","name":"inst_448D023D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_playerPilot","path":"objects/obj_playerPilot/obj_playerPilot.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":128.0,"resourceVersion":"1.0","name":"inst_4DA4FBCA","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_aimingArm","path":"objects/obj_aimingArm/obj_aimingArm.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":746.0,"y":307.0,"resourceVersion":"1.0","name":"inst_25795F75","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_laserVan","path":"objects/obj_laserVan/obj_laserVan.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":192.0,"resourceVersion":"1.0","name":"inst_BF71997","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_aimingArm","path":"objects/obj_aimingArm/obj_aimingArm.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":256.0,"resourceVersion":"1.0","name":"inst_BC4C0D5","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_aimingLeftArm","path":"objects/obj_aimingLeftArm/obj_aimingLeftArm.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":288.0,"resourceVersion":"1.0","name":"inst_19CDBDC5","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"projectiles","tags":[],"resourceType":"GMRInstanceLayer",},
     {"pathId":{"name":"path_vertical","path":"paths/path_vertical/path_vertical.yy",},"colour":4278190335,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Path_1","tags":[],"resourceType":"GMRPathLayer",},
@@ -48,8 +48,6 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_21CAE0B3","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},
-    {"name":"inst_1663D1E2","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},
-    {"name":"inst_25795F75","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},
     {"name":"inst_54280851","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},
     {"name":"inst_3C756185","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},
     {"name":"inst_19B32867","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},
@@ -57,6 +55,8 @@
     {"name":"inst_448D023D","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},
     {"name":"inst_4DA4FBCA","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},
     {"name":"inst_BF71997","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},
+    {"name":"inst_BC4C0D5","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},
+    {"name":"inst_19CDBDC5","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

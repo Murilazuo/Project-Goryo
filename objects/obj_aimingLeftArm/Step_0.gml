@@ -5,5 +5,7 @@ MouseAim();
 PlayerShoot();
 FollowPlayer(obj_GameManager.player.x_positionArm,obj_GameManager.player.y_positionArm);
 depth = 150;
+
 ShooterMovement(1);
+WeaponCooldown();
 }

@@ -28,6 +28,8 @@ if(gameState = GameState.Runner){
 	gunOverheat = uziOverheat;
 	gunCooldown = uziCooldown;
 	gunPrecision = uziPrecision;
+	gunMaxHeat = (gunRPS * gunOverheat);
+	WeaponCooldownValues();
 }
 else if(gameState = GameState.Shooter)
 {
@@ -36,6 +38,8 @@ else if(gameState = GameState.Shooter)
 	gunOverheat = 2*uziOverheat;
 	gunCooldown = uziCooldown;
 	gunPrecision = uziPrecision;
+	gunMaxHeat = (gunRPS * gunOverheat);
+	WeaponCooldownValues();
 }
 
 

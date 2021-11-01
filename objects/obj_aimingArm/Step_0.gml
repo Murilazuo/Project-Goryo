@@ -7,6 +7,7 @@ if(instance_exists(obj_GameManager.player)){
 	PlayerShoot();
 	FollowPlayer(obj_GameManager.player.x_positionArm,obj_GameManager.player.y_positionArm);
 	ShooterMovement(1);
+	WeaponCooldown();
 	depth = -1;
 }
 
