@@ -7,7 +7,8 @@ if(keyboard_check(vk_numpad1)){
 	room_goto(shooterDebugRoom);
 }
 if(keyboard_check(vk_numpad2)){
-	room_goto(runnerInimigosDebugRoom);
+	obj_GameManager.gameState = GameState.Upgrade;
+	room_goto(upgradeRoom);
 }
 if(keyboard_check(vk_numpad3)){
 	obj_GameManager.gameState = GameState.Runner;

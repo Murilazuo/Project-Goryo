@@ -28,6 +28,7 @@
     {"id":{"name":"spr_enemyLaserProjectile","path":"sprites/spr_enemyLaserProjectile/spr_enemyLaserProjectile.yy",},"order":2,},
     {"id":{"name":"obj_Uibase","path":"objects/obj_Uibase/obj_Uibase.yy",},"order":1,},
     {"id":{"name":"PlayerShoot","path":"scripts/PlayerShoot/PlayerShoot.yy",},"order":1,},
+    {"id":{"name":"obj_upgradeBtn","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"order":0,},
     {"id":{"name":"MachineGunSequence","path":"scripts/MachineGunSequence/MachineGunSequence.yy",},"order":4,},
     {"id":{"name":"DestroyIfOutOfBounds","path":"scripts/DestroyIfOutOfBounds/DestroyIfOutOfBounds.yy",},"order":2,},
     {"id":{"name":"DestroyVehicle","path":"scripts/DestroyVehicle/DestroyVehicle.yy",},"order":1,},
@@ -45,7 +46,6 @@
     {"id":{"name":"spr_AttackUp","path":"sprites/spr_AttackUp/spr_AttackUp.yy",},"order":6,},
     {"id":{"name":"spr_bikerArms","path":"sprites/spr_bikerArms/spr_bikerArms.yy",},"order":2,},
     {"id":{"name":"obj_ExplosionSmall","path":"objects/obj_ExplosionSmall/obj_ExplosionSmall.yy",},"order":2,},
-    {"id":{"name":"runnerInimigosDebugRoom","path":"rooms/runnerInimigosDebugRoom/runnerInimigosDebugRoom.yy",},"order":3,},
     {"id":{"name":"WeaponOverheat","path":"scripts/WeaponOverheat/WeaponOverheat.yy",},"order":4,},
     {"id":{"name":"spr_enemyBallisticProjectile","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"order":0,},
     {"id":{"name":"spr_floorUi","path":"sprites/spr_floorUi/spr_floorUi.yy",},"order":0,},
@@ -124,6 +124,7 @@
     {"id":{"name":"Debug","path":"scripts/Debug/Debug.yy",},"order":1,},
     {"id":{"name":"spr_ground_debug","path":"sprites/spr_ground_debug/spr_ground_debug.yy",},"order":0,},
     {"id":{"name":"obj_LevelManager","path":"objects/obj_LevelManager/obj_LevelManager.yy",},"order":2,},
+    {"id":{"name":"upgradeRoom","path":"rooms/upgradeRoom/upgradeRoom.yy",},"order":3,},
     {"id":{"name":"Obj_mamaco","path":"objects/Obj_mamaco/Obj_mamaco.yy",},"order":3,},
     {"id":{"name":"spr_Runcycle","path":"sprites/spr_Runcycle/spr_Runcycle.yy",},"order":0,},
     {"id":{"name":"spr_fxAttack","path":"sprites/spr_fxAttack/spr_fxAttack.yy",},"order":2,},
@@ -165,9 +166,9 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"runnerInimigosDebugRoom","path":"rooms/runnerInimigosDebugRoom/runnerInimigosDebugRoom.yy",},},
     {"roomId":{"name":"shooterDebugRoom","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},},
     {"roomId":{"name":"runnerPlayerDebugRoom","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},},
+    {"roomId":{"name":"upgradeRoom","path":"rooms/upgradeRoom/upgradeRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -216,6 +217,7 @@
     {"folderPath":"folders/Objects/Shooter/Enemies/2Bikers.yy","order":5,"resourceVersion":"1.0","name":"2Bikers","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Shooter/Spawning.yy","order":8,"resourceVersion":"1.0","name":"Spawning","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Shooter/Enemies/Ronin.yy","order":6,"resourceVersion":"1.0","name":"Ronin","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Upgrade.yy","order":12,"resourceVersion":"1.0","name":"Upgrade","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

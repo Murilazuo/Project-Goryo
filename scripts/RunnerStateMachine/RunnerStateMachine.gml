@@ -113,8 +113,7 @@ function ExitLevelState(){
 	var distanceToEndRoom = room_width - x;
 	
 	if(distanceToEndRoom < -64){
-	obj_GameManager.gameState = GameState.Shooter;
-	room_goto(shooterDebugRoom)	
+		obj_GameManager.NextLevel();
 	}else if (distanceToEndRoom < 64){
 		vsp += -0.5;
 	}else if (distanceToEndRoom < 96){

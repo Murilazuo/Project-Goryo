@@ -14,7 +14,7 @@ inputInteract = ord("E");
 //COMBAT VARIABLES
 bulletSpeed = 15;
 playerHealth = 3;
-playerMoney = 0;
+playerMoney = 600;
 
 //SHOOTER VARIABLES
 bikeSpeed = 6;
@@ -37,8 +37,30 @@ player = noone;
 //GAME STATE
 gameState = GameState.Menu;
 level = 0;
+levelRoom = Room1;
 
 //RUNNER SPEED
 global.baseSpeed = 5;
-normalBaseSpeed = global.baseSpeed;
 
+//Level Manager
+function NextLevel(){
+	level++;
+	switch(level){
+		case 0:
+		levelRoom = shooterDebugRoom;
+		gameState = GameState.Shooter;
+			break;
+		case 1:
+		levelRoom = runnerPlayerDebugRoom;
+		gameState = GameState.Runner;
+			break;
+		case 2:
+		levelRoom = upgradeRoom;
+		gameState = GameState.Upgrade;
+			break;
+		
+	
+	
+	}
+
+}
