@@ -1,6 +1,8 @@
 //Murilo
 ManagerDebugMode();
 
-if(obj_GameManager.gameState == GameState.Runner){
+if(obj_GameManager.gameState == GameState.Runner)
+{
 	InRunner();
+	
 }

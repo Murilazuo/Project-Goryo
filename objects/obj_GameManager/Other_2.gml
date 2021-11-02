@@ -36,27 +36,43 @@ player = noone;
 
 //GAME STATE
 gameState = GameState.Menu;
-level = 0;
+//level = 0;
 levelRoom = Room1;
 
 //RUNNER SPEED
 global.baseSpeed = 5;
 
+
+//LEVEL CALL ENUMS
+enum levels
+{
+	debugShooter,
+	debugRunner,
+	
+}
+
+
+
 //Level Manager
-function NextLevel(){
-	level++;
-	switch(level){
+function NextLevel(levelToGo){
+	//level++;
+	switch(levelToGo){
 		case 0:
 		levelRoom = shooterDebugRoom;
 		gameState = GameState.Shooter;
+		room_goto(shooterDebugRoom);
 			break;
 		case 1:
 		levelRoom = runnerPlayerDebugRoom;
 		gameState = GameState.Runner;
+		room_goto(runnerPlayerDebugRoom);
+
 			break;
-		case 2:
+		
+		default:
 		levelRoom = upgradeRoom;
 		gameState = GameState.Upgrade;
+		room_goto(upgradeRoom);
 			break;
 		
 	

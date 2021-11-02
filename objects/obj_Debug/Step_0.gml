@@ -3,16 +3,13 @@
 //Murilo
 
 if(keyboard_check(vk_numpad1)){
-	obj_GameManager.gameState = GameState.Shooter;
-	room_goto(shooterDebugRoom);
+	obj_GameManager.NextLevel(levels.debugShooter);
 }
 if(keyboard_check(vk_numpad2)){
-	obj_GameManager.gameState = GameState.Upgrade;
-	room_goto(upgradeRoom);
+	obj_GameManager.NextLevel();
 }
 if(keyboard_check(vk_numpad3)){
-	obj_GameManager.gameState = GameState.Runner;
-	room_goto(runnerPlayerDebugRoom);
+	obj_GameManager.NextLevel(levels.debugRunner);
 }
 
 if keyboard_check_pressed(vk_numpad0) debug = !debug;
