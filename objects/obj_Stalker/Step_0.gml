@@ -14,8 +14,8 @@ x -= mySpeed * obj_GameManager.stageDifficulty;
 //CHECK DEATH CONDITION
 if(myHealth<=0)
 {
-	AddToScore(myPtsValue);
-	DestroyVehicle("large");
+	//AddToScore(myPtsValue);
+	DestroyVehicle("small");
 }
 
 //CHANGE SPRITE 

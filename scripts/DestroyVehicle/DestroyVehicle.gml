@@ -6,6 +6,9 @@ function DestroyVehicle(explosionSize){
 		case "large":
 		instance_create_layer(x,y,"instances", obj_Explosion);
 		break;
+		case "small":
+		instance_create_layer(x,y,"instances", obj_ExplosionSmall);
+		break;
 	}
 	//create explosion obj
 	AddToScore(myPtsValue);
