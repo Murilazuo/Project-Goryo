@@ -3,15 +3,11 @@ image_blend = default_color;
 
 show_debug_message(obj_GameManager.gameState);
 
-function InRunner(){
-	if (x <= 639){
-		speed = 0;
-		x = 640;
-	}else if (x >= (room_width -641)){
-		speed = 0;
-		x = (room_width -640);
-	} else
-	if ( obj_GameManager.player.inCamera == true) SetSpeed(0);
-	else speed = 0;
-	
+function NextFloor(timeToFollow){
+	speed = 0;
+	alarm_set(0,timeToFollow*room_speed);
 }
+speed = 0;
+
+if(obj_GameManager.gameState == GameState.Runner)
+	NextFloor(2);

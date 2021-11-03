@@ -12,5 +12,6 @@ if keyboard_check_pressed(obj_GameManager.inputInteract){
 	y += nextFloorY;
 	obj_LevelManager.y += nextFloorY;
 	obj_LevelManager.x = other.xPosition;
+	obj_LevelManager.NextFloor(0.5);
 
 }

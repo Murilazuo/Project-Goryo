@@ -57,12 +57,12 @@ enum levels
 function NextLevel(levelToGo){
 	//level++;
 	switch(levelToGo){
-		case 0:
+		case levels.debugShooter:
 		levelRoom = shooterDebugRoom;
 		gameState = GameState.Shooter;
 		room_goto(shooterDebugRoom);
 			break;
-		case 1:
+		case levels.debugRunner:
 		levelRoom = runnerPlayerDebugRoom;
 		gameState = GameState.Runner;
 		room_goto(runnerPlayerDebugRoom);

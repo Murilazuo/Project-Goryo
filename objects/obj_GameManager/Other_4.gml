@@ -5,7 +5,6 @@ currentScore = 0;
 
 //GAME STATE
 if(instance_exists(obj_LevelManager)){
-	SetGameState(obj_LevelManager.stateLevel)
 	
 	switch(gameState){
 	case GameState.Shooter:

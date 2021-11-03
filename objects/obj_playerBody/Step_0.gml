@@ -27,6 +27,9 @@ switch(playerState){
 	
 	}
 
+if place_empty(x,y,Obj_inimigo) inColision = false;
+
+
 if (CenterCameraDistance(id,axis.X) < playerCameraLimit + 5) && (CenterCameraDistance(id,axis.X) > -playerCameraLimit -5){
 	//show_debug_message("true");
 	inCamera = true;

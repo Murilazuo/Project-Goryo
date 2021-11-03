@@ -20,3 +20,5 @@ playerState = RunnerPlayerState.Fall;
 
 attackState = PlayerAttackState.None;
 attackStateName = "None";
+
+inColision = false;
