@@ -76,7 +76,10 @@ function NextLevel(levelToGo){
 			break;
 		
 	
-	
 	}
 
+}
+
+function AddMoney(){
+	playerMoney++;	
 }
