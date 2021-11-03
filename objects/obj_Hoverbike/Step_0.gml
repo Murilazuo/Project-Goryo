@@ -10,11 +10,18 @@ else
 {
 		SnapToRider(0,0);
 }
+
 if(myHealth<=0)
 {
 	//start countdown -> destroy
 	myHealth=200;
-	alarm[10] = 90; 
+	alarm[10] = 120; 
 	ExplosionWarning();
 
+}
+
+
+if(x <= -75)
+{
+	instance_destroy();
 }

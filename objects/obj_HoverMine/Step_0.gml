@@ -6,5 +6,11 @@ x -= mySpeed * obj_GameManager.stageDifficulty;
 //checkDeathCondidition
 if(myHealth <= 0)
 {
-	DestroyVehicle("small");
+	obj_GameManager.activeEnemiesCount--;
+	DestroyVehicle("large");
+}
+if(x <= -75)
+{
+	obj_GameManager.activeEnemiesCount--;
+	instance_destroy();
 }

@@ -29,5 +29,5 @@ if(instance_exists(obj_playerBike) && distance_to_point(obj_playerBike.x+xCompen
 if(myHealth<=0)
 {
 	//death
-	instance_destroy();
+	DestroyEnemy();
 }

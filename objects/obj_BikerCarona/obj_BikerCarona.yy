@@ -39,6 +39,7 @@
   ],
   "overriddenProperties": [
     {"propertyId":{"name":"myHealth","path":"objects/obj_enemyShooterParent/obj_enemyShooterParent.yy",},"objectId":{"name":"obj_enemyShooterParent","path":"objects/obj_enemyShooterParent/obj_enemyShooterParent.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"myPtsValue","path":"objects/obj_enemyShooterParent/obj_enemyShooterParent.yy",},"objectId":{"name":"obj_enemyShooterParent","path":"objects/obj_enemyShooterParent/obj_enemyShooterParent.yy",},"value":"200","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "2Bikers",

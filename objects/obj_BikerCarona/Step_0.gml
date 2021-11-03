@@ -2,8 +2,7 @@
 // You can write your code in this editor
 if(myHealth <=0)
 {
-	AddToScore(200);
-	instance_destroy();
+	DestroyEnemy();
 }
 
 if(hasVehicle)

@@ -5,4 +5,5 @@ function Spawn2Caras(){
 	instance_create_layer(x,y,"Instances",obj_BikerCarona);
 	instance_create_layer(x,y,"Instances",obj_Biker);
 	instance_create_layer(x,y,"Instances",obj_Hoverbike);
+	obj_GameManager.activeEnemiesCount+=2;
 }

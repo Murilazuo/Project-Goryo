@@ -15,6 +15,7 @@ x -= mySpeed * obj_GameManager.stageDifficulty;
 if(myHealth<=0)
 {
 	//AddToScore(myPtsValue);
+	obj_GameManager.activeEnemiesCount--;
 	DestroyVehicle("small");
 }
 
@@ -26,4 +27,10 @@ if(keyboard_check(obj_GameManager.inputLeft)|| keyboard_check(obj_GameManager.in
 else
 {
 	sprite_index = spr_StalkerHor;
+}
+
+if(x <= -75)
+{
+		obj_GameManager.activeEnemiesCount--;
+	instance_destroy();
 }

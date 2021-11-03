@@ -6,5 +6,6 @@ function SpawnBiker(coordVar)
 
 	instance_create_layer(x+coordVar,y+coordVar,"Instances",obj_Biker);
 		instance_create_layer(x+coordVar,y+coordVar,"Instances",obj_Hoverbike);
+		obj_GameManager.activeEnemiesCount++;
 
 }

@@ -18,6 +18,10 @@ if(instance_exists(obj_LevelManager)){
 	
 }
 
+//VARIÁVEIS P PASSAR DE FASE SHOOTER
+isSegOver = false;
+activeEnemiesCount = 0;
+
 //VARIAVEIS DE PATHFINDING
 global.isLagBehindFree = true;
 

@@ -3,4 +3,12 @@
 if(myHealth!=200)
 {
 	EnemyTakeDamage();
+	if(myHealth <= 20)
+	{
+		sprite_index = spr_HoverBikeHighDMG;
+	}
+	else if(myHealth<= 45)
+	{
+		sprite_index = spr_HoverBikeLowDMG;	
+	}
 }

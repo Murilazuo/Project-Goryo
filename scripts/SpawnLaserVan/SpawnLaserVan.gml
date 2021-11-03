@@ -3,4 +3,5 @@
 function SpawnLaserVan(coordVar)
 {
 	instance_create_layer(x+coordVar,y+coordVar,"Instances", obj_laserVan);
+	obj_GameManager.activeEnemiesCount++;
 }

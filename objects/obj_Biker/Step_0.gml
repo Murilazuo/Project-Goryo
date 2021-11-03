@@ -4,8 +4,7 @@ if(myHealth <=0)
 {
 	myHoverbike.hasRider = false;
 	myHoverbike.riderDied = true;
-	AddToScore(scoreValue);
-	instance_destroy();
+	DestroyEnemy();
 
 }
 

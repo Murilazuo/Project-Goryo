@@ -3,6 +3,7 @@
 if(myHealth<=0)
 {
 	DestroyVehicle("large");
+	obj_GameManager.activeEnemiesCount--;
 }
 
 if(path_position = 1 && currentPath != path_vertical && currentPath != path_Idle)
