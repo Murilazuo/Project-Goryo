@@ -22,6 +22,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_LifeHudRunner","path":"objects/obj_LifeHudRunner/obj_LifeHudRunner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":6976.0,"resourceVersion":"1.0","name":"inst_F882545","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_moneyHud","path":"objects/obj_moneyHud/obj_moneyHud.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":7040.0,"resourceVersion":"1.0","name":"inst_318A2839","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_scoreHud","path":"objects/obj_scoreHud/obj_scoreHud.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":6976.0,"resourceVersion":"1.0","name":"inst_3E925FE9","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_TextDisplayManager","path":"objects/obj_TextDisplayManager/obj_TextDisplayManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":7072.0,"resourceVersion":"1.0","name":"inst_1396400A","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Ui","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_doorHide","path":"objects/obj_doorHide/obj_doorHide.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1902.0,"y":7136.0,"resourceVersion":"1.0","name":"inst_25BE093","tags":[],"resourceType":"GMRInstance",},
@@ -169,6 +170,7 @@
     {"name":"inst_25BE093","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
     {"name":"inst_3FAA67D3","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
     {"name":"inst_36F2ED36","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
+    {"name":"inst_1396400A","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

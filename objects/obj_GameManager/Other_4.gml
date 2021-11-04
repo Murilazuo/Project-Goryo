@@ -2,6 +2,7 @@ player = noone;
 
 //SCORING SYSTEM
 currentScore = 0;
+currentCash = 0;
 
 //GAME STATE
 if(instance_exists(obj_LevelManager)){
