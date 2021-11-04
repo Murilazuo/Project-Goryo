@@ -116,6 +116,7 @@
     {"id":{"name":"obj_playerProjectile","path":"objects/obj_playerProjectile/obj_playerProjectile.yy",},"order":0,},
     {"id":{"name":"obj_laserBeam","path":"objects/obj_laserBeam/obj_laserBeam.yy",},"order":5,},
     {"id":{"name":"spr_bikerArm","path":"sprites/spr_bikerArm/spr_bikerArm.yy",},"order":6,},
+    {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},"order":1,},
     {"id":{"name":"obj_Stalker","path":"objects/obj_Stalker/obj_Stalker.yy",},"order":1,},
     {"id":{"name":"spr_playerSlide","path":"sprites/spr_playerSlide/spr_playerSlide.yy",},"order":4,},
     {"id":{"name":"FireInterval","path":"scripts/FireInterval/FireInterval.yy",},"order":1,},
