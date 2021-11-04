@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-health -= obj_GameManager.laserKatanaDMG;
+life -= obj_GameManager.laserKatanaDMG;
 

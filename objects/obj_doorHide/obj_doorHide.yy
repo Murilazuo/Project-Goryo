@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_HidenArea",
-    "path": "sprites/spr_HidenArea/spr_HidenArea.yy",
+    "name": "spr_doorHide",
+    "path": "sprites/spr_doorHide/spr_doorHide.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_item",
+    "path": "objects/obj_item/obj_item.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,20 +24,20 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_playerBody","path":"objects/obj_playerBody/obj_playerBody.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"myFloor","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":3,"value":"False","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"firt","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Ui",
-    "path": "folders/Objects/Ui.yy",
+    "name": "RoomObjects",
+    "path": "folders/Objects/Runner/RoomObjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_hidenArea",
+  "name": "obj_doorHide",
   "tags": [],
   "resourceType": "GMObject",
 }
