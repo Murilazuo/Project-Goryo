@@ -19,5 +19,6 @@ if(keyboard_check(vk_space))
 {
 	instance_create_layer(x,y,"Instances",obj_Hoverbike);
 	instance_create_layer(x,y,"Instances",obj_playerPilot);
+	obj_GameManager.player = obj_playerPilot;
 	instance_destroy();
 }

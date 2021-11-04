@@ -36,6 +36,9 @@ if(gameState = GameState.Runner){
 }
 else if(gameState = GameState.Shooter)
 {
+	
+	maxHP = 60;
+	//WEAPON VAR
 	projectileDMG = uziDamage;
 	gunRPS = uziRPS;
 	gunOverheat = 2*uziOverheat;
@@ -43,6 +46,8 @@ else if(gameState = GameState.Shooter)
 	gunPrecision = uziPrecision;
 	gunMaxHeat = (gunRPS * gunOverheat);
 	WeaponCooldownValues();
+	
+	
 }
 
 
