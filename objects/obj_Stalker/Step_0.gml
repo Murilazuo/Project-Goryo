@@ -22,9 +22,12 @@ if(myHealth<=0)
 //CHANGE SPRITE 
 if(keyboard_check(obj_GameManager.inputLeft)|| keyboard_check(obj_GameManager.inputRight))
 {
-	sprite_index = spr_StalkerVer;
+	if(sprite_index!=spr_StalkerVer)
+	{
+		sprite_index = spr_StalkerVer;
+	}
 }
-else
+else if(sprite_index != spr_StalkerHor)
 {
 	sprite_index = spr_StalkerHor;
 }
