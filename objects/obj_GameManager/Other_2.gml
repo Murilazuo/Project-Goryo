@@ -12,7 +12,7 @@ inputSlide = vk_shift;
 inputInteract = ord("E");
 
 //COMBAT VARIABLES
-bulletSpeed = 15;
+//bulletSpeed = 15;
 playerHealth = 3;
 playerMoney = 600;
 

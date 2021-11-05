@@ -2,7 +2,7 @@ player = noone;
 
 //SCORING SYSTEM
 currentScore = 0;
-currentCash = 0;
+//currentCash = 0;
 
 //GAME STATE
 if(instance_exists(obj_LevelManager)){
@@ -27,6 +27,9 @@ global.isLagBehindFree = true;
 
 //VARIÁVEIS DE ARMAS E PROJETEIS DO PLAYER
 if(gameState = GameState.Runner){
+	maxHP = 5;
+	bulletSpeed = 20;
+	player.myHealth = maxHP;
 	projectileDMG = uziDamage;
 	gunRPS = uziRPS;
 	gunOverheat = uziOverheat;
@@ -39,6 +42,8 @@ else if(gameState = GameState.Shooter)
 {
 	
 	maxHP = 60;
+	bulletSpeed = 15;
+	player.myHealth = maxHP;
 	//WEAPON VAR
 	projectileDMG = uziDamage;
 	gunRPS = uziRPS;
