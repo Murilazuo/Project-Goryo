@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 4,
-  "bbox_right": 11,
-  "bbox_top": 4,
-  "bbox_bottom": 11,
+  "bbox_left": 1,
+  "bbox_right": 14,
+  "bbox_top": 3,
+  "bbox_bottom": 12,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,24 +24,36 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"71a760a5-93eb-46ec-89c3-610870a7ca71","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"71a760a5-93eb-46ec-89c3-610870a7ca71","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"LayerId":{"name":"16563e35-7c82-4f55-b5d6-e4c01c864689","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemyBallisticProjectile","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"resourceVersion":"1.0","name":"71a760a5-93eb-46ec-89c3-610870a7ca71","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fd3c05cf-9d52-4254-9b79-fa9bd69753b6","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fd3c05cf-9d52-4254-9b79-fa9bd69753b6","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"LayerId":{"name":"abb243bc-5e91-4654-a8e9-9e37bab9295e","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_enemyBallisticProjectile","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"resourceVersion":"1.0","name":"fd3c05cf-9d52-4254-9b79-fa9bd69753b6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"dbab0bdd-79c1-4fed-955c-ae32c951f212","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"dbab0bdd-79c1-4fed-955c-ae32c951f212","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"LayerId":{"name":"abb243bc-5e91-4654-a8e9-9e37bab9295e","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_enemyBallisticProjectile","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"resourceVersion":"1.0","name":"dbab0bdd-79c1-4fed-955c-ae32c951f212","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4e43c9e3-df71-4623-b233-190da8ecf21b","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4e43c9e3-df71-4623-b233-190da8ecf21b","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"LayerId":{"name":"abb243bc-5e91-4654-a8e9-9e37bab9295e","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_enemyBallisticProjectile","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"resourceVersion":"1.0","name":"4e43c9e3-df71-4623-b233-190da8ecf21b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7076ebd2-1c1d-4de0-952f-63e376bf6633","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7076ebd2-1c1d-4de0-952f-63e376bf6633","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"LayerId":{"name":"abb243bc-5e91-4654-a8e9-9e37bab9295e","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_enemyBallisticProjectile","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"resourceVersion":"1.0","name":"7076ebd2-1c1d-4de0-952f-63e376bf6633","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_enemyBallisticProjectile","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 4.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"213a8403-258f-4731-80cc-ec8dbb035d12","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"71a760a5-93eb-46ec-89c3-610870a7ca71","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"303058f5-5693-497e-b65a-0527220dd830","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fd3c05cf-9d52-4254-9b79-fa9bd69753b6","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9c842b41-59de-492d-98e5-c3171a3d2a18","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dbab0bdd-79c1-4fed-955c-ae32c951f212","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0dac0443-0bea-43b2-bebb-4e70016381b6","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4e43c9e3-df71-4623-b233-190da8ecf21b","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"83b16843-03e5-41e8-8893-f3166ce9cf01","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7076ebd2-1c1d-4de0-952f-63e376bf6633","path":"sprites/spr_enemyBallisticProjectile/spr_enemyBallisticProjectile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +77,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"16563e35-7c82-4f55-b5d6-e4c01c864689","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"abb243bc-5e91-4654-a8e9-9e37bab9295e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
