@@ -10,6 +10,7 @@ vsp = 0;
 slide_counter = 0;
 jump_counter = 0;
 attack_counter = 0;
+inAir_counter = 0;
 
 inAttack = false;
 

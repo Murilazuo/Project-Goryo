@@ -18,6 +18,9 @@ switch(playerState){
 	case RunnerPlayerState.Jump:
 		JumpState();
 		break;	
+	case RunnerPlayerState.InAir:
+		InAirState();
+		break;
 	case RunnerPlayerState.Fall:
 		FallState();
 		break;

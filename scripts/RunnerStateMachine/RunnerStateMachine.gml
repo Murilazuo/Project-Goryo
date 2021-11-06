@@ -1,6 +1,6 @@
 //Murilo
 
-enum RunnerPlayerState {Run,Jump,Fall,Slide,Idle,Parry,ExitLevel, Attack}
+enum RunnerPlayerState {Run,Jump,InAir,Fall,Slide,Idle,Parry,ExitLevel, Attack}
 
 enum PlayerAttackState { Middle, Up , Down, None }
 
@@ -69,19 +69,28 @@ function JumpState(){
 		
 
 	//change state situation
-	 if mouse_check_button_pressed(obj_GameManager.inputAttakMelee){
-		attackState = PlayerAttackState.Up;
-		playerState = RunnerPlayerState.Attack;
-	}else if(jump_counter >= jump_time){      //||    (jump_counter >= jump_min_time && !keyboard_check(obj_GameManager.inputJump))) {
-		playerState = RunnerPlayerState.Fall;
+	if(jump_counter >= jump_time){      //||    (jump_counter >= jump_min_time && !keyboard_check(obj_GameManager.inputJump))) {
+		playerState = RunnerPlayerState.InAir;
 		jump_counter = 0;
-	//}
-//	else if(jump_counter >= jump_min_time && !keyboard_check(obj_GameManager.inputJump)) {
-//		playerState = RunnerPlayerState.Fall;
-//		jump_counter = 0;
 	}
 	
 	 y+=vsp;
+}
+
+function InAirState(){
+	playerStateName = "InAir";
+	
+	inAir_counter++;
+	
+		//change state situation
+	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee){
+		attackState = PlayerAttackState.Up;
+		playerState = RunnerPlayerState.Attack;
+	}else if(inAir_counter >= InAir_max){      //||    (jump_counter >= jump_min_time && !keyboard_check(obj_GameManager.inputJump))) {
+		playerState = RunnerPlayerState.Fall;
+		inAir_counter = 0;
+	}
+
 }
 
 function FallState(){
