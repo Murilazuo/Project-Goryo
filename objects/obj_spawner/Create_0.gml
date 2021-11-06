@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-timeline_index = tm_teste;
+
+stretch=1;
+timeline_index = stg1;
 timeline_running = true;
