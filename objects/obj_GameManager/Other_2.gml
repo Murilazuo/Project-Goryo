@@ -13,7 +13,7 @@ inputInteract = ord("E");
 
 //COMBAT VARIABLES
 //bulletSpeed = 15;
-playerHealth = 3;
+playerHealth = 5;
 playerMoney = 600;
 
 //SHOOTER VARIABLES

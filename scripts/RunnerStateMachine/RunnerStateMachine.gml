@@ -72,7 +72,7 @@ function JumpState(){
 	 if mouse_check_button_pressed(obj_GameManager.inputAttakMelee){
 		attackState = PlayerAttackState.Up;
 		playerState = RunnerPlayerState.Attack;
-	}else if(jump_counter >= jump_time || (jump_counter >= jump_min_time && !keyboard_check(obj_GameManager.inputJump))) {
+	}else if(jump_counter >= jump_time){      //||    (jump_counter >= jump_min_time && !keyboard_check(obj_GameManager.inputJump))) {
 		playerState = RunnerPlayerState.Fall;
 		jump_counter = 0;
 	//}

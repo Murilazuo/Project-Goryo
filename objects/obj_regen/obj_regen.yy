@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_caltrops",
-    "path": "sprites/spr_caltrops/spr_caltrops.yy",
+    "name": "spr_lifeRegen",
+    "path": "sprites/spr_lifeRegen/spr_lifeRegen.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,15 +22,15 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [
-    {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"damage","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"healthRegen","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Trap",
-    "path": "folders/Objects/Runner/Enemies/Trap.yy",
+    "name": "Itens",
+    "path": "folders/Objects/Runner/Itens.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_caltrops",
+  "name": "obj_regen",
   "tags": [],
   "resourceType": "GMObject",
 }

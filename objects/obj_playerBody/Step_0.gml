@@ -2,6 +2,12 @@
 // You can write your code in this editor
 //Murilo
 
+myHealth = clamp(myHealth,0,obj_GameManager.maxHP);
+
+if myHealth <= 0{
+	room_restart();
+}
+
 switch(playerState){
 	case RunnerPlayerState.Attack:
 		AttackState();
@@ -27,16 +33,11 @@ switch(playerState){
 	
 	}
 
-if place_empty(x,y,Obj_inimigo) inColision = false;
+if place_empty(x,y,Obj_inimigo) inCollision = false;
 
 
 if (CenterCameraDistance(id,axis.X) < playerCameraLimit + 5) && (CenterCameraDistance(id,axis.X) > -playerCameraLimit -5){
-	//show_debug_message("true");
 	inCamera = true;
 }else {
-	//show_debug_message("false");
 	inCamera = false;
 }
-
-//show_debug_message(CenterCameraDistance(id,axis.X));
-
