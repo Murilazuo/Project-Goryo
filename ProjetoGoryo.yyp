@@ -122,6 +122,7 @@
     {"id":{"name":"obj_playerBike","path":"objects/obj_playerBike/obj_playerBike.yy",},"order":0,},
     {"id":{"name":"obj_LifeHudRunner","path":"objects/obj_LifeHudRunner/obj_LifeHudRunner.yy",},"order":6,},
     {"id":{"name":"path_horizontalSwing","path":"paths/path_horizontalSwing/path_horizontalSwing.yy",},"order":5,},
+    {"id":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"order":0,},
     {"id":{"name":"RunnerStateMachine","path":"scripts/RunnerStateMachine/RunnerStateMachine.yy",},"order":0,},
     {"id":{"name":"obj_playerPilot","path":"objects/obj_playerPilot/obj_playerPilot.yy",},"order":3,},
     {"id":{"name":"obj_playerProjectile","path":"objects/obj_playerProjectile/obj_playerProjectile.yy",},"order":0,},
@@ -175,6 +176,7 @@
     {"id":{"name":"spr_pilot","path":"sprites/spr_pilot/spr_pilot.yy",},"order":5,},
     {"id":{"name":"obj_EndLevel","path":"objects/obj_EndLevel/obj_EndLevel.yy",},"order":3,},
     {"id":{"name":"IsActive","path":"scripts/IsActive/IsActive.yy",},"order":5,},
+    {"id":{"name":"obj_btnPlay","path":"objects/obj_btnPlay/obj_btnPlay.yy",},"order":1,},
     {"id":{"name":"spr_pilotBackwards","path":"sprites/spr_pilotBackwards/spr_pilotBackwards.yy",},"order":6,},
     {"id":{"name":"obj_BikerArm","path":"objects/obj_BikerArm/obj_BikerArm.yy",},"order":1,},
     {"id":{"name":"spr_wallDebug","path":"sprites/spr_wallDebug/spr_wallDebug.yy",},"order":3,},
@@ -252,6 +254,7 @@
     {"folderPath":"folders/Sprites/Runner/Itens.yy","order":2,"resourceVersion":"1.0","name":"Itens","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Runner/Enemies/Trap.yy","order":4,"resourceVersion":"1.0","name":"Trap","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Runner/Enemies/Trap.yy","order":6,"resourceVersion":"1.0","name":"Trap","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Ui/Start.yy","order":11,"resourceVersion":"1.0","name":"Start","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
