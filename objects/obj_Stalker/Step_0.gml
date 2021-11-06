@@ -19,17 +19,23 @@ if(myHealth<=0)
 	DestroyVehicle("small");
 }
 
-//CHANGE SPRITE 
+//CHANGE STATE
 if(keyboard_check(obj_GameManager.inputLeft)|| keyboard_check(obj_GameManager.inputRight))
 {
-	if(sprite_index!=spr_StalkerVer)
-	{
+	if(currentSprite != spr_StalkerVerFinal)
+	{	
+		currentSprite = spr_StalkerVerFinal;
 		sprite_index = spr_StalkerVer;
 	}
+	
 }
-else if(sprite_index != spr_StalkerHor)
+if ((keyboard_check(obj_GameManager.inputUp) && !keyboard_check(obj_GameManager.inputLeft) && !keyboard_check(obj_GameManager.inputRight)) || (keyboard_check(obj_GameManager.inputDown) && !keyboard_check(obj_GameManager.inputLeft) && !keyboard_check(obj_GameManager.inputRight)))
 {
-	sprite_index = spr_StalkerHor;
+	if (currentSprite != spr_StalkerHorFinal)
+	{
+		currentSprite = spr_StalkerHorFinal;
+		sprite_index = spr_StalkerHor;
+	}
 }
 
 if(x <= -75)

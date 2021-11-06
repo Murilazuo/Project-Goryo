@@ -1,6 +1,6 @@
 /// @description FIRE 
 // You can write your code in this editor
-if(keyboard_check(obj_GameManager.inputLeft)|| keyboard_check(obj_GameManager.inputRight))
+if(currentSprite = spr_StalkerVerFinal)
 {
 	bulletA = instance_create_layer(x,y,"projectiles", obj_ballisticProjectile);
 	bulletA.speed = bulletSpeed;
@@ -12,7 +12,7 @@ if(keyboard_check(obj_GameManager.inputLeft)|| keyboard_check(obj_GameManager.in
 	bulletB.direction = 270;
 	bulletA.image_angle = 270;
 }
-else
+else if(currentSprite = spr_StalkerHorFinal)
 {
 	bulletA = instance_create_layer(x,y,"projectiles", obj_ballisticProjectile);
 	bulletA.speed = bulletSpeed;
