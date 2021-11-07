@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_estrepe",
-    "path": "sprites/spr_estrepe/spr_estrepe.yy",
+    "name": "spr_manager",
+    "path": "sprites/spr_manager/spr_manager.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,17 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [
-    {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"damage","tags":[],"resourceType":"GMObjectProperty",},
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Trap",
-    "path": "folders/Objects/Runner/Enemies/Trap.yy",
+    "name": "System",
+    "path": "folders/Objects/System.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_caltrops",
+  "name": "obj_DeathSequenceTrigger",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -5,7 +5,7 @@
 myHealth = clamp(myHealth,0,obj_GameManager.maxHP);
 
 if myHealth <= 0{
-	room_restart();
+	PlayerDeath();
 }
 
 switch(playerState){
