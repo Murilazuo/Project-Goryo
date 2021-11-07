@@ -90,6 +90,7 @@
     {"id":{"name":"pathPos_LagLowerLeft","path":"paths/pathPos_LagLowerLeft/pathPos_LagLowerLeft.yy",},"order":3,},
     {"id":{"name":"obj_BikerRonin","path":"objects/obj_BikerRonin/obj_BikerRonin.yy",},"order":0,},
     {"id":{"name":"Sprite49","path":"sprites/Sprite49/Sprite49.yy",},"order":14,},
+    {"id":{"name":"spr_rhyno","path":"sprites/spr_rhyno/spr_rhyno.yy",},"order":15,},
     {"id":{"name":"obj_ShowTextInHud","path":"objects/obj_ShowTextInHud/obj_ShowTextInHud.yy",},"order":2,},
     {"id":{"name":"spr_Aiming_arm","path":"sprites/spr_Aiming_arm/spr_Aiming_arm.yy",},"order":2,},
     {"id":{"name":"spr_turtle","path":"sprites/spr_turtle/spr_turtle.yy",},"order":0,},

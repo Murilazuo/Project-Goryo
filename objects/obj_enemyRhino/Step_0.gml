@@ -11,8 +11,11 @@ if (movimento = "perseguir")
 else{
     speed = 0;
 }*/
-
-if IsActive(){
-	SetSpeed(-mySpeed);
+if(myHealth<=0)
+{
+	instance_destroy();
+	AddToScore(myPtsValue);
 }
-else speed = 0;
+
+
+speed = (-mySpeed);

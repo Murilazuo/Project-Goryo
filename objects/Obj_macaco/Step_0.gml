@@ -4,4 +4,5 @@
 if(myHealth<=0)
 {
 	instance_destroy();
+	AddToScore(myPtsValue);
 }
