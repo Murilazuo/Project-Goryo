@@ -7,6 +7,7 @@ switch(obj_GameManager.gameState){
 		DamageFeedback(4);
 		break;
 	case GameState.Runner:
+		myHealth -= obj_GameManager.projectileDMG;
 		DamageFeedback(4);
 		StunLock();
 			break;
