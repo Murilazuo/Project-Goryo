@@ -1,3 +1,3 @@
-	show_message("restarting room");
+	show_message("You are dead.");
 	room_restart();
 	
