@@ -57,6 +57,7 @@
     {"id":{"name":"spr_BarsBackground","path":"sprites/spr_BarsBackground/spr_BarsBackground.yy",},"order":2,},
     {"id":{"name":"spr_StalkerVerFinal","path":"sprites/spr_StalkerVerFinal/spr_StalkerVerFinal.yy",},"order":17,},
     {"id":{"name":"PlayerDeath","path":"scripts/PlayerDeath/PlayerDeath.yy",},"order":7,},
+    {"id":{"name":"spr_playerRoll","path":"sprites/spr_playerRoll/spr_playerRoll.yy",},"order":9,},
     {"id":{"name":"obj_item","path":"objects/obj_item/obj_item.yy",},"order":0,},
     {"id":{"name":"spr_bikerArms","path":"sprites/spr_bikerArms/spr_bikerArms.yy",},"order":2,},
     {"id":{"name":"spr_backgroundPlaceholder","path":"sprites/spr_backgroundPlaceholder/spr_backgroundPlaceholder.yy",},"order":0,},

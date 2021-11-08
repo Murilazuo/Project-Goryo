@@ -46,9 +46,7 @@ function SlideState(){
 	playerStateName = "Slide";
 
 	slide_counter ++;
-	sprite_index = sprPlayerSlide;
-
-			
+	sprite_index = spr_playerRoll;
 
 	//change state situation
 	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee){
