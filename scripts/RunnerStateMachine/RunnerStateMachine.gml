@@ -134,9 +134,7 @@ function ExitLevelState(){
 
 function AttackState(){	
 	playerStateName = "Attack";
-//	if (image_index >= 0 && image_index <= 4)
-//		inAttack = true;
-	//else inAttack = false;
+
 	attack_counter++;
 
 if(inAttack == false){
@@ -158,14 +156,9 @@ if(inAttack == false){
 }
 	SetSpeed(0);
 	
-	show_debug_message(attack_counter);
+	if keyboard_check_pressed(obj_GameManager.inputJump) playerState = RunnerPlayerState.Jump;
+	else if place_free(x,y) playerState = RunnerPlayerState.Fall;
 
-	if(attack_counter >= attack_cooldown){
-		inAttack = false;
-		attack_counter = 0;
-		playerState = RunnerPlayerState.Run;
-	}
-	
 }
 
 function SetAttackState(sprAttack, stateName, attackAngle){
