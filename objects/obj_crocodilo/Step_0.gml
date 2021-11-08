@@ -1,7 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(distance_to_object(obj_playerBody)<700)
+{
+	speed = -mySpeed;
+}
 
-speed = -mySpeed;
 if(myHealth<=0)
 {
 	AddToScore(myPtsValue)

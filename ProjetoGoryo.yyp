@@ -133,6 +133,7 @@
     {"id":{"name":"path_horizontalSwing","path":"paths/path_horizontalSwing/path_horizontalSwing.yy",},"order":5,},
     {"id":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"order":0,},
     {"id":{"name":"RunnerStateMachine","path":"scripts/RunnerStateMachine/RunnerStateMachine.yy",},"order":0,},
+    {"id":{"name":"spr_fxAttackRonin","path":"sprites/spr_fxAttackRonin/spr_fxAttackRonin.yy",},"order":4,},
     {"id":{"name":"obj_playerPilot","path":"objects/obj_playerPilot/obj_playerPilot.yy",},"order":3,},
     {"id":{"name":"obj_playerProjectile","path":"objects/obj_playerProjectile/obj_playerProjectile.yy",},"order":0,},
     {"id":{"name":"spr_estrepe","path":"sprites/spr_estrepe/spr_estrepe.yy",},"order":2,},
