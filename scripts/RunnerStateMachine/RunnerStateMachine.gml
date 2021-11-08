@@ -79,7 +79,7 @@ function JumpState(){
 
 function InAirState(){
 	playerStateName = "InAir";
-	
+	sprite_index = spr_playerJump;
 	inAir_counter++;
 	
 		//change state situation
@@ -96,7 +96,7 @@ function InAirState(){
 function FallState(){
 	playerStateName = "Fall";
 	if(vsp <= 0) vsp = gravity_force;
-
+	
 	vsp += gravity_acereration;
 
 	
