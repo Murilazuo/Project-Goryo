@@ -17,5 +17,6 @@ if(myHealth<=0)
 	instance_destroy();
 }
 
-
-speed = (-mySpeed);
+if(!isStun)
+	speed = (-mySpeed);
+else speed = -(mySpeed/2);

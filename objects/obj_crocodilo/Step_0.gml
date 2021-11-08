@@ -2,7 +2,9 @@
 // You can write your code in this editor
 if(distance_to_object(obj_playerBody)<700)
 {
-	speed = -mySpeed;
+	if(!isStun)
+	speed = (-mySpeed);
+	else speed = -(mySpeed/2);
 }
 
 if(myHealth<=0)
