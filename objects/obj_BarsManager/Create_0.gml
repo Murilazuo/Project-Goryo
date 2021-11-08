@@ -1,9 +1,9 @@
-healthbarWidth = 240;
-healthbarHeight = 16;
-healthbarX = 30;
+healthbarWidth = 304;
+healthbarHeight =32;
+healthbarX = 1224;
 healthbarY = 6;
 
-overheatbarWidth = 240;
-overheatbarHeight = 8;
-overHeatbarX = 30;
+overheatbarWidth = 304;
+overheatbarHeight = 16;
+overHeatbarX = 1224;
 overHeatbarY = (8 + healthbarHeight);
