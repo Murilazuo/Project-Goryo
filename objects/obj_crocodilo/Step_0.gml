@@ -4,8 +4,8 @@
 speed = -mySpeed;
 if(myHealth<=0)
 {
-	instance_destroy();
 	AddToScore(myPtsValue)
+	instance_destroy();
 }
 
 /*

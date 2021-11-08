@@ -6,11 +6,11 @@ if(instance_exists(obj_GameManager.player)){
 FollowPlayer(-60,-80)
 }
 
-	if(activeEnemiesCount <= 0 && isSegOver = true)
-	{
-		show_message("Stage clear!");
-		NextLevel(levels.debugRunner);
-	}
+if(activeEnemiesCount <= 0 && isSegOver = true)
+{
+	show_message("Stage clear!");
+	NextLevel(levels.debugRunner);
+}
 
 
 
