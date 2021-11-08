@@ -17,8 +17,6 @@ if(myHealth<=0)
 	instance_destroy();
 }
 
-if(!isStun && (distance_to_object(obj_playerBody)<700))
-{
+if(!isStun)
 	speed = (-mySpeed);
-}
 else speed = -(mySpeed/2);
