@@ -6,7 +6,7 @@ if keyboard_check_pressed(obj_GameManager.inputInteract){
 	//Set Ui floor
 	obj_floorUi.SetFloor(other.floorHeight, other.numberFloor)
 
-	//move player and hud to next flor
+	//move player and hud to next floor
 	var nextFloorY = (32 * other.floorHeight);
 	x= other.xPosition;
 	y += nextFloorY;

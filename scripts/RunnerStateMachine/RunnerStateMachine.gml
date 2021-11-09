@@ -1,10 +1,24 @@
 //Murilo
 
-enum RunnerPlayerState {Run,Jump,InAir,Fall,Slide,Idle,Parry,ExitLevel, Attack}
+enum RunnerPlayerState {Run,Jump,InAir,Fall,Slide,Idle,Parry,ExitLevel, Attack,Start}
 
 enum PlayerAttackState { Middle, Up , Down, None }
 
-
+function StartState(){
+	playerStateName = "Start";
+	if(vsp <= 0) vsp = gravity_force;
+	
+	vsp += gravity_acereration;
+	
+	if(place_meeting(x,y + vsp,groundCheck)){ 
+		
+		// efeito de vidraça qubrando
+		// animação de entrada triumfal
+		playerState = RunnerPlayerState.Run;
+	}	
+	y+=vsp
+	
+}
 
 function RunState(){
 	playerStateName = "Run";
@@ -12,8 +26,6 @@ function RunState(){
 	
 	MoveRunner();
 	
-
-
 	//change state situation
 	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee){
 		attackState = PlayerAttackState.Middle;
@@ -98,7 +110,8 @@ function FallState(){
 
 function IdleState(){
 	playerStateName = "Idle";
-	speed = 0;
+	SetBaseSpeed(0);
+	SetSpeed(0);
 }
 
 

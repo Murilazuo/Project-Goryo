@@ -22,6 +22,7 @@
     {"id":{"name":"spr_StalkerHor","path":"sprites/spr_StalkerHor/spr_StalkerHor.yy",},"order":14,},
     {"id":{"name":"Spawn2Caras","path":"scripts/Spawn2Caras/Spawn2Caras.yy",},"order":1,},
     {"id":{"name":"spr_tartaruga","path":"sprites/spr_tartaruga/spr_tartaruga.yy",},"order":9,},
+    {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},"order":5,},
     {"id":{"name":"TUTORIAL","path":"sprites/TUTORIAL/TUTORIAL.yy",},"order":11,},
     {"id":{"name":"spr_AttackDown","path":"sprites/spr_AttackDown/spr_AttackDown.yy",},"order":7,},
     {"id":{"name":"spr_manager","path":"sprites/spr_manager/spr_manager.yy",},"order":1,},

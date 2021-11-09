@@ -40,7 +40,7 @@ gameState = GameState.Menu;
 levelRoom = Room1;
 
 //RUNNER SPEED
-global.baseSpeed = 5;
+global.baseSpeed = startBaseSpeed;
 
 
 //LEVEL CALL ENUMS

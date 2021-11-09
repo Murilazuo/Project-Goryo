@@ -2,6 +2,8 @@
 // You can write your code in this editor
 //Murilo
 
+
+
 myHealth = clamp(myHealth,0,obj_GameManager.maxHP);
 
 if myHealth <= 0{
@@ -9,6 +11,9 @@ if myHealth <= 0{
 }
 
 switch(playerState){
+	case RunnerPlayerState.Start:
+		StartState();
+		break;
 	case RunnerPlayerState.Attack:
 		AttackState();
 		break;

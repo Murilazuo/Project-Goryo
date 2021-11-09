@@ -24,5 +24,14 @@ function SetSpeed(newSpeed){
 	speed = global.baseSpeed + newSpeed;
 }
 
+function ResumeBaseSpeed(){
+	global.baseSpeed = obj_GameManager.startBaseSpeed;
+	obj_playerBody.playerState = RunnerPlayerState.Run;
+}
+
+function SetBaseSpeed(newBaseSpeed){
+	global.baseSpeed = newBaseSpeed;
+	
+}
 
 

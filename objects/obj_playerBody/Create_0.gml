@@ -2,8 +2,7 @@
 // You can write your code in this editor
 SetPlayerInGameManager(id);
 
-SetSpeed(0);
-
+speed = 10;
 //jump_counter = 0;
 vsp = 0;
 
@@ -17,7 +16,7 @@ inAttack = false;
 inCamera = false;
 
 playerStateName = "";
-playerState = RunnerPlayerState.Fall;
+playerState = RunnerPlayerState.Start;
 
 attackState = PlayerAttackState.None;
 attackStateName = "None";

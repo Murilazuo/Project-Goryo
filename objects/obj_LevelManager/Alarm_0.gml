@@ -1,3 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-SetSpeed(0);
+
+canMove = true;
+
+
+mySpeed = 0;
