@@ -12,6 +12,6 @@ if(obj_GameManager.gameState = GameState.Runner){
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
-draw_text_transformed_color(708,32,string(obj_floorUi.currentFloor+1) + "F",2,2,0,c_blue,c_blue,c_aqua,c_aqua,1)
+draw_text_transformed_color(708,32,string(obj_floorUi.currentFloor+1) + " FLOOR",2,2,0,c_blue,c_blue,c_aqua,c_aqua,1)
 
 }

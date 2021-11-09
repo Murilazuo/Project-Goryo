@@ -10,26 +10,8 @@ function RunState(){
 	playerStateName = "Run";
 	//sprite Run
 	
-	if(CenterCameraDistance(id,axis.X) > playerCameraLimit){	//check if the player is in the limit of the camera
-		if(keyboard_check(gameManager.inputLeft)){	//move right
-		SetSpeed(playerSpeed);	
-	}else SetSpeed(0);	
-	}
-	else if(keyboard_check(gameManager.inputRight)){	//move right
-		SetSpeed(playerSpeed);	
-	}else SetSpeed(0);	
+	MoveRunner();
 	
-	if(CenterCameraDistance(id,axis.X) < -playerCameraLimit){	//check if the player is in the limit of the camera
-		if(keyboard_check(gameManager.inputRight)){	//move right
-		SetSpeed(playerSpeed);	
-	}else SetSpeed(0);	
-	} else if(keyboard_check(gameManager.inputLeft)){	//move left
-		SetSpeed(-playerSpeed);	
-	}else if (keyboard_check_released(gameManager.inputLeft)){
-		SetSpeed(0);	
-	}
-	
-		
 
 
 	//change state situation
@@ -45,6 +27,8 @@ function RunState(){
 function SlideState(){
 	playerStateName = "Slide";
 
+	MoveRunner();
+	
 	slide_counter ++;
 	sprite_index = spr_playerRoll;
 
@@ -70,6 +54,9 @@ function JumpState(){
 	if(jump_counter >= jump_time){      //||    (jump_counter >= jump_min_time && !keyboard_check(obj_GameManager.inputJump))) {
 		playerState = RunnerPlayerState.InAir;
 		jump_counter = 0;
+	}else if mouse_check_button_pressed(obj_GameManager.inputAttakMelee){
+		attackState = PlayerAttackState.Up;
+		playerState = RunnerPlayerState.Attack;
 	}
 	
 	 y+=vsp;
@@ -140,14 +127,14 @@ if(inAttack == false){
 		inAttack = true;
 	switch(attackState){
 		case PlayerAttackState.Up:
-			SetAttackState(spr_AttackUp,"Up",-90);
+			SetAttackState(spr_AttackUp,"Up",-90, 0 , 25);
 			break;
 
 		case PlayerAttackState.Middle:
-			SetAttackState(spr_AttackMiddle,"Middle",0);
+			SetAttackState(spr_AttackMiddle,"Middle",0, 50 , 0 );
 			break;
 		case PlayerAttackState.Down:
-			SetAttackState(spr_AttackDown,"Down",90);
+			SetAttackState(spr_AttackDown,"Down", 90 , 0 , -10 );
 			break;
 	}
 
@@ -159,9 +146,32 @@ if(inAttack == false){
 
 }
 
-function SetAttackState(sprAttack, stateName, attackAngle){
+function SetAttackState(sprAttack, stateName, attackAngle,extraPositionX, extraPositionY){
 	sprite_index = sprAttack;
 	attackStateName = stateName;		
-	var fxAttack = instance_create_depth(x,y,depth + 1,obj_fxAttack);
+	var fxAttack = instance_create_depth(x + extraPositionX,y+extraPositionY,depth + 1,obj_fxAttack);
 	fxAttack.image_angle = attackAngle;
+}
+
+function MoveRunner(){
+	
+	if(CenterCameraDistance(id,axis.X) > playerCameraLimit){	//check if the player is in the limit of the camera
+		if(keyboard_check(gameManager.inputLeft)){	//move right
+		SetSpeed(playerSpeed);	
+	}else SetSpeed(0);	
+	}
+	else if(keyboard_check(gameManager.inputRight)){	//move right
+		SetSpeed(playerSpeed);	
+	}else SetSpeed(0);	
+	
+	if(CenterCameraDistance(id,axis.X) < -playerCameraLimit){	//check if the player is in the limit of the camera
+		if(keyboard_check(gameManager.inputRight)){	//move right
+		SetSpeed(playerSpeed);	
+	}else SetSpeed(0);	
+	} else if(keyboard_check(gameManager.inputLeft)){	//move left
+		SetSpeed(-playerSpeed);	
+	}else if (keyboard_check_released(gameManager.inputLeft)){
+		SetSpeed(0);	
+	}
+	
 }
