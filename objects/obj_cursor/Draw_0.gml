@@ -1,0 +1,1 @@
+draw_sprite(spr_cursorOverheat,global.heatLevel,x,y);

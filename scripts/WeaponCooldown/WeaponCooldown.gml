@@ -9,8 +9,5 @@ function WeaponCooldown()
 			alarm[7] = obj_GameManager.reductionFactor;
 		}
 	}
-	if(currentHeat == 0)
-	{
-		isOverHeated = false;
-	}
+
 }

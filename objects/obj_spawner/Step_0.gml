@@ -1,5 +1,3 @@
-show_debug_message("active ENEMIES: " + string(obj_GameManager.activeEnemiesCount));
-show_debug_message("stretch:: " + string(stretch));
 if(stretchEnded = true && obj_GameManager.activeEnemiesCount =0)
 {
 	stretch++;

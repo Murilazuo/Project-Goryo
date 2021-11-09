@@ -12,6 +12,18 @@ if(obj_GameManager.gameState = GameState.Runner){
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
-draw_text_transformed_color(708,32,string(obj_floorUi.currentFloor+1) + " FLOOR",2,2,0,c_blue,c_blue,c_aqua,c_aqua,1)
+draw_text_transformed_color(708,32,string(obj_floorUi.currentFloor+1) + " F",2,2,0,c_blue,c_blue,c_aqua,c_aqua,1)
+}
 
+if(global.heatLevel = 3)
+{
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_middle);
+	draw_text_color(650,768,"!WEAPON OVERHEATING!",c_red,c_red,c_orange,c_orange,1);
+}
+else
+{
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_middle);
+	draw_text_color(768,350,"!WEAPON OVERHEATING!",c_red,c_red,c_orange,c_yellow,0);
 }
