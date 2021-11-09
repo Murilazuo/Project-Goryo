@@ -33,7 +33,7 @@
     "path": "folders/Objects/Ui/Start.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_btnPlay",
+  "name": "obj_btnCredts",
   "tags": [],
   "resourceType": "GMObject",
 }

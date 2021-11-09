@@ -37,7 +37,7 @@ player = noone;
 //GAME STATE
 gameState = GameState.Menu;
 //level = 0;
-levelRoom = Room1;
+levelRoom = roomStart;
 
 //RUNNER SPEED
 global.baseSpeed = startBaseSpeed;
@@ -48,7 +48,8 @@ enum levels
 {
 	debugShooter,
 	debugRunner,
-	
+	start,
+	credits,
 }
 
 
@@ -67,6 +68,16 @@ function NextLevel(levelToGo){
 		gameState = GameState.Runner;
 		room_goto(runnerPlayerDebugRoom);
 
+			break;
+		case levels.start:
+		levelRoom = roomStart;
+		gameState = GameState.Menu;
+		room_goto(roomStart);
+			break;
+		case levels.credits:
+			levelRoom = roomCredits;
+			gameState = GameState.Menu;
+			room_goto(roomCredits);
 			break;
 		
 		default:

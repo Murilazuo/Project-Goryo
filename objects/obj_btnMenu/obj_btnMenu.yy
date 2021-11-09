@@ -27,13 +27,15 @@
     {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"buttonText","path":"objects/obj_btn/obj_btn.yy",},"objectId":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"value":"Main Menu","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Start",
     "path": "folders/Objects/Ui/Start.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_btnPlay",
+  "name": "obj_btnMenu",
   "tags": [],
   "resourceType": "GMObject",
 }

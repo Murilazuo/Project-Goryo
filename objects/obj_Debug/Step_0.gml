@@ -11,6 +11,9 @@ if(keyboard_check(vk_numpad2)){
 if(keyboard_check(vk_numpad3)){
 	obj_GameManager.NextLevel(levels.debugRunner);
 }
+if(keyboard_check(vk_numpad4)){
+	room_goto(roomCredits);
+}
 
 if keyboard_check_pressed(vk_numpad0) debug = !debug;
 
