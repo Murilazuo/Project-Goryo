@@ -23,11 +23,11 @@ bulletSpawnVarX = 0;
 bulletSpawnVarY = 0;
 
 //RANGED WEAPONS DMG
-uziDamage = .9;
-uziRPS = 10;
-uziOverheat = 8;
-uziCooldown = 4;
-uziPrecision = 5;
+currentDamage = .9;
+currentRPS = 10;
+currentOverheat = 8;
+currentCooldown = 4;
+currentPrecision = 5;
 
 //MELEE WEAPONS DMG
 laserKatanaDMG = 100;
@@ -75,7 +75,6 @@ function NextLevel(levelToGo){
 		room_goto(upgradeRoom);
 			break;
 		
-	
 	}
 
 }

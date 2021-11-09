@@ -34,10 +34,10 @@
             {"propertyId":{"name":"price","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"objectId":{"name":"obj_upgradeBtn","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"value":"500","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"DMG","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"objectId":{"name":"obj_upgradeBtn","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"value":"1.2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"RPS","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"objectId":{"name":"obj_upgradeBtn","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"overheat","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"objectId":{"name":"obj_upgradeBtn","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"value":"8","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"overheat","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"objectId":{"name":"obj_upgradeBtn","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"cooldown","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"objectId":{"name":"obj_upgradeBtn","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"value":"4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"precision","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"objectId":{"name":"obj_upgradeBtn","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"value":"1.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"obj_upgradeBtn","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":6.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":224.0,"resourceVersion":"1.0","name":"inst_4D16EBF3","tags":[],"resourceType":"GMRInstance",},
+          ],"isDnd":false,"objectId":{"name":"obj_upgradeBtn","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":6.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":224.0,"resourceVersion":"1.0","name":"inst_4D16EBF3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"gunDescription","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"objectId":{"name":"obj_upgradeBtn","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"value":"descrição da arminha","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"gunName","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"objectId":{"name":"obj_upgradeBtn","path":"objects/obj_upgradeBtn/obj_upgradeBtn.yy",},"value":"Glock desbloqueada","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -71,7 +71,7 @@
     "inheritRoomSettings": false,
     "Width": 1366,
     "Height": 768,
-    "persistent": false,
+    "persistent": true,
   },
   "viewSettings": {
     "inheritViewSettings": false,

@@ -30,30 +30,28 @@ if(gameState = GameState.Runner){
 	maxHP = 5;
 	bulletSpeed = 20;
 	player.myHealth = maxHP;
-	projectileDMG = uziDamage;
-	gunRPS = uziRPS;
-	gunOverheat = uziOverheat;
-	gunCooldown = uziCooldown;
-	gunPrecision = uziPrecision;
+	//WEPON VAR
+	projectileDMG = currentDamage;
+	gunRPS = currentRPS;
+	gunOverheat = currentOverheat;
+	gunCooldown = currentCooldown;
+	gunPrecision = currentPrecision;
 	gunMaxHeat = (gunRPS * gunOverheat);
 	WeaponCooldownValues();
 }
 else if(gameState = GameState.Shooter)
-{
-	
+{	
 	maxHP = 60;
 	bulletSpeed = 15;
 	player.myHealth = maxHP;
 	//WEAPON VAR
-	projectileDMG = uziDamage;
-	gunRPS = uziRPS;
-	gunOverheat = 2*uziOverheat;
-	gunCooldown = uziCooldown;
-	gunPrecision = uziPrecision;
+	projectileDMG = currentDamage;
+	gunRPS = currentRPS;
+	gunOverheat = 2*currentOverheat;
+	gunCooldown = currentCooldown;
+	gunPrecision = currentPrecision;
 	gunMaxHeat = (gunRPS * gunOverheat);
 	WeaponCooldownValues();
-	
-	
 }
 
 
