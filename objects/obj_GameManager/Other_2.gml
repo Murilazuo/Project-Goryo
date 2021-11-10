@@ -39,6 +39,9 @@ gameState = GameState.Menu;
 //level = 0;
 levelRoom = roomStart;
 
+//OPTIONS VARIABLE
+masterVolume = 1; //acessar no arquivo de save
+
 //RUNNER SPEED
 global.baseSpeed = startBaseSpeed;
 
@@ -49,6 +52,7 @@ enum levels
 	debugRunner,
 	start,
 	credits,
+	options
 }
 
 
@@ -69,14 +73,19 @@ function NextLevel(levelToGo){
 
 			break;
 		case levels.start:
-		levelRoom = roomStart;
+		//levelRoom = roomStart;
 		gameState = GameState.Menu;
 		room_goto(roomStart);
 			break;
 		case levels.credits:
-			levelRoom = roomCredits;
+			//levelRoom = roomCredits;
 			gameState = GameState.Menu;
 			room_goto(roomCredits);
+			break;
+		case levels.options:
+			//levelRoom = roomCredits;
+			gameState = GameState.Menu;
+			room_goto(roomOptions);
 			break;
 		
 		default:

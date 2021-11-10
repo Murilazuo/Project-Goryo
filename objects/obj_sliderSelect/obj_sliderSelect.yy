@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_button",
-    "path": "sprites/spr_button/spr_button.yy",
+    "name": "spr_sliderSelect",
+    "path": "sprites/spr_sliderSelect/spr_sliderSelect.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Start",
-    "path": "folders/Objects/Ui/Start.yy",
+    "name": "Options",
+    "path": "folders/Objects/Ui/Options.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_panel",
+  "name": "obj_sliderSelect",
   "tags": [],
   "resourceType": "GMObject",
 }

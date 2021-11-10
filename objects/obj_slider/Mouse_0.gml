@@ -1,3 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-obj_GameManager.NextLevel(levels.credits);
+
+
+sliderSelector.x = mouse_x;
+
+value = GetValue();

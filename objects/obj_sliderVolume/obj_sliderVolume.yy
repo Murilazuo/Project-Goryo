@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_button",
-    "path": "sprites/spr_button/spr_button.yy",
+    "name": "spr_sliderBar",
+    "path": "sprites/spr_sliderBar/spr_sliderBar.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_btn",
-    "path": "objects/obj_btn/obj_btn.yy",
+    "name": "obj_slider",
+    "path": "objects/obj_slider/obj_slider.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,16 +24,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Start",
-    "path": "folders/Objects/Ui/Start.yy",
+    "name": "Options",
+    "path": "folders/Objects/Ui/Options.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_btnCredts",
+  "name": "obj_sliderVolume",
   "tags": [],
   "resourceType": "GMObject",
 }
