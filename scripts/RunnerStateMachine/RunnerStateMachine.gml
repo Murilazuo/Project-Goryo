@@ -33,6 +33,9 @@ function RunState(){
 	}else if keyboard_check_pressed(obj_GameManager.inputSlide) playerState = RunnerPlayerState.Slide;
 	else if keyboard_check_pressed(obj_GameManager.inputJump) playerState = RunnerPlayerState.Jump;
 	else if place_free(x,y) playerState = RunnerPlayerState.Fall;
+	else if (collision_circle(x + wallCheckX,y + wallCheckY, 10,obj_ground,false,true)){ 
+		playerState = RunnerPlayerState.Slide;
+	}
 	
 }
 
@@ -48,7 +51,8 @@ function SlideState(){
 	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee){
 		attackState = PlayerAttackState.Down;
 		playerState = RunnerPlayerState.Attack;
-	}else if(slide_counter >= slide_time || (keyboard_check_released(obj_GameManager.inputSlide) && slide_counter >= slide_min_time)) {
+	}else if(slide_counter >= slide_time || (keyboard_check_released(obj_GameManager.inputSlide) && slide_counter >= slide_min_time)) && 
+	(!collision_circle(x,y + floorCheckY, 10,obj_ground,false,true)) {
 		slide_counter = 0;
 		playerState = RunnerPlayerState.Run;
 	}
@@ -102,7 +106,7 @@ function FallState(){
 	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee){
 		attackState = PlayerAttackState.Up;
 		playerState = RunnerPlayerState.Attack;
-	}else if(place_meeting(x,y + vsp,groundCheck)){ 
+	}else if (collision_circle(x,y + groundCheckY,10,obj_ground,false,true)){ 
 		playerState = RunnerPlayerState.Run;
 	}	
 	y+=vsp
