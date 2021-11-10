@@ -48,7 +48,7 @@ function SlideState(){
 	sprite_index = spr_playerRoll;
 
 	//change state situation
-	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee){
+	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee) && (!collision_circle(x,y + floorCheckY, 10,obj_ground,false,true)){
 		attackState = PlayerAttackState.Down;
 		playerState = RunnerPlayerState.Attack;
 	}else if(slide_counter >= slide_time || (keyboard_check_released(obj_GameManager.inputSlide) && slide_counter >= slide_min_time)) && 
