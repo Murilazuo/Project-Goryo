@@ -1,3 +1,1 @@
-/// @description Insert description here
-// You can write your code in this editor
-AddToScore(scoreDrop);
+//AddToScore(scoreDrop);

@@ -1,0 +1,1 @@
+draw_text_colour(x, y, "" + string(cashToDisplay), c_green, c_green, c_green, c_green, alphaStart);

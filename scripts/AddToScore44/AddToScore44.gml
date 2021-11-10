@@ -2,5 +2,5 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function AddToScore(pointsToAdd){
 obj_GameManager.currentScore += pointsToAdd;
-	PointsPopUp(0);
+	PointsPopUp();
 }
