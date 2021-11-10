@@ -55,7 +55,10 @@ function SlideState(){
 	(!collision_circle(x,y + floorCheckY, 10,obj_ground,false,true)) {
 		slide_counter = 0;
 		playerState = RunnerPlayerState.Run;
+	}else if (!collision_circle(x,y + groundCheckY,10,obj_ground,false,true)){ 
+		playerState = RunnerPlayerState.Fall;
 	}
+
 }
 
 function JumpState(){
