@@ -4,5 +4,6 @@ if(isFalling)
 {
 	y+= vsp;  //6;
 	vsp+=fallAcceleration;
+	vsp = clamp(vsp,0, maxSpeed);
 	ShooterMovement(0);
 }

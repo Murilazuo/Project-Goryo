@@ -34,6 +34,7 @@
     {"varType":5,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"myHoverbike","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":3,"value":"True","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"isFalling","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"0.5","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"fallAcceleration","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"10","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"maxSpeed","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [
     {"propertyId":{"name":"x_positionArm","path":"objects/obj_basePlayer/obj_basePlayer.yy",},"objectId":{"name":"obj_basePlayer","path":"objects/obj_basePlayer/obj_basePlayer.yy",},"value":"+20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
