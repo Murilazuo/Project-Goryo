@@ -8,4 +8,5 @@ if(!hasVehicle && !other.hasRider)
 	instance_create_layer(x,y,"Instances", obj_playerBike);
 	instance_destroy();
 	isFalling = false;
+	vsp = 3;
 }
