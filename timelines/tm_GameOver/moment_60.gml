@@ -1,0 +1,1 @@
+//chamar uma função para mostrar o game over

@@ -62,8 +62,38 @@ enum levels
 
 
 //Level Manager
-function NextLevel(levelToGo){
+
+runnerLevel = 1;
+
+function RunnerLevel(){
+	
+	switch(runnerLevel){
+	case 0:
+		levelRoom = runnerPlayerDebugRoom;
+		gameState = GameState.Runner;
+		room_goto(runnerPlayerDebugRoom);
+
+		break;
+	case 1:
+		levelRoom = runner1;
+		gameState = GameState.Runner;
+		room_goto(runner1);
+		break;
+	case 2:
+		levelRoom = runner2;
+		gameState = GameState.Runner;
+		room_goto(runner2);
+		break;
+	}
+				
+
+}
+
+function NextLevel(levelToGo, nextLevel = false, newRunnerLevel = undefined){
 	//level++;
+	
+	if(nextLevel == true) runnerLevel++;
+
 	switch(levelToGo){
 		case levels.debugShooter:
 		levelRoom = shooterDebugRoom;
@@ -71,10 +101,11 @@ function NextLevel(levelToGo){
 		room_goto(shooterDebugRoom);
 			break;
 		case levels.debugRunner:
-		levelRoom = runnerPlayerDebugRoom;
-		gameState = GameState.Runner;
-		room_goto(runnerPlayerDebugRoom);
+		
+		if(newRunnerLevel != undefined) runnerLevel = newRunnerLevel;
 
+		RunnerLevel();
+		
 			break;
 		case levels.start:
 		//levelRoom = roomStart;
