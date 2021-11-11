@@ -14,7 +14,6 @@ inAir_counter = 0;
 inAttack = false;
 canAttack = true;
 
-
 inCamera = false;
 
 playerStateName = "";
