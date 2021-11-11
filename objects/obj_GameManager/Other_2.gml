@@ -10,11 +10,14 @@ inputJump = vk_space;
 inputSlide = vk_shift;
 //Other Input
 inputInteract = ord("E");
+inputHealing = ord("Q");
 
 //COMBAT VARIABLES
 //bulletSpeed = 15;
-playerHealth = 5;
+//playerHealth = 5;
 playerMoney = 600;
+healingItem = 0;
+healingValue = 5;
 
 //SHOOTER VARIABLES
 bikeSpeed = 6;

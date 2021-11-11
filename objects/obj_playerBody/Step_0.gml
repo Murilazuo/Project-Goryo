@@ -41,6 +41,13 @@ switch(playerState){
 	
 	}
 
+if keyboard_check_pressed(obj_GameManager.inputHealing) && obj_GameManager.healingItem > 0 && myHealth < obj_GameManager.maxHP{
+		obj_GameManager.healingItem--;
+		myHealth += obj_GameManager.healingValue;
+		
+		myHealth = clamp(myHealth,0,obj_GameManager.maxHP);
+}
+
 if place_empty(x,y,Obj_inimigo) inCollision = false;
 
 if(attack_counter >= attack_cooldown){
@@ -50,7 +57,7 @@ if(attack_counter >= attack_cooldown){
     }
 
 
-if (CenterCameraDistance(id,axis.X) < playerCameraLimit + 5) && (CenterCameraDistance(id,axis.X) > -playerCameraLimit -5){
+if (CenterCameraDistance(id,axis.X) < playerCameraLimit + 5) && (CenterCameraDistance(id,axis.X) > -playerCameraLimit -5){ 
 	inCamera = true;
 }else {
 	inCamera = false;
