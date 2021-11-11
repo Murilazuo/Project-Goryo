@@ -39,6 +39,9 @@ if(gameState = GameState.Runner){
 	gunPrecision = currentPrecision;
 	gunMaxHeat = (gunRPS * gunOverheat);
 	WeaponCooldownValues();
+	
+	ResumeBaseSpeed();
+
 }
 else if(gameState = GameState.Shooter)
 {	

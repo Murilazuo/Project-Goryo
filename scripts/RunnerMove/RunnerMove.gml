@@ -26,7 +26,9 @@ function SetSpeed(newSpeed){
 
 function ResumeBaseSpeed(){
 	global.baseSpeed = obj_GameManager.startBaseSpeed;
+	if (instance_exists(obj_playerBody)){
 	obj_playerBody.playerState = RunnerPlayerState.Run;
+	}
 }
 
 function SetBaseSpeed(newBaseSpeed){

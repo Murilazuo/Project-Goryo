@@ -41,6 +41,7 @@ function RunState(){
 
 function SlideState(){
 	playerStateName = "Slide";
+	obj_aimingArm.visible = false;
 
 	MoveRunner();
 	
@@ -51,12 +52,19 @@ function SlideState(){
 	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee) && (!collision_circle(x,y + floorCheckY, 10,obj_ground,false,true)) && canAttack == true{
 		attackState = PlayerAttackState.Down;
 		playerState = RunnerPlayerState.Attack;
+		obj_aimingArm.visible = true;
+
 	}else if(slide_counter >= slide_time || (keyboard_check_released(obj_GameManager.inputSlide) && slide_counter >= slide_min_time)) && 
 	(!collision_circle(x,y + floorCheckY, 10,obj_ground,false,true)) {
 		slide_counter = 0;
 		playerState = RunnerPlayerState.Run;
+		obj_aimingArm.visible = true;
+
 	}else if (!collision_circle(x,y + groundCheckY,10,obj_ground,false,true)){ 
 		playerState = RunnerPlayerState.Fall;
+		obj_aimingArm.visible = true;
+
+		
 	}
 
 }
@@ -127,7 +135,7 @@ function ExitLevelState(){
 	var distanceToEndRoom = room_width - x;
 	
 	if(distanceToEndRoom < -64){
-		obj_GameManager.NextLevel();
+		obj_GameManager.NextLevel(levels.debugRunner,true);
 	}else if (distanceToEndRoom < 64){
 		vsp += -0.5;
 	}else if (distanceToEndRoom < 96){

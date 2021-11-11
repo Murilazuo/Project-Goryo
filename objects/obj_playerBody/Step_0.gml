@@ -7,6 +7,8 @@
 myHealth = clamp(myHealth,0,obj_GameManager.maxHP);
 
 if myHealth <= 0{
+	playerState = RunnerPlayerState.Idle
+	obj_aimingArm.visible = false;
 	PlayerDeath();
 }
 

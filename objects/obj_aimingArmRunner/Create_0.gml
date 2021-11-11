@@ -3,3 +3,5 @@
 canShoot = true;
 
 depth = obj_GameManager.player.depth +1;
+
+
