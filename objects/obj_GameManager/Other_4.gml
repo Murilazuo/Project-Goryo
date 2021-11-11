@@ -1,5 +1,7 @@
 player = noone;
 
+newBikeHealth = 0;
+
 //SCORING SYSTEM
 currentScore = 0;
 //currentCash = 0;
