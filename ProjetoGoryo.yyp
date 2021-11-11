@@ -21,6 +21,7 @@
     {"id":{"name":"obj_fxAttack","path":"objects/obj_fxAttack/obj_fxAttack.yy",},"order":3,},
     {"id":{"name":"obj_eagle","path":"objects/obj_eagle/obj_eagle.yy",},"order":5,},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},"order":4,},
+    {"id":{"name":"spr_BloodPlayerHit","path":"sprites/spr_BloodPlayerHit/spr_BloodPlayerHit.yy",},"order":8,},
     {"id":{"name":"obj_claymore","path":"objects/obj_claymore/obj_claymore.yy",},"order":0,},
     {"id":{"name":"spr_StalkerHor","path":"sprites/spr_StalkerHor/spr_StalkerHor.yy",},"order":14,},
     {"id":{"name":"Spawn2Caras","path":"scripts/Spawn2Caras/Spawn2Caras.yy",},"order":1,},

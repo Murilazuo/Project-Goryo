@@ -20,7 +20,10 @@ part_type_speed(cashParticle,.5,3,0,1);
 
 sparkParticle = part_type_create();
 part_type_sprite(sparkParticle,spr_clashBullet,true,true,false);
-part_type_life(sparkParticle,12,12);
+part_type_life(sparkParticle,8,12);
+part_type_orientation(sparkParticle, 0, 359, .5, 1,false);
+
+
 //part_type_blend(sparkParticle,1);
 
 warningParticle = part_type_create();
@@ -28,3 +31,9 @@ part_type_sprite(warningParticle,spr_enemySense,false,false,false);
 part_type_life(warningParticle,10,10);
 part_type_alpha3(warningParticle,1,.7,0);
 
+playerBloodParticle = part_type_create();
+part_type_sprite(playerBloodParticle,spr_BloodPlayerHit,true,true,false);
+part_type_life(playerBloodParticle,14,16);
+part_type_direction(playerBloodParticle, 0, 359, 0, 0);
+part_type_orientation(playerBloodParticle, 0, 359, .5, 1,false);
+part_type_speed(playerBloodParticle,2,3,0,1);
