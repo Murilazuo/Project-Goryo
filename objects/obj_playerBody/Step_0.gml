@@ -52,9 +52,11 @@ if place_empty(x,y,Obj_inimigo) inCollision = false;
 
 if(attack_counter >= attack_cooldown){
         inAttack = false;
+		canAttack = true;
         attack_counter = 0;
-        playerState = RunnerPlayerState.Run;
-    }
+}else if inAttack == true{
+	attack_counter++;	
+}
 
 
 if (CenterCameraDistance(id,axis.X) < playerCameraLimit + 5) && (CenterCameraDistance(id,axis.X) > -playerCameraLimit -5){ 

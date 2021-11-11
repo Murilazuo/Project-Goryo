@@ -27,7 +27,7 @@ function RunState(){
 	MoveRunner();
 	
 	//change state situation
-	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee){
+	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee) && canAttack == true{
 		attackState = PlayerAttackState.Middle;
 		playerState = RunnerPlayerState.Attack;
 	}else if keyboard_check_pressed(obj_GameManager.inputSlide) playerState = RunnerPlayerState.Slide;
@@ -48,7 +48,7 @@ function SlideState(){
 	sprite_index = spr_playerRoll;
 
 	//change state situation
-	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee) && (!collision_circle(x,y + floorCheckY, 10,obj_ground,false,true)){
+	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee) && (!collision_circle(x,y + floorCheckY, 10,obj_ground,false,true)) && canAttack == true{
 		attackState = PlayerAttackState.Down;
 		playerState = RunnerPlayerState.Attack;
 	}else if(slide_counter >= slide_time || (keyboard_check_released(obj_GameManager.inputSlide) && slide_counter >= slide_min_time)) && 
@@ -73,7 +73,7 @@ function JumpState(){
 	if(jump_counter >= jump_time){      //||    (jump_counter >= jump_min_time && !keyboard_check(obj_GameManager.inputJump))) {
 		playerState = RunnerPlayerState.InAir;
 		jump_counter = 0;
-	}else if mouse_check_button_pressed(obj_GameManager.inputAttakMelee){
+	}else if mouse_check_button_pressed(obj_GameManager.inputAttakMelee) && canAttack == true{
 		attackState = PlayerAttackState.Up;
 		playerState = RunnerPlayerState.Attack;
 	}
@@ -87,7 +87,7 @@ function InAirState(){
 	inAir_counter++;
 	
 		//change state situation
-	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee){
+	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee) && canAttack == true{
 		attackState = PlayerAttackState.Up;
 		playerState = RunnerPlayerState.Attack;
 	}else if(inAir_counter >= InAir_max){      //||    (jump_counter >= jump_min_time && !keyboard_check(obj_GameManager.inputJump))) {
@@ -106,7 +106,7 @@ function FallState(){
 	
 	
 	//change state situation
-	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee){
+	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee) && canAttack = true{
 		attackState = PlayerAttackState.Up;
 		playerState = RunnerPlayerState.Attack;
 	}else if (collision_circle(x,y + groundCheckY,10,obj_ground,false,true)){ 
@@ -139,12 +139,10 @@ function ExitLevelState(){
 
 function AttackState(){	
 	playerStateName = "Attack";
-
-	attack_counter++;
-
-if(inAttack == false){
+	
+	canAttack = false;
+	inAttack = true;
 			
-		inAttack = true;
 	switch(attackState){
 		case PlayerAttackState.Up:
 			SetAttackState(spr_AttackUp,"Up",-90, 0 , 25);
@@ -157,13 +155,10 @@ if(inAttack == false){
 			SetAttackState(spr_AttackDown,"Down", 90 , 0 , -10 );
 			break;
 	}
-
-}
+	
 	SetSpeed(0);
 	
-	if keyboard_check_pressed(obj_GameManager.inputJump) playerState = RunnerPlayerState.Jump;
-	else if place_free(x,y) playerState = RunnerPlayerState.Fall;
-
+    playerState = RunnerPlayerState.Run;
 }
 
 function SetAttackState(sprAttack, stateName, attackAngle,extraPositionX, extraPositionY){
