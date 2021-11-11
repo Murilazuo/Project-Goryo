@@ -38,6 +38,7 @@ if(gameState = GameState.Runner){
 	gunCooldown = currentCooldown;
 	gunPrecision = currentPrecision;
 	gunMaxHeat = (gunRPS * gunOverheat);
+	healingValue = 1+round(maxHP/3);
 	WeaponCooldownValues();
 	
 	ResumeBaseSpeed();
@@ -57,5 +58,8 @@ else if(gameState = GameState.Shooter)
 	gunMaxHeat = (gunRPS * gunOverheat);
 	WeaponCooldownValues();
 }
+
+//VARIAVEIS DE HEALING ITEMS:
+healingItemsAtLvlStart = healingItem;
 
 

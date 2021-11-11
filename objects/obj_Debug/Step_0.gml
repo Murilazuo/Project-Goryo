@@ -10,6 +10,7 @@ if(keyboard_check(vk_numpad2)){
 }
 if(keyboard_check(vk_numpad3)){
 	obj_GameManager.NextLevel(levels.debugRunner);
+	//room_goto(runnerPlayerDebugRoom);
 }
 if(keyboard_check(vk_numpad4)){
 	room_goto(roomCredits);

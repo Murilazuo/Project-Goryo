@@ -18,7 +18,7 @@ inputHealing = ord("Q");
 //playerHealth = 5;
 playerMoney = 600;
 healingItem = 0;
-healingValue = 5;
+
 
 //SHOOTER VARIABLES
 bikeSpeed = 6;

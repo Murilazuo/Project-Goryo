@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_lifeRegen",
-    "path": "sprites/spr_lifeRegen/spr_lifeRegen.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,17 +17,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [
-    {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"healthRegen","tags":[],"resourceType":"GMObjectProperty",},
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Itens",
-    "path": "folders/Objects/Runner/Itens.yy",
+    "name": "Ui",
+    "path": "folders/Objects/Ui.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_regen",
+  "name": "obj_hudIconsManager",
   "tags": [],
   "resourceType": "GMObject",
 }

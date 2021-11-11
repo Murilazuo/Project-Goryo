@@ -21,8 +21,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_TextDisplayManager","path":"objects/obj_TextDisplayManager/obj_TextDisplayManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":7072.0,"resourceVersion":"1.0","name":"inst_1396400A_1_1_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_BarsManager","path":"objects/obj_BarsManager/obj_BarsManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":7072.0,"resourceVersion":"1.0","name":"inst_B690BAF_1_1_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_cursor","path":"objects/obj_cursor/obj_cursor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":121.0,"y":7232.0,"resourceVersion":"1.0","name":"inst_C590820_1_1_1","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_regen","path":"objects/obj_regen/obj_regen.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":7232.0,"resourceVersion":"1.0","name":"inst_3A53C8BA_1_1_1","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_regen","path":"objects/obj_regen/obj_regen.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.0,"y":7232.0,"resourceVersion":"1.0","name":"inst_724BDA69_1_1_1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_healthPickup","path":"objects/obj_healthPickup/obj_healthPickup.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":7328.0,"resourceVersion":"1.0","name":"inst_2B85091D","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_hudIconsManager","path":"objects/obj_hudIconsManager/obj_hudIconsManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":800.0,"y":7488.0,"resourceVersion":"1.0","name":"inst_A27A515","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Ui","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[
@@ -318,8 +318,8 @@
     {"name":"inst_79DE4EF_1_1_1","path":"rooms/runner1/runner1.yy",},
     {"name":"inst_7889C190_1_1_1","path":"rooms/runner1/runner1.yy",},
     {"name":"inst_C590820_1_1_1","path":"rooms/runner1/runner1.yy",},
-    {"name":"inst_3A53C8BA_1_1_1","path":"rooms/runner1/runner1.yy",},
-    {"name":"inst_724BDA69_1_1_1","path":"rooms/runner1/runner1.yy",},
+    {"name":"inst_2B85091D","path":"rooms/runner1/runner1.yy",},
+    {"name":"inst_A27A515","path":"rooms/runner1/runner1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
