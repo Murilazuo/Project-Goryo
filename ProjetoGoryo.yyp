@@ -94,6 +94,7 @@
     {"id":{"name":"Player","path":"scripts/Player/Player.yy",},"order":2,},
     {"id":{"name":"obj_scoreHud","path":"objects/obj_scoreHud/obj_scoreHud.yy",},"order":7,},
     {"id":{"name":"obj_DeathSequenceTrigger","path":"objects/obj_DeathSequenceTrigger/obj_DeathSequenceTrigger.yy",},"order":3,},
+    {"id":{"name":"spr_bloodSlash","path":"sprites/spr_bloodSlash/spr_bloodSlash.yy",},"order":9,},
     {"id":{"name":"obj_caltrops","path":"objects/obj_caltrops/obj_caltrops.yy",},"order":1,},
     {"id":{"name":"spr_HealthBarFillThick","path":"sprites/spr_HealthBarFillThick/spr_HealthBarFillThick.yy",},"order":8,},
     {"id":{"name":"obj_Debug","path":"objects/obj_Debug/obj_Debug.yy",},"order":1,},

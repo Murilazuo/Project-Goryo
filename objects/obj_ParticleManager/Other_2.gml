@@ -37,3 +37,10 @@ part_type_life(playerBloodParticle,14,16);
 part_type_direction(playerBloodParticle, 0, 359, 0, 0);
 part_type_orientation(playerBloodParticle, 0, 359, .5, 1,false);
 part_type_speed(playerBloodParticle,2,3,0,1);
+
+bloodSlashParticle = part_type_create();
+part_type_sprite(bloodSlashParticle,spr_bloodSlash,true,true,false);
+part_type_life(bloodSlashParticle,10,18);
+part_type_direction(bloodSlashParticle, 0, 90, 0, 0);
+part_type_orientation(bloodSlashParticle, 0, 359, .5, 1,false);
+part_type_speed(bloodSlashParticle,2,6,0,1);
