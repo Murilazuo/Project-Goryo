@@ -2,5 +2,9 @@
 // You can write your code in this editor
 draw_self();
 
-draw_text(x,y-5,gunName);
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+
+
+draw_text(x,y-35,gunName);
 draw_text(x,y+10,gunDescription);

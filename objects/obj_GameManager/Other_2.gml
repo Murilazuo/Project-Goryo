@@ -49,6 +49,8 @@ masterVolume = 1; //acessar no arquivo de save
 //RUNNER SPEED
 global.baseSpeed = startBaseSpeed;
 
+playerStop = false;
+
 
 //LEVEL CALL ENUMS
 enum levels

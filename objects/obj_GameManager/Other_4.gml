@@ -64,4 +64,6 @@ else if(gameState = GameState.Shooter)
 //VARIAVEIS DE HEALING ITEMS:
 healingItemsAtLvlStart = healingItem;
 
+spawnEndShooter = false;
 
+playerStop = false;

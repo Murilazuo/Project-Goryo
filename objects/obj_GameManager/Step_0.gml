@@ -8,11 +8,16 @@ FollowPlayer(-60,-80)
 
 if(activeEnemiesCount <= 0 && isSegOver = true)
 {
-	show_message("Stage clear!");
-	NextLevel(levels.debugRunner);
+	//show_message("Stage clear!");
+	//NextLevel(levels.debugRunner);
+	if spawnEndShooter == false {
+		spawnEndShooter = true;
+		instance_create_layer(0,0,"Instances",obj_EndShooterSequenceTrigger);
+		playerStop = true;
+	}
+	
 }
 
-show_debug_message(masterVolume);
 
 
 
