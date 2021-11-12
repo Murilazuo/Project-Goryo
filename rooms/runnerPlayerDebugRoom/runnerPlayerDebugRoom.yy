@@ -14,7 +14,6 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_floorUi","path":"objects/obj_floorUi/obj_floorUi.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":6976.0,"resourceVersion":"1.0","name":"inst_79F61C27","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"obj_LevelManager","path":"objects/obj_LevelManager/obj_LevelManager.yy",},"objectId":{"name":"obj_LevelManager","path":"objects/obj_LevelManager/obj_LevelManager.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_LevelManager","path":"objects/obj_LevelManager/obj_LevelManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":7264.0,"resourceVersion":"1.0","name":"inst_29BC4AC8","tags":[],"resourceType":"GMRInstance",},
@@ -217,7 +216,6 @@
     {"name":"inst_62FCA850","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
     {"name":"inst_661E3A4","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
     {"name":"inst_4076156D","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
-    {"name":"inst_79F61C27","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
     {"name":"inst_29BC4AC8","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
     {"name":"inst_6F9549E7","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
     {"name":"inst_69A3F456","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
