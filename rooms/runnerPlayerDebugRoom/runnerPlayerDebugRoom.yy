@@ -21,6 +21,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_BarsManager","path":"objects/obj_BarsManager/obj_BarsManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":7072.0,"resourceVersion":"1.0","name":"inst_B690BAF","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_cursor","path":"objects/obj_cursor/obj_cursor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":121.0,"y":7232.0,"resourceVersion":"1.0","name":"inst_C590820","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_hudIconsManager","path":"objects/obj_hudIconsManager/obj_hudIconsManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":7456.0,"resourceVersion":"1.0","name":"inst_4A18229F","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_floorUi","path":"objects/obj_floorUi/obj_floorUi.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-800.0,"y":5600.0,"resourceVersion":"1.0","name":"inst_63595CE3","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Ui","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[
@@ -326,6 +327,7 @@
     {"name":"inst_5DF982D4","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
     {"name":"inst_750D6692","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
     {"name":"inst_4A18229F","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
+    {"name":"inst_63595CE3","path":"rooms/runnerPlayerDebugRoom/runnerPlayerDebugRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

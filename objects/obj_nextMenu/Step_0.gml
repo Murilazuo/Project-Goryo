@@ -4,5 +4,3 @@
 if(y < pointToGo +3 && y > pointToGo -3) && moving == true{
 	Stop();
 }
-
-if(keyboard_check(ord("W"))) Stop();
