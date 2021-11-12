@@ -4,14 +4,14 @@ moving = false;
 
 function Stop(){
 	moving = false;
-	image_alpha = 1;
-
 	obj_nextMenu.vspeed = 0;
 	obj_upgradeManager.vspeed = 0;
 }
 
 function Go(){
 	moving = true;
+	obj_nextMenu.image_alpha = 1;
+	
 	image_alpha = 0.5;
 	mySpeed = 5;
 	if(pointToGo < y)

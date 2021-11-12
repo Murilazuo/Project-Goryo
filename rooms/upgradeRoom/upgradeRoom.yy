@@ -33,11 +33,6 @@
             {"propertyId":{"name":"extraYPosition","path":"objects/obj_nextMenu/obj_nextMenu.yy",},"objectId":{"name":"obj_nextMenu","path":"objects/obj_nextMenu/obj_nextMenu.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"buttonText","path":"objects/obj_btn/obj_btn.yy",},"objectId":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"value":"Bike","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_nextMenu","path":"objects/obj_nextMenu/obj_nextMenu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":352.0,"resourceVersion":"1.0","name":"inst_9914EA0","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"pointToGo","path":"objects/obj_nextMenu/obj_nextMenu.yy",},"objectId":{"name":"obj_nextMenu","path":"objects/obj_nextMenu/obj_nextMenu.yy",},"value":"672","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"extraYPosition","path":"objects/obj_nextMenu/obj_nextMenu.yy",},"objectId":{"name":"obj_nextMenu","path":"objects/obj_nextMenu/obj_nextMenu.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"buttonText","path":"objects/obj_btn/obj_btn.yy",},"objectId":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"value":"Armor","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"obj_nextMenu","path":"objects/obj_nextMenu/obj_nextMenu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":2208.0,"resourceVersion":"1.0","name":"inst_4BB18184","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"NextPage","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_upgradeManager","path":"objects/obj_upgradeManager/obj_upgradeManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":216.0,"resourceVersion":"1.0","name":"inst_3AAE218F","tags":[],"resourceType":"GMRInstance",},
@@ -240,7 +235,6 @@
     {"name":"inst_77455206","path":"rooms/upgradeRoom/upgradeRoom.yy",},
     {"name":"inst_20EDC173","path":"rooms/upgradeRoom/upgradeRoom.yy",},
     {"name":"inst_5FC023FC","path":"rooms/upgradeRoom/upgradeRoom.yy",},
-    {"name":"inst_4BB18184","path":"rooms/upgradeRoom/upgradeRoom.yy",},
     {"name":"inst_71F03ECA","path":"rooms/upgradeRoom/upgradeRoom.yy",},
     {"name":"inst_594B961C","path":"rooms/upgradeRoom/upgradeRoom.yy",},
     {"name":"inst_55C1599B","path":"rooms/upgradeRoom/upgradeRoom.yy",},
@@ -249,8 +243,8 @@
   "sequenceId": null,
   "roomSettings": {
     "inheritRoomSettings": false,
-    "Width": 5000,
-    "Height": 5000,
+    "Width": 800,
+    "Height": 2000,
     "persistent": true,
   },
   "viewSettings": {
