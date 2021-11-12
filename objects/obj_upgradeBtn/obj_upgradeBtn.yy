@@ -46,7 +46,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Upgrade",
-    "path": "folders/Objects/Upgrade.yy",
+    "path": "folders/Objects/Ui/Upgrade.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_upgradeBtn",

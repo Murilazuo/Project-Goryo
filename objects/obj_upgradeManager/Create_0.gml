@@ -1,3 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
- image_alpha = 1;
+
+function MoveTowards(newX,newY){
+	move_towards_point(newX,newY, 1);	
+}
