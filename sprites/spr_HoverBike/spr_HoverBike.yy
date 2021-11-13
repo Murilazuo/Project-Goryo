@@ -15,7 +15,7 @@
   "VTile": false,
   "For3D": false,
   "width": 97,
-  "height": 34,
+  "height": 45,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,25 +24,41 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e1d2b57f-6275-4a8c-9108-a98be0eed019","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e1d2b57f-6275-4a8c-9108-a98be0eed019","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"LayerId":{"name":"43ae3cdd-734e-47cb-9d08-c7cfbe88da70","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_HoverBike","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"resourceVersion":"1.0","name":"e1d2b57f-6275-4a8c-9108-a98be0eed019","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"60b9e085-82ad-4b8e-b6de-a91d8c757751","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"60b9e085-82ad-4b8e-b6de-a91d8c757751","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"LayerId":{"name":"9a2c36b5-d5d9-4129-8d99-7b46863f3cf7","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_HoverBike","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"resourceVersion":"1.0","name":"60b9e085-82ad-4b8e-b6de-a91d8c757751","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1db98bcc-65dd-4393-a9ac-d1b5610f7545","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1db98bcc-65dd-4393-a9ac-d1b5610f7545","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"LayerId":{"name":"9a2c36b5-d5d9-4129-8d99-7b46863f3cf7","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_HoverBike","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"resourceVersion":"1.0","name":"1db98bcc-65dd-4393-a9ac-d1b5610f7545","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4f04c259-1bcf-479c-affd-a5bc84d19f31","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4f04c259-1bcf-479c-affd-a5bc84d19f31","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"LayerId":{"name":"9a2c36b5-d5d9-4129-8d99-7b46863f3cf7","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_HoverBike","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"resourceVersion":"1.0","name":"4f04c259-1bcf-479c-affd-a5bc84d19f31","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c6ad2386-38e5-41bf-9a20-badd9538f0b2","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c6ad2386-38e5-41bf-9a20-badd9538f0b2","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"LayerId":{"name":"9a2c36b5-d5d9-4129-8d99-7b46863f3cf7","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_HoverBike","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"resourceVersion":"1.0","name":"c6ad2386-38e5-41bf-9a20-badd9538f0b2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5119728f-df49-4f10-b2d1-841c23da061f","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5119728f-df49-4f10-b2d1-841c23da061f","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"LayerId":{"name":"9a2c36b5-d5d9-4129-8d99-7b46863f3cf7","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_HoverBike","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"resourceVersion":"1.0","name":"5119728f-df49-4f10-b2d1-841c23da061f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_HoverBike","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 5.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e2889667-5a75-4851-89e1-97ffec65459b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e1d2b57f-6275-4a8c-9108-a98be0eed019","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+            {"id":"e2fb8dd0-285f-45e1-a2a0-05b85483c137","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"60b9e085-82ad-4b8e-b6de-a91d8c757751","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e8412ef5-42cf-4b7c-9f80-69e347734241","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1db98bcc-65dd-4393-a9ac-d1b5610f7545","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"76f23c7b-4db1-498d-bcd3-3fd6be840cb5","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4f04c259-1bcf-479c-affd-a5bc84d19f31","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"33e6de57-9ba2-4015-8093-fbf82ac9ad8a","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c6ad2386-38e5-41bf-9a20-badd9538f0b2","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8a94fda3-8ee0-44cb-a139-9a1e76b51ffc","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5119728f-df49-4f10-b2d1-841c23da061f","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -55,7 +71,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 37,
-    "yorigin": 18,
+    "yorigin": 27,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_HoverBike","path":"sprites/spr_HoverBike/spr_HoverBike.yy",},
@@ -65,7 +81,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"43ae3cdd-734e-47cb-9d08-c7cfbe88da70","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9a2c36b5-d5d9-4129-8d99-7b46863f3cf7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

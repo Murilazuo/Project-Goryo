@@ -26,6 +26,8 @@ stageDifficulty = 1; //aumentar em determinados momentos do shooter
 bulletSpawnVarX = 0;
 bulletSpawnVarY = 0;
 
+
+
 //RANGED WEAPONS DMG
 currentDamage = .9;
 currentRPS = 10;

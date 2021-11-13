@@ -6,6 +6,10 @@ newBikeHealth = 0;
 currentScore = 0;
 //currentCash = 0;
 
+
+//SHOOTER variables
+global.healthDif = 60;
+
 //GAME STATE
 if(instance_exists(obj_LevelManager)){
 	
