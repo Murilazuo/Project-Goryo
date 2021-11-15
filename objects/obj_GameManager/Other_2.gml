@@ -7,8 +7,8 @@ inputLeft = ord("A");
 inputRight = ord("D");
 inputUp = ord("W");
 inputDown = ord("S");
-inputJump = vk_space;
-inputSlide = vk_shift;
+inputJump = ord("W")//vk_space;
+inputSlide = ord("S")//vk_shift;
 //Other Input
 inputInteract = ord("E");
 inputHealing = ord("Q");

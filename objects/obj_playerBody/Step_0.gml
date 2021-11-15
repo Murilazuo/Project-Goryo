@@ -53,6 +53,7 @@ if keyboard_check_pressed(obj_GameManager.inputHealing) && obj_GameManager.heali
 if place_empty(x,y,Obj_inimigo) inCollision = false;
 
 if(attack_counter >= attack_cooldown){
+		
         inAttack = false;
 		canAttack = true;
         attack_counter = 0;

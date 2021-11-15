@@ -13,6 +13,7 @@ inAir_counter = 0;
 
 inAttack = false;
 canAttack = true;
+attackTrigger = false;
 
 inCamera = false;
 

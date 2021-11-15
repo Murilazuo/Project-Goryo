@@ -31,8 +31,10 @@ function RunState(){
 		attackState = PlayerAttackState.Middle;
 		playerState = RunnerPlayerState.Attack;
 	}else if keyboard_check_pressed(obj_GameManager.inputSlide) playerState = RunnerPlayerState.Slide;
-	else if keyboard_check_pressed(obj_GameManager.inputJump) playerState = RunnerPlayerState.Jump;
-	else if place_free(x,y) playerState = RunnerPlayerState.Fall;
+	else if keyboard_check_pressed(obj_GameManager.inputJump) {
+		playerState = RunnerPlayerState.Jump;
+		obj_aimingArm.visible = false;
+	}else if place_free(x,y) playerState = RunnerPlayerState.Fall;
 	else if (collision_circle(x + wallCheckX,y + wallCheckY, 10,obj_ground,false,true)){ 
 		playerState = RunnerPlayerState.Slide;
 	}
@@ -58,6 +60,7 @@ function SlideState(){
 	(!collision_circle(x,y + floorCheckY, 10,obj_ground,false,true)) {
 		slide_counter = 0;
 		playerState = RunnerPlayerState.Run;
+		sprite_index = spr_Runcycle;
 		obj_aimingArm.visible = true;
 
 	}else if (!collision_circle(x,y + groundCheckY,10,obj_ground,false,true)){ 
@@ -65,6 +68,9 @@ function SlideState(){
 		obj_aimingArm.visible = true;
 
 		
+	}else if keyboard_check_pressed(obj_GameManager.inputJump) {
+		playerState = RunnerPlayerState.Jump;
+		obj_aimingArm.visible = false;
 	}
 
 }
@@ -82,8 +88,9 @@ function JumpState(){
 		playerState = RunnerPlayerState.InAir;
 		jump_counter = 0;
 	}else if mouse_check_button_pressed(obj_GameManager.inputAttakMelee) && canAttack == true{
-		attackState = PlayerAttackState.Up;
-		playerState = RunnerPlayerState.Attack;
+		attackTrigger = true;
+//		attackState = PlayerAttackState.Up;
+//		playerState = RunnerPlayerState.Attack;
 	}
 	
 	 y+=vsp;
@@ -95,7 +102,8 @@ function InAirState(){
 	inAir_counter++;
 	
 		//change state situation
-	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee) && canAttack == true{
+	if (mouse_check_button_pressed(obj_GameManager.inputAttakMelee) || attackTrigger == true) && canAttack == true{
+		attackTrigger = false;
 		attackState = PlayerAttackState.Up;
 		playerState = RunnerPlayerState.Attack;
 	}else if(inAir_counter >= InAir_max){      //||    (jump_counter >= jump_min_time && !keyboard_check(obj_GameManager.inputJump))) {
@@ -114,11 +122,15 @@ function FallState(){
 	
 	
 	//change state situation
-	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee) && canAttack = true{
-		attackState = PlayerAttackState.Up;
-		playerState = RunnerPlayerState.Attack;
-	}else if (collision_circle(x,y + groundCheckY,10,obj_ground,false,true)){ 
+//	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee) && canAttack = true{
+//		attackState = PlayerAttackState.Up;
+//		playerState = RunnerPlayerState.Attack;
+//	}else 
+	if (collision_circle(x,y + groundCheckY,10,obj_ground,false,true)){ 
 		playerState = RunnerPlayerState.Run;
+		sprite_index = spr_Runcycle;
+		obj_aimingArm.visible = true;
+
 	}	
 	y+=vsp
 }
@@ -136,9 +148,9 @@ function ExitLevelState(){
 	
 	if(distanceToEndRoom < -64){
 		obj_GameManager.NextLevel("Upgrade",true);
-	}else if (distanceToEndRoom < 64){
+	}else if (distanceToEndRoom < 32){
 		vsp += -0.5;
-	}else if (distanceToEndRoom < 96){
+	}else if (distanceToEndRoom < 64){
 		vsp = -3;
 	}else vsp = 0;
 	

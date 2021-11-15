@@ -2,9 +2,11 @@
 // You can write your code in this 
 if(!active) return;
 
-if(instance_exists(obj_GameManager.player)) && visible = true{
+if(instance_exists(obj_GameManager.player)){
 	MouseAim();
-	PlayerShoot();
+		if(visible == true){
+			PlayerShoot();
+		}
 	FollowPlayer(obj_GameManager.player.x_positionArm,obj_GameManager.player.y_positionArm);
 	ShooterMovement(1);
 	WeaponCooldown();
