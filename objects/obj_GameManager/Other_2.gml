@@ -59,15 +59,33 @@ enum levels
 {
 	debugShooter,
 	debugRunner,
+	
 	start,
 	credits,
-	options
+	options,
+	
+	A1Shooter,
+	B1Runner,
+	C1Shooter,
+	D1Runner,
+	
+	A2Runner,
+	B2Shooter,
+	C2Shooter,
+	D2Runner,
+	
+	A3Shooter,
+	B3Runner,
+	C3Runner,
+	D3Shooter
+	
+	
 }
 
 
 
 //Level Manager
-
+/*
 runnerLevel = 1;
 
 function RunnerLevel(){
@@ -92,28 +110,32 @@ function RunnerLevel(){
 	}
 				
 
-}
-
-function NextLevel(levelToGo, nextLevel = false, newRunnerLevel = undefined){
+}*/
+levelId = 0;
+function NextLevel(levelToGo){ //, nextLevel = false, newRunnerLevel = undefined){
 	//level++;
 	
-	if(nextLevel == true) runnerLevel++;
+	//if(nextLevel == true) runnerLevel++;
 
 	switch(levelToGo){
+		
+		//debugs
 		case levels.debugShooter:
 		levelRoom = shooterDebugRoom;
 		gameState = GameState.Shooter;
 		room_goto(shooterDebugRoom);
 			break;
 		case levels.debugRunner:
-		
-		if(newRunnerLevel != undefined) runnerLevel = newRunnerLevel;
-
-		RunnerLevel();
-		
+		levelRoom = runnerPlayerDebugRoom;
+		gameState = GameState.Runner;
+		room_goto(runnerPlayerDebugRoom);
+		//if(newRunnerLevel != undefined) runnerLevel = newRunnerLevel
+		//RunnerLevel();
 			break;
+			
+		//Menu
 		case levels.start:
-		//levelRoom = roomStart;
+			//levelRoom = roomStart;
 		gameState = GameState.Menu;
 		room_goto(roomStart);
 			break;
@@ -128,6 +150,47 @@ function NextLevel(levelToGo, nextLevel = false, newRunnerLevel = undefined){
 			room_goto(roomOptions);
 			break;
 		
+		//level 1	
+		case levels.A1Shooter:
+			GoToRoom(room1AShooter,GameState.Shooter,1);
+			break;
+		case levels.B1Runner:
+			GoToRoom(room1BRunner,GameState.Runner,2);
+			break;
+		case levels.C1Shooter:
+			GoToRoom(room1CShooter,GameState.Shooter,3);
+			break;
+		case levels.D1Runner:
+			GoToRoom(room1DRunner,GameState.Runner,4);
+			break;
+		//level 2
+		case levels.A2Runner:
+			GoToRoom(room2ARunner,GameState.Runner,5);
+			break;
+		case levels.B2Shooter:
+			GoToRoom(room2BShooter,GameState.Shooter,6);
+			break;
+		case levels.C2Shooter:
+			GoToRoom(room2CShooter,GameState.Shooter,7);
+			break;
+		case levels.D2Runner:
+			GoToRoom(room2DRunner,GameState.Runner,8);
+			break;
+		//level 3
+		case levels.A3Shooter:
+			GoToRoom(room3AShooter,GameState.Shooter,9);
+			break;
+		case levels.B3Runner:
+			GoToRoom(room3BRunner,GameState.Runner,10);
+			break;
+		case levels.C3Runner:
+			GoToRoom(room3CRunner,GameState.Runner,11);
+			break;
+		case levels.D3Shooter:
+			GoToRoom(room3DShooter,GameState.Shooter,12);
+			break;
+		
+		//upgrade
 		default:
 		levelRoom = upgradeRoom;
 		gameState = GameState.Upgrade;
@@ -140,4 +203,11 @@ function NextLevel(levelToGo, nextLevel = false, newRunnerLevel = undefined){
 
 function AddMoney(){
 	playerMoney++;	
+}
+
+function GoToRoom(roomToGo, state, newLevelId){
+	levelRoom = roomToGo;
+	gameState = state;
+	room_goto(roomToGo);
+	levelId = newLevelId;
 }

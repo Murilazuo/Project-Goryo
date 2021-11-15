@@ -148,7 +148,7 @@ function ExitLevelState(){
 	var distanceToEndRoom = room_width - x;
 	
 	if(distanceToEndRoom < -64){
-		obj_GameManager.NextLevel("Upgrade",true);
+		obj_GameManager.NextLevel(0);
 	}else if (distanceToEndRoom < 32){
 		vsp += -0.5;
 	}else if (distanceToEndRoom < 64){
