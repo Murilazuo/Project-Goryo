@@ -57,12 +57,7 @@ playerStop = false;
 //LEVEL CALL ENUMS
 enum levels
 {
-	debugShooter,
-	debugRunner,
-	
-	start,
-	credits,
-	options,
+	Noone,
 	
 	A1Shooter,
 	B1Runner,
@@ -77,7 +72,14 @@ enum levels
 	A3Shooter,
 	B3Runner,
 	C3Runner,
-	D3Shooter
+	D3Shooter,
+	
+	debugShooter,
+	debugRunner,
+	
+	start,
+	credits,
+	options,
 	
 	
 }

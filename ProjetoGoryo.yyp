@@ -137,6 +137,7 @@
     {"id":{"name":"pathPos_UpperRight","path":"paths/pathPos_UpperRight/pathPos_UpperRight.yy",},"order":0,},
     {"id":{"name":"AddToScore","path":"scripts/AddToScore/AddToScore.yy",},"order":0,},
     {"id":{"name":"spr_BarsOutlineThick","path":"sprites/spr_BarsOutlineThick/spr_BarsOutlineThick.yy",},"order":11,},
+    {"id":{"name":"obj_exitUpgrade","path":"objects/obj_exitUpgrade/obj_exitUpgrade.yy",},"order":4,},
     {"id":{"name":"SpawnBiker","path":"scripts/SpawnBiker/SpawnBiker.yy",},"order":0,},
     {"id":{"name":"spr_aguiaBody","path":"sprites/spr_aguiaBody/spr_aguiaBody.yy",},"order":9,},
     {"id":{"name":"obj_Projectile","path":"objects/obj_Projectile/obj_Projectile.yy",},"order":4,},

@@ -33,11 +33,8 @@
             {"propertyId":{"name":"extraYPosition","path":"objects/obj_nextMenu/obj_nextMenu.yy",},"objectId":{"name":"obj_nextMenu","path":"objects/obj_nextMenu/obj_nextMenu.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"buttonText","path":"objects/obj_btn/obj_btn.yy",},"objectId":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"value":"Bike","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_nextMenu","path":"objects/obj_nextMenu/obj_nextMenu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":352.0,"resourceVersion":"1.0","name":"inst_9914EA0","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"levelToGo","path":"objects/obj_btnGoToLevel/obj_btnGoToLevel.yy",},"objectId":{"name":"obj_btnGoToLevel","path":"objects/obj_btnGoToLevel/obj_btnGoToLevel.yy",},"value":"levels.debugShooter","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"buttonText","path":"objects/obj_btn/obj_btn.yy",},"objectId":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"value":"Exit","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"obj_btnGoToLevel","path":"objects/obj_btnGoToLevel/obj_btnGoToLevel.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":352.0,"resourceVersion":"1.0","name":"inst_5CA66C92","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_seller","path":"objects/obj_seller/obj_seller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":64.0,"resourceVersion":"1.0","name":"inst_147CEF49","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_exitUpgrade","path":"objects/obj_exitUpgrade/obj_exitUpgrade.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":352.0,"resourceVersion":"1.0","name":"inst_53ABCF05","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"NextPage","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_upgradeManager","path":"objects/obj_upgradeManager/obj_upgradeManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":216.0,"resourceVersion":"1.0","name":"inst_3AAE218F","tags":[],"resourceType":"GMRInstance",},
@@ -198,8 +195,8 @@
     {"name":"inst_71F03ECA","path":"rooms/upgradeRoom/upgradeRoom.yy",},
     {"name":"inst_594B961C","path":"rooms/upgradeRoom/upgradeRoom.yy",},
     {"name":"inst_55C1599B","path":"rooms/upgradeRoom/upgradeRoom.yy",},
-    {"name":"inst_5CA66C92","path":"rooms/upgradeRoom/upgradeRoom.yy",},
     {"name":"inst_147CEF49","path":"rooms/upgradeRoom/upgradeRoom.yy",},
+    {"name":"inst_53ABCF05","path":"rooms/upgradeRoom/upgradeRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

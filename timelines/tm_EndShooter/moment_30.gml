@@ -1,1 +1,1 @@
-obj_GameManager.NextLevel(levels.debugRunner);
+obj_GameManager.NextLevel(++obj_GameManager.levelId);

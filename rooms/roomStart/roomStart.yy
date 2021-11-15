@@ -20,6 +20,7 @@
         {"properties":[
             {"propertyId":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"objectId":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"buttonText","path":"objects/obj_btn/obj_btn.yy",},"objectId":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"value":"Credts","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"levelToGo","path":"objects/obj_btnGoToLevel/obj_btnGoToLevel.yy",},"objectId":{"name":"obj_btnGoToLevel","path":"objects/obj_btnGoToLevel/obj_btnGoToLevel.yy",},"value":"levels.credits","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_btnGoToLevel","path":"objects/obj_btnGoToLevel/obj_btnGoToLevel.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":5.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":224.0,"resourceVersion":"1.0","name":"inst_44241580","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"objectId":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
