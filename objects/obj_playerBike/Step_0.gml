@@ -16,6 +16,7 @@ if(myHealth <=0)
 			image_index = image_index;
 			alarm[10] = 120; 
 			
+			
 	}
 
 }
