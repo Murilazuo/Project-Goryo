@@ -2,7 +2,7 @@
 // You can write your code in this editor
 i=0;
 myHealth = global.healthDif;
-show_message(""+string(global.healthDif));
+
 bikeSpeedNoHider = 0
 
 if(myHealth <= 20)

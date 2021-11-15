@@ -67,7 +67,6 @@ function SlideState(){
 		playerState = RunnerPlayerState.Fall;
 		obj_aimingArm.visible = true;
 
-		
 	}else if keyboard_check_pressed(obj_GameManager.inputJump) {
 		playerState = RunnerPlayerState.Jump;
 		obj_aimingArm.visible = false;
@@ -101,6 +100,8 @@ function InAirState(){
 	sprite_index = spr_playerJump;
 	inAir_counter++;
 	
+		MoveRunner();
+
 		//change state situation
 	if (mouse_check_button_pressed(obj_GameManager.inputAttakMelee) || attackTrigger == true) && canAttack == true{
 		attackTrigger = false;
