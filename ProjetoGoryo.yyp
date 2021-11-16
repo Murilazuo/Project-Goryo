@@ -10,6 +10,7 @@
     {"id":{"name":"obj_aimingArm","path":"objects/obj_aimingArm/obj_aimingArm.yy",},"order":2,},
     {"id":{"name":"spr_HidenArea","path":"sprites/spr_HidenArea/spr_HidenArea.yy",},"order":8,},
     {"id":{"name":"spr_overheat","path":"sprites/spr_overheat/spr_overheat.yy",},"order":6,},
+    {"id":{"name":"spr_meleeAttack","path":"sprites/spr_meleeAttack/spr_meleeAttack.yy",},"order":11,},
     {"id":{"name":"obj_moneyHud","path":"objects/obj_moneyHud/obj_moneyHud.yy",},"order":8,},
     {"id":{"name":"obj_table","path":"objects/obj_table/obj_table.yy",},"order":1,},
     {"id":{"name":"obj_ScorePopUp","path":"objects/obj_ScorePopUp/obj_ScorePopUp.yy",},"order":12,},
