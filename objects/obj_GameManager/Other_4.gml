@@ -1,11 +1,14 @@
 player = noone;
 
+//part_particles_create(obj_ParticleManager.particleSystem,500,200, obj_ParticleManager.glassParticle,10);
+//^^ so p testar particula de vidro
+
 newBikeHealth = 0;
 
 //SCORING SYSTEM
 currentScore = 0;
 //currentCash = 0;
-
+//TESTE DE PARTICULAS
 
 //SHOOTER variables
 global.healthDif = 60;
@@ -20,6 +23,7 @@ if(instance_exists(obj_LevelManager)){
 		break;
 	case GameState.Runner:
 		player = obj_playerBody;	
+		
 		break;
 	}
 	

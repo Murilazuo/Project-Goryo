@@ -102,6 +102,7 @@
     {"id":{"name":"tm_beginning3","path":"timelines/tm_beginning3/tm_beginning3.yy",},"order":3,},
     {"id":{"name":"Player","path":"scripts/Player/Player.yy",},"order":2,},
     {"id":{"name":"obj_DeathSequenceTrigger","path":"objects/obj_DeathSequenceTrigger/obj_DeathSequenceTrigger.yy",},"order":3,},
+    {"id":{"name":"spr_glassCracking","path":"sprites/spr_glassCracking/spr_glassCracking.yy",},"order":10,},
     {"id":{"name":"spr_bloodSlash","path":"sprites/spr_bloodSlash/spr_bloodSlash.yy",},"order":9,},
     {"id":{"name":"obj_caltrops","path":"objects/obj_caltrops/obj_caltrops.yy",},"order":1,},
     {"id":{"name":"spr_HealthBarFillThick","path":"sprites/spr_HealthBarFillThick/spr_HealthBarFillThick.yy",},"order":8,},

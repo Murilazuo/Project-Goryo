@@ -44,3 +44,11 @@ part_type_life(bloodSlashParticle,10,18);
 part_type_direction(bloodSlashParticle, 0, 90, 0, 0);
 part_type_orientation(bloodSlashParticle, 0, 359, .5, 1,false);
 part_type_speed(bloodSlashParticle,2,6,0,1);
+
+glassParticle = part_type_create(); 
+part_type_sprite(glassParticle,spr_glassCracking,true,true,true);
+part_type_life(glassParticle,30,30);
+part_type_direction(glassParticle, 0, 359, 0, 0);
+part_type_orientation(glassParticle, 0, 359, 360, 5,true);
+part_type_speed(glassParticle,.5,4,0,1);
+part_type_blend(glassParticle,1);
