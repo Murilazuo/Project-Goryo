@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 26,
-  "bbox_right": 63,
-  "bbox_top": 29,
-  "bbox_bottom": 35,
+  "bbox_left": 19,
+  "bbox_right": 58,
+  "bbox_top": 25,
+  "bbox_bottom": 33,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7b9503bf-4c88-44d8-80c6-b757fb96ee38","path":"sprites/spr_bikerArm/spr_bikerArm.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7b9503bf-4c88-44d8-80c6-b757fb96ee38","path":"sprites/spr_bikerArm/spr_bikerArm.yy",},"LayerId":{"name":"1f415887-ff46-4d6e-8257-63ca0f20cf2f","path":"sprites/spr_bikerArm/spr_bikerArm.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bikerArm","path":"sprites/spr_bikerArm/spr_bikerArm.yy",},"resourceVersion":"1.0","name":"7b9503bf-4c88-44d8-80c6-b757fb96ee38","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f9529227-083b-4789-a268-260a14202567","path":"sprites/spr_bikerArm/spr_bikerArm.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f9529227-083b-4789-a268-260a14202567","path":"sprites/spr_bikerArm/spr_bikerArm.yy",},"LayerId":{"name":"1f415887-ff46-4d6e-8257-63ca0f20cf2f","path":"sprites/spr_bikerArm/spr_bikerArm.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_bikerArm","path":"sprites/spr_bikerArm/spr_bikerArm.yy",},"resourceVersion":"1.0","name":"f9529227-083b-4789-a268-260a14202567","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_bikerArm","path":"sprites/spr_bikerArm/spr_bikerArm.yy",},
@@ -41,8 +41,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"68f9a408-1bec-486e-9c6d-0c3936c341fc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7b9503bf-4c88-44d8-80c6-b757fb96ee38","path":"sprites/spr_bikerArm/spr_bikerArm.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+            {"id":"8211989e-f74a-4e53-b32e-6f036721dc90","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f9529227-083b-4789-a268-260a14202567","path":"sprites/spr_bikerArm/spr_bikerArm.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 31,
-    "yorigin": 33,
+    "xorigin": 22,
+    "yorigin": 30,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bikerArm","path":"sprites/spr_bikerArm/spr_bikerArm.yy",},

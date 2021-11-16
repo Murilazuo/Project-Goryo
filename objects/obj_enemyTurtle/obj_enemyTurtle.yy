@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tartaruga",
-    "path": "sprites/spr_tartaruga/spr_tartaruga.yy",
+    "name": "spr_turleAttack",
+    "path": "sprites/spr_turleAttack/spr_turleAttack.yy",
   },
   "solid": false,
   "visible": true,

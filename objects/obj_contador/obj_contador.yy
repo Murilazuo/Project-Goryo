@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_contador",
-    "path": "sprites/spr_contador/spr_contador.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

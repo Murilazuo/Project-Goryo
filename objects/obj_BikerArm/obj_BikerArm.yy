@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_enemyArm",
-    "path": "sprites/spr_enemyArm/spr_enemyArm.yy",
+    "name": "spr_bikerArm",
+    "path": "sprites/spr_bikerArm/spr_bikerArm.yy",
   },
   "solid": false,
   "visible": true,
