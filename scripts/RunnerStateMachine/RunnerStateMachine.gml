@@ -170,7 +170,7 @@ function AttackState(){
 			break;
 
 		case PlayerAttackState.Middle:
-			SetAttackState(spr_meleeAttack,"Middle",0, 50 , 0 );
+			SetAttackState(spr_AttackMiddle,"Middle",0, 50 , 0 );
 			break;
 		case PlayerAttackState.Down:
 			SetAttackState(spr_AttackDown,"Down", 90 , 0 , -10 );
