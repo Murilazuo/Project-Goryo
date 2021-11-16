@@ -7,7 +7,7 @@ if(myHealth<=0)
 	instance_destroy();
 }
 
-if(distance_to_object(obj_playerBody)<700)
+if(distance_to_object(obj_playerBody)<400)
 {
 	if(alarm[8]<0)
 	{

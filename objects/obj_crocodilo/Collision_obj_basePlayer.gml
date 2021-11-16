@@ -1,2 +1,3 @@
 /// @description play attack animation
+mySpeed = 0;
 sprite_index = spr_crocodileAttack;

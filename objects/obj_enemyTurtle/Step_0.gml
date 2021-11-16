@@ -8,3 +8,8 @@ if(myHealth<=0)
 }
 
 PreAttackReaction(spr_turtleStance);
+
+
+LockAnimation(spr_turtleStance,3);
+
+LockAnimation(spr_turtleAttack,7);
