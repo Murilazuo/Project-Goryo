@@ -28,3 +28,14 @@ else
 	draw_set_valign(fa_middle);
 	draw_text_color(768,350,"!WEAPON OVERHEATING!",c_red,c_red,c_orange,c_yellow,0);
 }
+
+if(medAtMax = true)
+{
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_middle);
+	draw_text_transformed_colour(650,768, "HEALING ITEMS AT MAX", 2, 2, 0, c_lime,c_lime,c_teal,c_teal, 1);
+	if(alarm[0]<0)
+	{
+		alarm[0] = 60;	
+	}
+}
