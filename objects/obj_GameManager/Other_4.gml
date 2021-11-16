@@ -34,7 +34,7 @@ global.isLagBehindFree = true;
 
 //VARIÁVEIS DE ARMAS E PROJETEIS DO PLAYER
 if(gameState = GameState.Runner){
-	maxHP = 5;
+	maxHP = playerHP;
 	bulletSpeed = 20;
 	player.myHealth = maxHP;
 	//WEPON VAR
@@ -52,7 +52,7 @@ if(gameState = GameState.Runner){
 }
 else if(gameState = GameState.Shooter)
 {	
-	maxHP = 60;
+	maxHP = bikeHp;
 	bulletSpeed = 15;
 	player.myHealth = maxHP;
 	//WEAPON VAR

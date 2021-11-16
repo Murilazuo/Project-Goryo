@@ -15,7 +15,8 @@ inputHealing = ord("Q");
 
 //COMBAT VARIABLES
 //bulletSpeed = 15;
-//playerHealth = 5;
+playerHP = 5;
+bikeHp = 60;
 playerMoney = 600;
 healingItem = 0;
 

@@ -6,7 +6,7 @@ function Stop(){
 	moving = false;
 	obj_nextMenu.vspeed = 0;
 	obj_upgradeManager.vspeed = 0;
-	obj_btnGoToLevel.vspeed = 0;
+	obj_exitUpgrade.vspeed = 0;
 	obj_seller.vspeed = 0;
 }
 
@@ -21,7 +21,7 @@ function Go(){
 	
 	obj_nextMenu.vspeed = mySpeed;
 	obj_upgradeManager.vspeed = mySpeed;
-	obj_btnGoToLevel.vspeed = mySpeed;
+	obj_exitUpgrade.vspeed = mySpeed;
 	obj_seller.vspeed = mySpeed;
 }
 
