@@ -15,6 +15,10 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_cursor","path":"objects/obj_cursor/obj_cursor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":128.0,"resourceVersion":"1.0","name":"inst_422D3C1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Hoverbike","path":"objects/obj_Hoverbike/obj_Hoverbike.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.0,"y":320.0,"resourceVersion":"1.0","name":"inst_4AEBD2D7","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_BikerCarona","path":"objects/obj_BikerCarona/obj_BikerCarona.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1135.0,"y":320.0,"resourceVersion":"1.0","name":"inst_5B284924","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_BikerMachineGunArm","path":"objects/obj_BikerMachineGunArm/obj_BikerMachineGunArm.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1122.0,"y":298.0,"resourceVersion":"1.0","name":"inst_5712129A","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Biker","path":"objects/obj_Biker/obj_Biker.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1147.0,"y":320.0,"resourceVersion":"1.0","name":"inst_79B616C7","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[
@@ -57,6 +61,10 @@
     {"name":"inst_7DE13C97","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},
     {"name":"inst_422D3C1","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},
     {"name":"inst_1F1158D7","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},
+    {"name":"inst_4AEBD2D7","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},
+    {"name":"inst_5B284924","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},
+    {"name":"inst_5712129A","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},
+    {"name":"inst_79B616C7","path":"rooms/shooterDebugRoom/shooterDebugRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -20,7 +20,7 @@ if(global.heatLevel = 3)
 {
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_middle);
-	draw_text_color(650,768,"!WEAPON OVERHEATING!",c_red,c_red,c_orange,c_orange,1);
+	draw_text_transformed_colour(650,768, "!WEAPON OVERHEATING!", 2, 2, 0, c_red,c_red,c_orange,c_orange,1);
 }
 else
 {

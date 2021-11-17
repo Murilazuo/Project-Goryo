@@ -3,7 +3,6 @@ if(instance_exists(obj_GameManager.player)){
 	
 }
 
-
 if(hasBiker = true)
 {
 	SnapToRider(-2,-15);

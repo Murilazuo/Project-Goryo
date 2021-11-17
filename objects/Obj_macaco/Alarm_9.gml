@@ -1,2 +1,2 @@
 /// @description CHANGE STANCE
-MonkeyStanceSwitch(isStanding);
+MonkeyStanceSwitch();
