@@ -3,10 +3,9 @@
 draw_self();
 draw_set_color(c_black);
 
-
-draw_set_halign(fa_center);
+draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
-draw_text_transformed(x+55,y+8,gunName,textScale,textScale,0);
 
-draw_sprite(spr_gunIcon,1,x+55,y+25);
+draw_text_ext_transformed(x+8,y+2,textToShow,18,725,0.75,0.75,0);
+

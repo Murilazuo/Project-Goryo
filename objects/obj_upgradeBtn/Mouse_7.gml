@@ -4,6 +4,7 @@
 if obj_GameManager.playerMoney >= price {
 	obj_GameManager.playerMoney -= price;
 	isBuy = true;
+	gunDescription = originalDescription;
 }
 
 show_debug_message(obj_GameManager.playerMoney);

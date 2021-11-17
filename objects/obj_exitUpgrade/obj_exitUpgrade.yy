@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_button",
-    "path": "sprites/spr_button/spr_button.yy",
+    "name": "spr_tabs",
+    "path": "sprites/spr_tabs/spr_tabs.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,7 +29,10 @@
   "properties": [
     {"varType":4,"value":"levels.credits","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"levelToGo","tags":[],"resourceType":"GMObjectProperty",},
   ],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"textPositionX","path":"objects/obj_btn/obj_btn.yy",},"objectId":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"value":"0","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"textPositionY","path":"objects/obj_btn/obj_btn.yy",},"objectId":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"value":"0","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Upgrade",
     "path": "folders/Objects/Ui/Upgrade.yy",

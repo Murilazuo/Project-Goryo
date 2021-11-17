@@ -8,6 +8,7 @@ function Stop(){
 	obj_upgradeManager.vspeed = 0;
 	obj_exitUpgrade.vspeed = 0;
 	obj_seller.vspeed = 0;
+	obj_flavorTextDisplayPanel.vspeed = 0;
 }
 
 function Go(){
@@ -23,5 +24,7 @@ function Go(){
 	obj_upgradeManager.vspeed = mySpeed;
 	obj_exitUpgrade.vspeed = mySpeed;
 	obj_seller.vspeed = mySpeed;
+	obj_flavorTextDisplayPanel.vspeed = mySpeed;
+
 }
 
