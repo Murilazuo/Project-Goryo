@@ -7,4 +7,7 @@ if (weak_spot == obj_GameManager.player.attackState || weak_spot = PlayerAttackS
 	part_particles_create(obj_ParticleManager.particleSystem,x,y,obj_ParticleManager.bloodSlashParticle,30);
 	DamageFeedback(4);
 	
+}else {
+
+	//errou ponto fraco
 }
