@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_framePortrair",
-    "path": "sprites/spr_framePortrair/spr_framePortrair.yy",
+    "name": "spr_flavorText",
+    "path": "sprites/spr_flavorText/spr_flavorText.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects/Ui/Upgrade.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_seller",
+  "name": "obj_flavorTextDisplayPanel",
   "tags": [],
   "resourceType": "GMObject",
 }
