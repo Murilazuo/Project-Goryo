@@ -38,7 +38,8 @@ function RunState(){
 		playerState = RunnerPlayerState.Jump;
 		obj_aimingArm.visible = false;
 	}else if place_free(x,y) playerState = RunnerPlayerState.Fall;
-	else if (collision_circle(x + wallCheckX,y + wallCheckY, 10,obj_ground,false,true)){ 
+	else if (collision_circle(x + wallCheckX,y + wallCheckY, 10,obj_ground,false,true)) 
+	{ 
 		playerState = RunnerPlayerState.Slide;
 	}
 	

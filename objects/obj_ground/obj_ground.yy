@@ -4,7 +4,7 @@
     "path": "sprites/spr_ground_debug/spr_ground_debug.yy",
   },
   "solid": true,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

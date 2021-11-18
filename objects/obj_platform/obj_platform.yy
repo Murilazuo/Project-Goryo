@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_ground_debug",
-    "path": "sprites/spr_ground_debug/spr_ground_debug.yy",
+    "name": "spr_platform_debug",
+    "path": "sprites/spr_platform_debug/spr_platform_debug.yy",
   },
   "solid": true,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_ground",
+    "path": "objects/obj_ground/obj_ground.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
