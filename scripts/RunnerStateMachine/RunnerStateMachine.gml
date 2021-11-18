@@ -161,9 +161,12 @@ function ExitLevelState(){
 	playerStateName = "Exit Level";
 	var distanceToEndRoom = room_width - x;
 	
-	if(distanceToEndRoom < -64){
+	if(distanceToEndRoom < -500){
 		obj_GameManager.NextLevel(0);
-	}else if (distanceToEndRoom < 32){
+	}else if(distanceToEndRoom > -5 && distanceToEndRoom < 5 ){
+		obj_glassParticle.BreakGlass();
+	}
+	else if (distanceToEndRoom < 32){
 		vsp += -0.5;
 	}else if (distanceToEndRoom < 64){
 		vsp = -3;
