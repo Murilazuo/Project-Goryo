@@ -136,6 +136,7 @@
     {"id":{"name":"obj_attackBox","path":"objects/obj_attackBox/obj_attackBox.yy",},"order":1,},
     {"id":{"name":"spr_startBackGroundPlaceHolder","path":"sprites/spr_startBackGroundPlaceHolder/spr_startBackGroundPlaceHolder.yy",},"order":1,},
     {"id":{"name":"Object45","path":"objects/Object45/Object45.yy",},"order":8,},
+    {"id":{"name":"obj_btnGoToLink","path":"objects/obj_btnGoToLink/obj_btnGoToLink.yy",},"order":6,},
     {"id":{"name":"spr_HoverBikeHighDMG","path":"sprites/spr_HoverBikeHighDMG/spr_HoverBikeHighDMG.yy",},"order":2,},
     {"id":{"name":"tm_teste","path":"timelines/tm_teste/tm_teste.yy",},"order":0,},
     {"id":{"name":"spr_attackBox","path":"sprites/spr_attackBox/spr_attackBox.yy",},"order":10,},
@@ -156,6 +157,7 @@
     {"id":{"name":"room3CRunner","path":"rooms/room3CRunner/room3CRunner.yy",},"order":6,},
     {"id":{"name":"Shop","path":"scripts/Shop/Shop.yy",},"order":5,},
     {"id":{"name":"SnapToRider","path":"scripts/SnapToRider/SnapToRider.yy",},"order":5,},
+    {"id":{"name":"roomGames","path":"rooms/roomGames/roomGames.yy",},"order":8,},
     {"id":{"name":"obj_BarsManager","path":"objects/obj_BarsManager/obj_BarsManager.yy",},"order":9,},
     {"id":{"name":"room1DRunner","path":"rooms/room1DRunner/room1DRunner.yy",},"order":1,},
     {"id":{"name":"tm_beginningEmpty2","path":"timelines/tm_beginningEmpty2/tm_beginningEmpty2.yy",},"order":7,},
@@ -316,6 +318,7 @@
     {"roomId":{"name":"room3AShooter","path":"rooms/room3AShooter/room3AShooter.yy",},},
     {"roomId":{"name":"room3DShooter","path":"rooms/room3DShooter/room3DShooter.yy",},},
     {"roomId":{"name":"roomShooter","path":"rooms/roomShooter/roomShooter.yy",},},
+    {"roomId":{"name":"roomGames","path":"rooms/roomGames/roomGames.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
