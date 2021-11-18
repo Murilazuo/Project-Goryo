@@ -10,7 +10,6 @@ if(instance_exists(obj_GameManager.player)){
 	FollowPlayer(obj_GameManager.player.x_positionArm,obj_GameManager.player.y_positionArm);
 	ShooterMovement(1);
 	WeaponCooldown();
-	depth = -1;
 }
 
 if (x >= room_width){

@@ -1,6 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function ShooterMovement(modifier){
+	if obj_GameManager.playerStop == true return;
+
 
 	if(keyboard_check(obj_GameManager.inputUp) && obj_GameManager.player.y>27)
 	{

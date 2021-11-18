@@ -1,3 +1,4 @@
-timeline_index = tm_EndShooter;
-timeline_position = 0;
-timeline_running = true;	
+timeline_running = false
+breakGrass = false;
+
+obj_GameManager.player.speed = 5;

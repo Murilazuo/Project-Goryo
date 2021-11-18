@@ -129,6 +129,8 @@ function NextLevel(levelToGo){ //, nextLevel = false, newRunnerLevel = undefined
 		
 		//debugs
 		case levels.debugShooter:
+		SetShooterTimeLine(tm_beginningEmpty,tm_beginningEmpty2,tm_beginningEmpty3);
+
 		levelRoom = shooterDebugRoom;
 		gameState = GameState.Shooter;
 		room_goto(shooterDebugRoom);
