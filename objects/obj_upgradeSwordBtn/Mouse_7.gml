@@ -8,7 +8,7 @@ if obj_GameManager.playerMoney >= price {
 
 
 if isBuy == true {
-	obj_upgradeBtn.isSelect = false;
+	obj_upgradeSwordBtn.isSelect = false;
 	isSelect =  true;
 		
 	obj_GameManager.laserKatanaDMG = DMG;

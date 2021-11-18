@@ -10,7 +10,7 @@ show_debug_message(obj_GameManager.playerMoney);
 
 
 if isBuy == true {
-	obj_upgradeBtn.isSelect = false;
+	obj_upgradeBikeBtn.isSelect = false;
 	isSelect =  true;
 		
 	obj_GameManager.bikeSpeed = bikeSpeed;
