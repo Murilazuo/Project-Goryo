@@ -30,7 +30,10 @@ function RunState(){
 	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee) && canAttack == true{
 		attackState = PlayerAttackState.Middle;
 		playerState = RunnerPlayerState.Attack;
-	}else if keyboard_check_pressed(obj_GameManager.inputSlide) playerState = RunnerPlayerState.Slide;
+	}else if keyboard_check_pressed(obj_GameManager.inputSlide){
+		playerState = RunnerPlayerState.Slide;
+		obj_aimingArm.visible = false;
+	}
 	else if keyboard_check_pressed(obj_GameManager.inputJump) {
 		playerState = RunnerPlayerState.Jump;
 		obj_aimingArm.visible = false;
@@ -50,22 +53,27 @@ function SlideState(){
 	slide_counter ++;
 	sprite_index = spr_playerRoll;
 
+	if(place_empty(x,y,obj_ground)){
+		ApplyGravity();	
+	}
+
+
 	//change state situation
 	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee) && (!collision_circle(x,y + floorCheckY, 10,obj_ground,false,true)) && canAttack == true{
 		attackState = PlayerAttackState.Down;
 		playerState = RunnerPlayerState.Attack;
-		obj_aimingArm.visible = true;
+		obj_aimingArm.visible = false;
 
 	}else if(slide_counter >= slide_time || (keyboard_check_released(obj_GameManager.inputSlide) && slide_counter >= slide_min_time)) && 
 	(!collision_circle(x,y + floorCheckY, 10,obj_ground,false,true)) {
 		slide_counter = 0;
 		playerState = RunnerPlayerState.Run;
 		sprite_index = spr_Runcycle;
-		obj_aimingArm.visible = true;
+		obj_aimingArm.visible = false;
 
 	}else if (!collision_circle(x,y + groundCheckY,10,obj_ground,false,true)){ 
 		playerState = RunnerPlayerState.Fall;
-		obj_aimingArm.visible = true;
+		obj_aimingArm.visible = false;
 
 	}else if keyboard_check_pressed(obj_GameManager.inputJump) {
 		playerState = RunnerPlayerState.Jump;
@@ -86,12 +94,17 @@ function JumpState(){
 	if(jump_counter >= jump_time){      //||    (jump_counter >= jump_min_time && !keyboard_check(obj_GameManager.inputJump))) {
 		playerState = RunnerPlayerState.InAir;
 		jump_counter = 0;
+		obj_aimingArm.visible = false;
+
 	}else if mouse_check_button_pressed(obj_GameManager.inputAttakMelee) && canAttack == true{
 		attackTrigger = true;
+		obj_aimingArm.visible = false;
 //		attackState = PlayerAttackState.Up;
 //		playerState = RunnerPlayerState.Attack;
+	}else if keyboard_check_pressed(obj_GameManager.inputSlide){
+		playerState = RunnerPlayerState.Slide;
+		obj_aimingArm.visible = false;
 	}
-	
 	 y+=vsp;
 }
 
@@ -100,40 +113,41 @@ function InAirState(){
 	sprite_index = spr_playerJump;
 	inAir_counter++;
 	
-		MoveRunner();
+	MoveRunner();
 
 		//change state situation
 	if (mouse_check_button_pressed(obj_GameManager.inputAttakMelee) || attackTrigger == true) && canAttack == true{
 		attackTrigger = false;
 		attackState = PlayerAttackState.Up;
 		playerState = RunnerPlayerState.Attack;
+		obj_aimingArm.visible = false;
 	}else if(inAir_counter >= InAir_max){      //||    (jump_counter >= jump_min_time && !keyboard_check(obj_GameManager.inputJump))) {
 		playerState = RunnerPlayerState.Fall;
 		inAir_counter = 0;
-	}
+		obj_aimingArm.visible = false;
 
+	}else if keyboard_check_pressed(obj_GameManager.inputSlide){
+		playerState = RunnerPlayerState.Slide;
+		obj_aimingArm.visible = false;
+	}
 }
 
 function FallState(){
 	playerStateName = "Fall";
-	if(vsp <= 0) vsp = gravity_force;
 	
-	vsp += gravity_acereration;
+	ApplyGravity();
 
 	
 	
-	//change state situation
-//	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee) && canAttack = true{
-//		attackState = PlayerAttackState.Up;
-//		playerState = RunnerPlayerState.Attack;
-//	}else 
+	
 	if (collision_circle(x,y + groundCheckY,10,obj_ground,false,true)){ 
 		playerState = RunnerPlayerState.Run;
 		sprite_index = spr_Runcycle;
 		obj_aimingArm.visible = true;
-
-	}	
-	y+=vsp
+	}else if keyboard_check_pressed(obj_GameManager.inputSlide){
+		playerState = RunnerPlayerState.Slide;
+		obj_aimingArm.visible = false;	
+	}
 }
 
 function IdleState(){
@@ -210,4 +224,12 @@ function MoveRunner(){
 		SetSpeed(0);	
 	}
 	
+}
+
+function ApplyGravity(){
+	if(vsp <= 0) vsp = gravity_force;
+	
+	vsp += gravity_acereration;
+	
+	y+=vsp
 }
