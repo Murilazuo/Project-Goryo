@@ -115,6 +115,11 @@ function RunnerLevel(){
 
 }*/
 levelId = 0;
+
+shooterStage1 = 0;
+shooterStage2 = 0;
+shooterStage3 = 0;
+
 function NextLevel(levelToGo){ //, nextLevel = false, newRunnerLevel = undefined){
 	//level++;
 	
@@ -155,13 +160,15 @@ function NextLevel(levelToGo){ //, nextLevel = false, newRunnerLevel = undefined
 		
 		//level 1	
 		case levels.A1Shooter:
-			GoToRoom(room1AShooter,GameState.Shooter,1);
+			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
+			GoToRoom(roomShooter,GameState.Shooter,1);
 			break;
 		case levels.B1Runner:
 			GoToRoom(room1BRunner,GameState.Runner,2);
 			break;
 		case levels.C1Shooter:
-			GoToRoom(room1CShooter,GameState.Shooter,3);
+			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
+			GoToRoom(roomShooter,GameState.Shooter,3);
 			break;
 		case levels.D1Runner:
 			GoToRoom(room1DRunner,GameState.Runner,4);
@@ -171,17 +178,20 @@ function NextLevel(levelToGo){ //, nextLevel = false, newRunnerLevel = undefined
 			GoToRoom(room2ARunner,GameState.Runner,5);
 			break;
 		case levels.B2Shooter:
-			GoToRoom(room2BShooter,GameState.Shooter,6);
+			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
+			GoToRoom(roomShooter,GameState.Shooter,6);
 			break;
 		case levels.C2Shooter:
-			GoToRoom(room2CShooter,GameState.Shooter,7);
+			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
+			GoToRoom(roomShooter,GameState.Shooter,7);
 			break;
 		case levels.D2Runner:
 			GoToRoom(room2DRunner,GameState.Runner,8);
 			break;
 		//level 3
 		case levels.A3Shooter:
-			GoToRoom(room3AShooter,GameState.Shooter,9);
+			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
+			GoToRoom(roomShooter,GameState.Shooter,9);
 			break;
 		case levels.B3Runner:
 			GoToRoom(room3BRunner,GameState.Runner,10);
@@ -190,7 +200,8 @@ function NextLevel(levelToGo){ //, nextLevel = false, newRunnerLevel = undefined
 			GoToRoom(room3CRunner,GameState.Runner,11);
 			break;
 		case levels.D3Shooter:
-			GoToRoom(room3DShooter,GameState.Shooter,12);
+			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
+			GoToRoom(roomShooter,GameState.Shooter,12);
 			break;
 		
 		//upgrade
@@ -213,4 +224,10 @@ function GoToRoom(roomToGo, state, newLevelId){
 	gameState = state;
 	room_goto(roomToGo);
 	levelId = newLevelId;
+}
+
+function SetShooterTimeLine(timeLine1,timeLine2,timeLine3){
+	shooterStage1 = timeLine1;
+	shooterStage2 = timeLine2;
+	shooterStage3 = timeLine3;
 }
