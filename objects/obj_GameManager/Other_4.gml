@@ -6,7 +6,9 @@ player = noone;
 newBikeHealth = 0;
 
 //SCORING SYSTEM
-currentScore = 0;
+if(gameState != GameState.Menu){
+	currentScore = 0;
+}
 //currentCash = 0;
 //TESTE DE PARTICULAS
 

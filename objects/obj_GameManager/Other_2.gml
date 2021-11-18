@@ -45,6 +45,9 @@ player = noone;
 gameState = GameState.Menu;
 //level = 0;
 levelRoom = roomStart;
+scoreTotal = 0; //pegar do save
+currentScore = 0;
+
 
 //OPTIONS VARIABLE
 masterVolume = 1; //acessar no arquivo de save
@@ -81,6 +84,7 @@ enum levels
 	start,
 	credits,
 	options,
+	endLevel
 	
 	
 }
@@ -88,42 +92,17 @@ enum levels
 
 
 //Level Manager
-/*
-runnerLevel = 1;
-
-function RunnerLevel(){
-	
-	switch(runnerLevel){
-	case 0:
-		levelRoom = runnerPlayerDebugRoom;
-		gameState = GameState.Runner;
-		room_goto(runnerPlayerDebugRoom);
-
-		break;
-	case 1:
-		levelRoom = runner1;
-		gameState = GameState.Runner;
-		room_goto(runner1);
-		break;
-	case 2:
-		levelRoom = runner2;
-		gameState = GameState.Runner;
-		room_goto(runner2);
-		break;
-	}
-				
-
-}*/
 levelId = 0;
 
 shooterStage1 = 0;
 shooterStage2 = 0;
 shooterStage3 = 0;
 
-function NextLevel(levelToGo){ //, nextLevel = false, newRunnerLevel = undefined){
-	//level++;
+
+
+function NextLevel(levelToGo){
 	
-	//if(nextLevel == true) runnerLevel++;
+	scoreTotal += currentScore;
 
 	switch(levelToGo){
 		
@@ -139,25 +118,25 @@ function NextLevel(levelToGo){ //, nextLevel = false, newRunnerLevel = undefined
 		levelRoom = runnerPlayerDebugRoom;
 		gameState = GameState.Runner;
 		room_goto(runnerPlayerDebugRoom);
-		//if(newRunnerLevel != undefined) runnerLevel = newRunnerLevel
-		//RunnerLevel();
+	
 			break;
 			
 		//Menu
 		case levels.start:
-			//levelRoom = roomStart;
 		gameState = GameState.Menu;
 		room_goto(roomStart);
 			break;
 		case levels.credits:
-			//levelRoom = roomCredits;
 			gameState = GameState.Menu;
 			room_goto(roomCredits);
 			break;
 		case levels.options:
-			//levelRoom = roomCredits;
 			gameState = GameState.Menu;
 			room_goto(roomOptions);
+			break;
+		case levels.endLevel:
+			gameState = GameState.Menu;
+			room_goto(roomEndLevel);
 			break;
 		
 		//level 1	

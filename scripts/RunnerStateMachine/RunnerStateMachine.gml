@@ -162,7 +162,10 @@ function ExitLevelState(){
 	var distanceToEndRoom = room_width - x;
 	
 	if(distanceToEndRoom < -500){
-		obj_GameManager.NextLevel(0);
+		if obj_GameManager.levelId % 4 == 0{
+			obj_GameManager.NextLevel(levels.endLevel);
+		}
+		obj_GameManager.NextLevel(++obj_GameManager.levelId);
 	}else if(distanceToEndRoom > -5 && distanceToEndRoom < 5 ){
 		obj_glassParticle.BreakGlass();
 	}

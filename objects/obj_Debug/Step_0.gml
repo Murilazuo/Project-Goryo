@@ -19,6 +19,10 @@ if(keyboard_check(vk_numpad5)){
 	obj_GameManager.NextLevel(levels.B1Runner);
 }
 
+if(keyboard_check(vk_numpad6)){
+	obj_GameManager.NextLevel(levels.endLevel);
+}
+
 if keyboard_check_pressed(vk_numpad0) debug = !debug;
 
 ManagerDebugMode();
