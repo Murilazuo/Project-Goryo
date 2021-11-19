@@ -22,7 +22,7 @@ function StartState(){
 
 function RunState(){
 	playerStateName = "Run";
-		sprite_index = spr_Runcycle;
+		
 	//sprite Run
 	
 	MoveRunner();
@@ -182,7 +182,6 @@ function ExitLevelState(){
 
 function AttackState(){	
 	playerStateName = "Attack";
-	
 	global.canAttack = false;
 	inAttack = true;
 			
