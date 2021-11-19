@@ -201,6 +201,7 @@ function AttackState(){
 	SetSpeed(0);
 	
     playerState = RunnerPlayerState.Run;
+	obj_aimingArm.visible = true;
 }
 
 function SetAttackState(sprAttack, stateName, attackAngle,extraPositionX, extraPositionY){

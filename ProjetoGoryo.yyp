@@ -56,6 +56,7 @@
     {"id":{"name":"spr_clashBullet","path":"sprites/spr_clashBullet/spr_clashBullet.yy",},"order":6,},
     {"id":{"name":"room3DShooter","path":"rooms/room3DShooter/room3DShooter.yy",},"order":5,},
     {"id":{"name":"spr_pillsPickup","path":"sprites/spr_pillsPickup/spr_pillsPickup.yy",},"order":3,},
+    {"id":{"name":"spr_cursorMenus","path":"sprites/spr_cursorMenus/spr_cursorMenus.yy",},"order":22,},
     {"id":{"name":"spr_flavorText","path":"sprites/spr_flavorText/spr_flavorText.yy",},"order":2,},
     {"id":{"name":"spr_overHeatFill","path":"sprites/spr_overHeatFill/spr_overHeatFill.yy",},"order":5,},
     {"id":{"name":"spr_Ballistic_Projectile","path":"sprites/spr_Ballistic_Projectile/spr_Ballistic_Projectile.yy",},"order":3,},
