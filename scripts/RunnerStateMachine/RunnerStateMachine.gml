@@ -22,6 +22,7 @@ function StartState(){
 
 function RunState(){
 	playerStateName = "Run";
+		sprite_index = spr_Runcycle;
 	//sprite Run
 	
 	MoveRunner();
@@ -202,6 +203,7 @@ function AttackState(){
 	
     playerState = RunnerPlayerState.Run;
 	obj_aimingArm.visible = true;
+
 }
 
 function SetAttackState(sprAttack, stateName, attackAngle,extraPositionX, extraPositionY){
