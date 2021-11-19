@@ -22,7 +22,6 @@ function StartState(){
 
 function RunState(){
 	playerStateName = "Run";
-		
 	//sprite Run
 	
 	MoveRunner();
@@ -202,6 +201,7 @@ function AttackState(){
 	
     playerState = RunnerPlayerState.Run;
 	obj_aimingArm.visible = true;
+	
 
 }
 

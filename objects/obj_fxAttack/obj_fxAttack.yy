@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_fxAttack",
-    "path": "sprites/spr_fxAttack/spr_fxAttack.yy",
+    "name": "spr_fxAttackRonin",
+    "path": "sprites/spr_fxAttackRonin/spr_fxAttackRonin.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
