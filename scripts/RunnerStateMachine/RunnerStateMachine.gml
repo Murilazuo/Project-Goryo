@@ -70,7 +70,7 @@ function SlideState(){
 		slide_counter = 0;
 		playerState = RunnerPlayerState.Run;
 		sprite_index = spr_Runcycle;
-		obj_aimingArm.visible = false;
+		obj_aimingArm.visible = true;
 
 	}else if (!collision_circle(x,y + groundCheckY,10,obj_ground,false,true)){ 
 		playerState = RunnerPlayerState.Fall;
