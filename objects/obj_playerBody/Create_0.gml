@@ -12,7 +12,7 @@ attack_counter = 0;
 inAir_counter = 0;
 
 inAttack = false;
-canAttack = true;
+global.canAttack = true;
 attackTrigger = false;
 
 inCamera = false;

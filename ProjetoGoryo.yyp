@@ -200,6 +200,7 @@
     {"id":{"name":"obj_sliderVolume","path":"objects/obj_sliderVolume/obj_sliderVolume.yy",},"order":3,},
     {"id":{"name":"tm_GameOver","path":"timelines/tm_GameOver/tm_GameOver.yy",},"order":1,},
     {"id":{"name":"SpawnLaserVan","path":"scripts/SpawnLaserVan/SpawnLaserVan.yy",},"order":3,},
+    {"id":{"name":"spr_cursorMeleeAttack","path":"sprites/spr_cursorMeleeAttack/spr_cursorMeleeAttack.yy",},"order":21,},
     {"id":{"name":"spr_controlPanelRunner","path":"sprites/spr_controlPanelRunner/spr_controlPanelRunner.yy",},"order":7,},
     {"id":{"name":"obj_upgradeArmorBtn","path":"objects/obj_upgradeArmorBtn/obj_upgradeArmorBtn.yy",},"order":6,},
     {"id":{"name":"PreAttackReaction","path":"scripts/PreAttackReaction/PreAttackReaction.yy",},"order":3,},

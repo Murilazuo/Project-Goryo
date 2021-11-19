@@ -55,7 +55,7 @@ if place_empty(x,y,Obj_inimigo) inCollision = false;
 if(attack_counter >= attack_cooldown){
 		
         inAttack = false;
-		canAttack = true;
+		global.canAttack = true;
         attack_counter = 0;
 }else if inAttack == true{
 	attack_counter++;	
