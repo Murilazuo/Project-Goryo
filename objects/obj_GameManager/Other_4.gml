@@ -20,6 +20,7 @@ if(instance_exists(obj_LevelManager)){
 	
 	switch(gameState){
 	case GameState.Shooter:
+			//audio_play_sound(snd_runner,1,1);
 		player = obj_playerPilot;	
 
 		break;

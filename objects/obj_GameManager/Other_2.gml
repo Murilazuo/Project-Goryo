@@ -115,6 +115,7 @@ function NextLevel(levelToGo){
 		room_goto(shooterDebugRoom);
 			break;
 		case levels.debugRunner:
+		audio_play_sound(snd_runner,1,1);
 		levelRoom = runnerPlayerDebugRoom;
 		gameState = GameState.Runner;
 		room_goto(runnerPlayerDebugRoom);
@@ -146,6 +147,7 @@ function NextLevel(levelToGo){
 			break;
 		case levels.B1Runner:
 			GoToRoom(room1BRunner,GameState.Runner,2);
+				audio_play_sound(snd_runner,1,1);
 			break;
 		case levels.C1Shooter:
 			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
