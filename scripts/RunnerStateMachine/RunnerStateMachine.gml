@@ -186,21 +186,21 @@ function AttackState(){
 			
 	switch(attackState){
 		case PlayerAttackState.Up:
-			SetAttackState(spr_AttackUp,"Up",-90, 0 , 25);
+			SetAttackState(spr_meleeAerial,"Up",-90, 0 , 25);
 			break;
 
 		case PlayerAttackState.Middle:
 			SetAttackState(spr_meleeAttack,"Middle",0, 50 , 0 );
 			break;
 		case PlayerAttackState.Down:
-			SetAttackState(spr_AttackDown,"Down", 90 , 0 , -10 );
+			SetAttackState(spr_meleeSlide,"Down", 90 , 0 , -10 );
 			break;
 	}
 	
 	SetSpeed(0);
 	
     playerState = RunnerPlayerState.Run;
-	obj_aimingArm.visible = true;
+
 	
 
 }
