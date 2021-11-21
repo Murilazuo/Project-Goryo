@@ -9,4 +9,4 @@ draw_set_valign(fa_top);
 
 draw_text_transformed(x+55,y+8,gunName,textScale,textScale,0);
 
-draw_sprite(spr_gunIcon,1,x+55,y+25);
+draw_sprite(spr_gunIcon,imageId,x+55,y+25);
