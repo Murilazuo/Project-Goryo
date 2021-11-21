@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_startBackGroundPlaceHolder",
-    "path": "sprites/spr_startBackGroundPlaceHolder/spr_startBackGroundPlaceHolder.yy",
+    "name": "spr_titleScreen",
+    "path": "sprites/spr_titleScreen/spr_titleScreen.yy",
   },
   "solid": false,
   "visible": true,
