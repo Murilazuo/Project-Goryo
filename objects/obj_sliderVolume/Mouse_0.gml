@@ -5,5 +5,5 @@
 event_inherited();
 
 
-obj_GameManager.masterVolume = value;
-
+//obj_GameManager.masterVolume = value;
+audio_master_gain(value);

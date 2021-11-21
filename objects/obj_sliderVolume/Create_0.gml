@@ -2,7 +2,7 @@ sliderSelector = instance_create_depth(x,y,depth-1,obj_sliderSelect);
 
 image_xscale = 7;
 
-sliderSelector.x = x + (obj_GameManager.masterVolume * maxSliderSelectorX);
+sliderSelector.x = x + (audio_get_master_gain(0) * maxSliderSelectorX);
 
 function GetValue(){
 	if normalize
