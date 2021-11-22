@@ -1,2 +1,3 @@
 /// @description reacts to explosion
-other.myHealth -= 200;
+if(image_index <= 3)
+	other.myHealth -= 200;

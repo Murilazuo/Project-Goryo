@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-other.myHealth -= 200;
+if(image_index <= 3)
+	other.myHealth -= 200;

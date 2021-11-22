@@ -50,7 +50,7 @@ currentScore = 0;
 
 
 //OPTIONS VARIABLE
-masterVolume = 1; //acessar no arquivo de save
+audio_master_gain(0.5);
 
 //RUNNER SPEED
 global.baseSpeed = startBaseSpeed;
