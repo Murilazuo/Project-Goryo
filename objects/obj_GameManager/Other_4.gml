@@ -1,5 +1,8 @@
 player = noone;
 
+currentMoney = 0;
+
+
 //part_particles_create(obj_ParticleManager.particleSystem,500,200, obj_ParticleManager.glassParticle,10);
 //^^ so p testar particula de vidro
 

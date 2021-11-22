@@ -16,7 +16,7 @@ inputHealing = ord("Q");
 //bulletSpeed = 15;
 playerHP = 5;
 bikeHp = 60;
-playerMoney = 600;
+totalMoney = 600;
 healingItem = 0;
 
 
@@ -102,6 +102,7 @@ shooterStage3 = 0;
 function NextLevel(levelToGo){
 	
 	scoreTotal += currentScore;
+	totalMoney += currentMoney;
 	
 	switch(levelToGo){
 		
@@ -210,7 +211,7 @@ function NextLevel(levelToGo){
 }
 
 function AddMoney(){
-	playerMoney++;	
+	currentMoney++;	
 }
 
 function GoToRoom(roomToGo, state, newLevelId){
