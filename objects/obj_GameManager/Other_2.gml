@@ -1,4 +1,3 @@
-
 //attack
 inputShoot = mb_left;
 inputAttakMelee = mb_right;

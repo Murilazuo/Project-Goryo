@@ -12,9 +12,10 @@ function StartState(){
 	
 	if(place_meeting(x,y + vsp,groundCheck)){ 
 		
-		// efeito de vidraça qubrando
 		// animação de entrada triumfal
-		playerState = RunnerPlayerState.Run;
+		playerState = RunnerPlayerState.Slide;
+		obj_aimingArm.visible = false;
+
 	}	
 	y+=vsp
 	
