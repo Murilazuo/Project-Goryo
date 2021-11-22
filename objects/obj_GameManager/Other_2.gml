@@ -92,7 +92,7 @@ enum levels
 
 
 //Level Manager
-levelId = 0;
+levelId = 1;
 
 shooterStage1 = 0;
 shooterStage2 = 0;
@@ -103,7 +103,7 @@ shooterStage3 = 0;
 function NextLevel(levelToGo){
 	
 	scoreTotal += currentScore;
-
+	
 	switch(levelToGo){
 		
 		//debugs
@@ -142,47 +142,59 @@ function NextLevel(levelToGo){
 		
 		//level 1	
 		case levels.A1Shooter:
+		case 1:
 			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
 			GoToRoom(roomShooter,GameState.Shooter,1);
 			break;
 		case levels.B1Runner:
+		case 2:
 			GoToRoom(room1BRunner,GameState.Runner,2);
 				audio_play_sound(snd_runner,1,1);
 			break;
 		case levels.C1Shooter:
+		case 3:
 			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
 			GoToRoom(roomShooter,GameState.Shooter,3);
 			break;
 		case levels.D1Runner:
+		case 4:
 			GoToRoom(room1DRunner,GameState.Runner,4);
 			break;
 		//level 2
 		case levels.A2Runner:
+		case 5:
 			GoToRoom(room2ARunner,GameState.Runner,5);
 			break;
 		case levels.B2Shooter:
+		case 6:
 			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
 			GoToRoom(roomShooter,GameState.Shooter,6);
 			break;
 		case levels.C2Shooter:
+		case 7:
 			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
 			GoToRoom(roomShooter,GameState.Shooter,7);
 			break;
 		case levels.D2Runner:
+		case 8:
 			GoToRoom(room2DRunner,GameState.Runner,8);
 			break;
 		//level 3
 		case levels.A3Shooter:
+		case 9:
 			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
 			GoToRoom(roomShooter,GameState.Shooter,9);
 			break;
 		case levels.B3Runner:
+		case 10:
 			GoToRoom(room3BRunner,GameState.Runner,10);
 			break;
 		case levels.C3Runner:
+		case 11:
 			GoToRoom(room3CRunner,GameState.Runner,11);
 			break;
 		case levels.D3Shooter:
+		case 12:
 			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
 			GoToRoom(roomShooter,GameState.Shooter,12);
 			break;
@@ -205,8 +217,9 @@ function AddMoney(){
 function GoToRoom(roomToGo, state, newLevelId){
 	levelRoom = roomToGo;
 	gameState = state;
-	room_goto(roomToGo);
 	levelId = newLevelId;
+	room_goto(roomToGo);
+
 }
 
 function SetShooterTimeLine(timeLine1,timeLine2,timeLine3){

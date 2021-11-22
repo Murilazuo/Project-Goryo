@@ -1,3 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-obj_GameManager.NextLevel(++obj_GameManager.levelId);
+var nextLevelId = obj_GameManager.levelId;
+nextLevelId++;
+
+obj_GameManager.NextLevel(nextLevelId);

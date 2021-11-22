@@ -75,6 +75,7 @@
     {"id":{"name":"obj_backGround","path":"objects/obj_backGround/obj_backGround.yy",},"order":4,},
     {"id":{"name":"room2CShooter","path":"rooms/room2CShooter/room2CShooter.yy",},"order":3,},
     {"id":{"name":"PathManagerHoverbike","path":"scripts/PathManagerHoverbike/PathManagerHoverbike.yy",},"order":6,},
+    {"id":{"name":"obj_btnEndLevel","path":"objects/obj_btnEndLevel/obj_btnEndLevel.yy",},"order":7,},
     {"id":{"name":"BulletSpawnAngleFix","path":"scripts/BulletSpawnAngleFix/BulletSpawnAngleFix.yy",},"order":3,},
     {"id":{"name":"spr_AttackUp","path":"sprites/spr_AttackUp/spr_AttackUp.yy",},"order":6,},
     {"id":{"name":"obj_upgradeSwordBtn","path":"objects/obj_upgradeSwordBtn/obj_upgradeSwordBtn.yy",},"order":5,},
