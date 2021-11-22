@@ -120,6 +120,7 @@
     {"id":{"name":"obj_caltrops","path":"objects/obj_caltrops/obj_caltrops.yy",},"order":1,},
     {"id":{"name":"spr_porta","path":"sprites/spr_porta/spr_porta.yy",},"order":1,},
     {"id":{"name":"spr_HealthBarFillThick","path":"sprites/spr_HealthBarFillThick/spr_HealthBarFillThick.yy",},"order":8,},
+    {"id":{"name":"spr_bloodExplosion","path":"sprites/spr_bloodExplosion/spr_bloodExplosion.yy",},"order":11,},
     {"id":{"name":"obj_Debug","path":"objects/obj_Debug/obj_Debug.yy",},"order":1,},
     {"id":{"name":"font_SairaCondensedBold","path":"fonts/font_SairaCondensedBold/font_SairaCondensedBold.yy",},"order":1,},
     {"id":{"name":"room3AShooter","path":"rooms/room3AShooter/room3AShooter.yy",},"order":4,},

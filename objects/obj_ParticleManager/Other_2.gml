@@ -45,6 +45,12 @@ part_type_direction(bloodSlashParticle, 0, 90, 0, 0);
 part_type_orientation(bloodSlashParticle, 0, 359, .5, 1,false);
 part_type_speed(bloodSlashParticle,2,6,0,1);
 
+bloodExplosionParticle = part_type_create();
+part_type_sprite(bloodExplosionParticle,spr_bloodExplosion,true,true,false);
+part_type_life(bloodExplosionParticle,16,24);
+part_type_orientation(bloodExplosionParticle, 0, 359, .5, 1,false);
+part_type_alpha3(bloodExplosionParticle,1,.8,0);
+
 glassParticle = part_type_create(); 
 part_type_sprite(glassParticle,spr_glassCracking,true,true,true);
 part_type_life(glassParticle,45,45);
