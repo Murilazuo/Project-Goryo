@@ -6,6 +6,7 @@
     {"id":{"name":"SpawnHoverMine","path":"scripts/SpawnHoverMine/SpawnHoverMine.yy",},"order":5,},
     {"id":{"name":"AddToMoney","path":"scripts/AddToMoney/AddToMoney.yy",},"order":6,},
     {"id":{"name":"obj_Uibase","path":"objects/obj_Uibase/obj_Uibase.yy",},"order":20,},
+    {"id":{"name":"GetFloor","path":"scripts/GetFloor/GetFloor.yy",},"order":4,},
     {"id":{"name":"obj_aimingArm","path":"objects/obj_aimingArm/obj_aimingArm.yy",},"order":2,},
     {"id":{"name":"spr_HidenArea","path":"sprites/spr_HidenArea/spr_HidenArea.yy",},"order":8,},
     {"id":{"name":"spr_overheat","path":"sprites/spr_overheat/spr_overheat.yy",},"order":6,},

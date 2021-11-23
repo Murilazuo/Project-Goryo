@@ -24,3 +24,5 @@ attackState = PlayerAttackState.None;
 attackStateName = "None";
 
 inCollision = false;
+
+myFloor = GetFloor();
