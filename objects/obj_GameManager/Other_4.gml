@@ -1,6 +1,7 @@
 player = noone;
 
 currentMoney = 0;
+playerMoney = currentMoney;
 
 
 //part_particles_create(obj_ParticleManager.particleSystem,500,200, obj_ParticleManager.glassParticle,10);

@@ -15,6 +15,4 @@ if keyboard_check_pressed(obj_GameManager.inputInteract){
 	obj_LevelManager.NextFloor(0.5);
 	
 	myFloor = GetFloor();
-	
-	Obj_inimigo.CheckFloor();
 }
