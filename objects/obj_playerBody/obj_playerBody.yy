@@ -63,6 +63,7 @@
     {"varType":0,"value":"-8","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"floorCheckY","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":5,"value":"spr_meleeAttack","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"meleeMid","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":5,"value":"spr_meleeSlide","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"meleeLow","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":5,"value":"spr_meleeAerial","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"meleeUp","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [
     {"propertyId":{"name":"sprLookForwards","path":"objects/obj_basePlayer/obj_basePlayer.yy",},"objectId":{"name":"obj_basePlayer","path":"objects/obj_basePlayer/obj_basePlayer.yy",},"value":"spr_Runcycle","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
