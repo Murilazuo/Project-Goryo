@@ -15,6 +15,7 @@ function StartState(){
 		// animação de entrada triumfal
 		playerState = RunnerPlayerState.Slide;
 		obj_aimingArm.visible = false;
+		sprite_index = spr_playerRoll;
 
 	}	
 	y+=vsp
@@ -31,9 +32,11 @@ function RunState(){
 	if mouse_check_button_pressed(obj_GameManager.inputAttakMelee) && global.canAttack == true{
 		attackState = PlayerAttackState.Middle;
 		playerState = RunnerPlayerState.Attack;
-	}else if keyboard_check_pressed(obj_GameManager.inputSlide){
+	}else if keyboard_check(obj_GameManager.inputSlide){
 		playerState = RunnerPlayerState.Slide;
 		obj_aimingArm.visible = false;
+		sprite_index = spr_playerRoll;
+
 	}
 	else if keyboard_check_pressed(obj_GameManager.inputJump) {
 		playerState = RunnerPlayerState.Jump;
@@ -53,7 +56,6 @@ function SlideState(){
 	MoveRunner();
 	
 	slide_counter ++;
-	sprite_index = spr_playerRoll;
 
 	if(place_empty(x,y,obj_ground)){
 		ApplyGravity();	
@@ -67,7 +69,7 @@ function SlideState(){
 		obj_aimingArm.visible = false;
 
 	}else if(slide_counter >= slide_time || (keyboard_check_released(obj_GameManager.inputSlide) && slide_counter >= slide_min_time)) && 
-	(!collision_circle(x,y + floorCheckY, 10,obj_ground,false,true)) {
+	(!collision_circle(x,y + floorCheckY, 10,obj_ground,false,true)) && (!keyboard_check(obj_GameManager.inputSlide)) {
 		slide_counter = 0;
 		playerState = RunnerPlayerState.Run;
 		sprite_index = spr_Runcycle;
@@ -106,6 +108,8 @@ function JumpState(){
 	}else if keyboard_check_pressed(obj_GameManager.inputSlide){
 		playerState = RunnerPlayerState.Slide;
 		obj_aimingArm.visible = false;
+		sprite_index = spr_playerRoll;
+
 	}
 	 y+=vsp;
 }
@@ -131,6 +135,8 @@ function InAirState(){
 	}else if keyboard_check_pressed(obj_GameManager.inputSlide){
 		playerState = RunnerPlayerState.Slide;
 		obj_aimingArm.visible = false;
+		sprite_index = spr_playerRoll;
+
 	}
 }
 
@@ -149,6 +155,8 @@ function FallState(){
 	}else if keyboard_check_pressed(obj_GameManager.inputSlide){
 		playerState = RunnerPlayerState.Slide;
 		obj_aimingArm.visible = false;	
+		sprite_index = spr_playerRoll;
+
 	}
 }
 
@@ -187,8 +195,7 @@ function ExitLevelState(){
 
 function AttackState(){	
 	playerStateName = "Attack";
-	global.canAttack = false;
-	inAttack = true;
+
 			
 	switch(attackState){
 		case PlayerAttackState.Up:
@@ -205,9 +212,22 @@ function AttackState(){
 	
 	SetSpeed(0);
 	
-    playerState = RunnerPlayerState.Run;
+	if(global.canAttack && keyboard_check(obj_GameManager.inputAttakMelee)){
+	switch(attackState){
+		case PlayerAttackState.Up:
+			SetAttackState(spr_meleeAerial,"Up",-90, 0 , 25);
+			break;
 
-	
+		case PlayerAttackState.Middle:
+			SetAttackState(spr_meleeAttack,"Middle",0, 50 , 0 );
+			break;
+		case PlayerAttackState.Down:
+			SetAttackState(spr_meleeSlide,"Down", 90 , 0 , -10 );
+			break;
+	}
+		
+	}
+		
 
 }
 
