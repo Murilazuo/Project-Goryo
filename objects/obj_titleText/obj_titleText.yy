@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "title2",
+    "path": "sprites/title2/title2.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -17,14 +20,12 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Ui",
-    "path": "folders/Objects/Ui.yy",
+    "name": "Start",
+    "path": "folders/Objects/Ui/Start.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_titleText",
