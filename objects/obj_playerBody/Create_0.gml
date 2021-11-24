@@ -26,3 +26,5 @@ attackStateName = "None";
 inCollision = false;
 
 myFloor = GetFloor();
+
+canTakeDamage = true;

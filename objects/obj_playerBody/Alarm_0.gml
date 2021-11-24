@@ -1,0 +1,1 @@
+canTakeDamage = true;
