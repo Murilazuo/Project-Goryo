@@ -9,8 +9,8 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 15,
-  "bbox_top": 1,
-  "bbox_bottom": 14,
+  "bbox_top": 0,
+  "bbox_bottom": 15,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -26,6 +26,7 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"7b31351a-422b-4044-89c3-ae9939c4f32e","path":"sprites/spr_HidenArea/spr_HidenArea.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"7b31351a-422b-4044-89c3-ae9939c4f32e","path":"sprites/spr_HidenArea/spr_HidenArea.yy",},"LayerId":{"name":"33ea63d2-bfa9-463b-b5d7-81227e3999fb","path":"sprites/spr_HidenArea/spr_HidenArea.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"7b31351a-422b-4044-89c3-ae9939c4f32e","path":"sprites/spr_HidenArea/spr_HidenArea.yy",},"LayerId":{"name":"b2977433-78eb-474b-bc17-a36172e3f9aa","path":"sprites/spr_HidenArea/spr_HidenArea.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_HidenArea","path":"sprites/spr_HidenArea/spr_HidenArea.yy",},"resourceVersion":"1.0","name":"7b31351a-422b-4044-89c3-ae9939c4f32e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -65,7 +66,8 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"33ea63d2-bfa9-463b-b5d7-81227e3999fb","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"b2977433-78eb-474b-bc17-a36172e3f9aa","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"33ea63d2-bfa9-463b-b5d7-81227e3999fb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
