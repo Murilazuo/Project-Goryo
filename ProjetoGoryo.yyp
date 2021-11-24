@@ -41,6 +41,7 @@
     {"id":{"name":"obj_Credits","path":"objects/obj_Credits/obj_Credits.yy",},"order":13,},
     {"id":{"name":"spr_manager","path":"sprites/spr_manager/spr_manager.yy",},"order":1,},
     {"id":{"name":"RunnerMove","path":"scripts/RunnerMove/RunnerMove.yy",},"order":0,},
+    {"id":{"name":"spr_barraSlider","path":"sprites/spr_barraSlider/spr_barraSlider.yy",},"order":31,},
     {"id":{"name":"DamageFeedback","path":"scripts/DamageFeedback/DamageFeedback.yy",},"order":2,},
     {"id":{"name":"SpawnStalker","path":"scripts/SpawnStalker/SpawnStalker.yy",},"order":4,},
     {"id":{"name":"spr_pillsIcon","path":"sprites/spr_pillsIcon/spr_pillsIcon.yy",},"order":16,},

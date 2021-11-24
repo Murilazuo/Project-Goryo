@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_button",
-    "path": "sprites/spr_button/spr_button.yy",
+    "name": "spr_barraSlider",
+    "path": "sprites/spr_barraSlider/spr_barraSlider.yy",
   },
   "solid": false,
   "visible": true,

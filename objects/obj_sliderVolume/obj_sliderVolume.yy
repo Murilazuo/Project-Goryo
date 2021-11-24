@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_sliderBar",
-    "path": "sprites/spr_sliderBar/spr_sliderBar.yy",
+    "name": "spr_barraSlider",
+    "path": "sprites/spr_barraSlider/spr_barraSlider.yy",
   },
   "solid": false,
   "visible": true,

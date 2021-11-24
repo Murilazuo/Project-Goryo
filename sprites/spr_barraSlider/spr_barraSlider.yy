@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"124a444e-48e4-4ab7-bff8-0a36d321ba9b","path":"sprites/spr_sliderBar/spr_sliderBar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"124a444e-48e4-4ab7-bff8-0a36d321ba9b","path":"sprites/spr_sliderBar/spr_sliderBar.yy",},"LayerId":{"name":"7a9247a9-e2c0-457f-91c4-93f4911e357d","path":"sprites/spr_sliderBar/spr_sliderBar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sliderBar","path":"sprites/spr_sliderBar/spr_sliderBar.yy",},"resourceVersion":"1.0","name":"124a444e-48e4-4ab7-bff8-0a36d321ba9b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"925c8b8c-01bf-4df8-835a-7778ce0c9c2d","path":"sprites/spr_barraSlider/spr_barraSlider.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"925c8b8c-01bf-4df8-835a-7778ce0c9c2d","path":"sprites/spr_barraSlider/spr_barraSlider.yy",},"LayerId":{"name":"86a2a0b7-ca1e-484c-9ddd-41c2f76bf0f7","path":"sprites/spr_barraSlider/spr_barraSlider.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_barraSlider","path":"sprites/spr_barraSlider/spr_barraSlider.yy",},"resourceVersion":"1.0","name":"925c8b8c-01bf-4df8-835a-7778ce0c9c2d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_sliderBar","path":"sprites/spr_sliderBar/spr_sliderBar.yy",},
+    "spriteId": {"name":"spr_barraSlider","path":"sprites/spr_barraSlider/spr_barraSlider.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d52669b2-0752-415e-831b-094a1ab0c397","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"124a444e-48e4-4ab7-bff8-0a36d321ba9b","path":"sprites/spr_sliderBar/spr_sliderBar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"618eb22a-5392-486e-ba85-ded7231a83d9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"925c8b8c-01bf-4df8-835a-7778ce0c9c2d","path":"sprites/spr_barraSlider/spr_barraSlider.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,20 +58,20 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_sliderBar","path":"sprites/spr_sliderBar/spr_sliderBar.yy",},
+    "parent": {"name":"spr_barraSlider","path":"sprites/spr_barraSlider/spr_barraSlider.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_sliderBar",
+    "name": "spr_barraSlider",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7a9247a9-e2c0-457f-91c4-93f4911e357d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"86a2a0b7-ca1e-484c-9ddd-41c2f76bf0f7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": {
-    "left": 3,
-    "top": 3,
-    "right": 3,
-    "bottom": 3,
+    "left": 9,
+    "top": 9,
+    "right": 9,
+    "bottom": 9,
     "guideColour": [
       4294902015,
       4294902015,
@@ -97,7 +97,7 @@
     "path": "folders/Sprites/Ui.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_sliderBar",
+  "name": "spr_barraSlider",
   "tags": [],
   "resourceType": "GMSprite",
 }
