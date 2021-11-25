@@ -232,6 +232,8 @@ function AttackState(){
 }
 
 function SetAttackState(sprAttack, stateName, attackAngle,extraPositionX, extraPositionY){
+	global.canAttack = false;
+
 	sprite_index = sprAttack;
 	attackStateName = stateName;		
 	var fxAttack = instance_create_depth(x + extraPositionX,y+extraPositionY,depth + 1,obj_fxAttack);

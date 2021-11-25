@@ -6,6 +6,7 @@ if(sprite_index == meleeMid || sprite_index == meleeLow || sprite_index == melee
 
 	}
 	else{
+		attack_counter = attack_cooldown
 		playerState = RunnerPlayerState.Run;
 		sprite_index = spr_Runcycle;
 	}

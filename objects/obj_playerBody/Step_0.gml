@@ -56,9 +56,10 @@ if(attack_counter >= attack_cooldown){
 		
         inAttack = false;
 		global.canAttack = true;
+		
         attack_counter = 0;
 }else if inAttack == true{
-	attack_counter++;	
+	attack_counter++;
 }
 
 
