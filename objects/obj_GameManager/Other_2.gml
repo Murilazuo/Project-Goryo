@@ -19,6 +19,11 @@ bikeHp = 60;
 totalMoney = 600;
 healingItem = 0;
 
+//VOLUME
+global.fxVolume = 0.5;
+global.musicVolume = 0.5;
+
+
 
 //SHOOTER VARIABLES
 bikeSpeed = 6;

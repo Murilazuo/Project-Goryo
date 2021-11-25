@@ -1,2 +1,2 @@
 AddToMoney(myCashValue);
-audio_play_sound(snd_cashRegister,10,0);
+PlaySound(snd_cashRegister,SndType.FX,10,0)

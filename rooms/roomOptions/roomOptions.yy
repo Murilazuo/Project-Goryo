@@ -24,11 +24,7 @@
             {"propertyId":{"name":"textPositionX","path":"objects/obj_btn/obj_btn.yy",},"objectId":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"value":"-16","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"textPositionY","path":"objects/obj_btn/obj_btn.yy",},"objectId":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"textScale","path":"objects/obj_btn/obj_btn.yy",},"objectId":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"value":"1.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"obj_fullscreen","path":"objects/obj_fullscreen/obj_fullscreen.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":128.0,"resourceVersion":"1.0","name":"inst_5957F00E","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"maxSliderSelectorX","path":"objects/obj_slider/obj_slider.yy",},"objectId":{"name":"obj_slider","path":"objects/obj_slider/obj_slider.yy",},"value":"224","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"sliderName","path":"objects/obj_slider/obj_slider.yy",},"objectId":{"name":"obj_slider","path":"objects/obj_slider/obj_slider.yy",},"value":"Volume: ","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"obj_sliderVolume","path":"objects/obj_sliderVolume/obj_sliderVolume.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":224.0,"resourceVersion":"1.0","name":"inst_318BCBBE","tags":[],"resourceType":"GMRInstance",},
+          ],"isDnd":false,"objectId":{"name":"obj_fullscreen","path":"objects/obj_fullscreen/obj_fullscreen.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":64.0,"resourceVersion":"1.0","name":"inst_5957F00E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"link","path":"objects/obj_btnGoToLink/obj_btnGoToLink.yy",},"objectId":{"name":"obj_btnGoToLink","path":"objects/obj_btnGoToLink/obj_btnGoToLink.yy",},"value":"https://pastel-de-cana.itch.io/meze-game","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_btnGoToLink","path":"objects/obj_btnGoToLink/obj_btnGoToLink.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":2.4375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":48.0,"y":345.0,"resourceVersion":"1.0","name":"inst_1458F5E9","tags":[],"resourceType":"GMRInstance",},
@@ -38,6 +34,12 @@
         {"properties":[
             {"propertyId":{"name":"link","path":"objects/obj_btnGoToLink/obj_btnGoToLink.yy",},"objectId":{"name":"obj_btnGoToLink","path":"objects/obj_btnGoToLink/obj_btnGoToLink.yy",},"value":"https://pastel-de-cana.itch.io/platformer","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_btnGoToLink","path":"objects/obj_btnGoToLink/obj_btnGoToLink.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":2.4375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":240.0,"y":345.0,"resourceVersion":"1.0","name":"inst_29E07B66","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"sliderName","path":"objects/obj_slider/obj_slider.yy",},"objectId":{"name":"obj_slider","path":"objects/obj_slider/obj_slider.yy",},"value":"SOUND EFFECTS : ","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_sliderVolumeFx","path":"objects/obj_sliderVolumeFx/obj_sliderVolumeFx.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":160.0,"resourceVersion":"1.0","name":"inst_8791CC","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"sliderName","path":"objects/obj_slider/obj_slider.yy",},"objectId":{"name":"obj_slider","path":"objects/obj_slider/obj_slider.yy",},"value":"MUSIC :","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_sliderVolumeMusic","path":"objects/obj_sliderVolumeMusic/obj_sliderVolumeMusic.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":224.0,"resourceVersion":"1.0","name":"inst_377AD967","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tilesetDecor","path":"tilesets/tilesetDecor/tilesetDecor.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":43,"SerialiseHeight":24,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -152,10 +154,11 @@
     {"name":"inst_49D1FBF4_1","path":"rooms/roomOptions/roomOptions.yy",},
     {"name":"inst_32392E97","path":"rooms/roomOptions/roomOptions.yy",},
     {"name":"inst_5957F00E","path":"rooms/roomOptions/roomOptions.yy",},
-    {"name":"inst_318BCBBE","path":"rooms/roomOptions/roomOptions.yy",},
     {"name":"inst_1458F5E9","path":"rooms/roomOptions/roomOptions.yy",},
     {"name":"inst_44A76650","path":"rooms/roomOptions/roomOptions.yy",},
     {"name":"inst_29E07B66","path":"rooms/roomOptions/roomOptions.yy",},
+    {"name":"inst_8791CC","path":"rooms/roomOptions/roomOptions.yy",},
+    {"name":"inst_377AD967","path":"rooms/roomOptions/roomOptions.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
