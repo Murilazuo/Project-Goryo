@@ -36,7 +36,6 @@ function RunState(){
 		playerState = RunnerPlayerState.Slide;
 		obj_aimingArm.visible = false;
 		sprite_index = spr_playerRoll;
-
 	}
 	else if keyboard_check_pressed(obj_GameManager.inputJump) {
 		playerState = RunnerPlayerState.Jump;
@@ -44,6 +43,7 @@ function RunState(){
 	}else if place_free(x,y) playerState = RunnerPlayerState.Fall;
 	else if (collision_circle(x + wallCheckX,y + wallCheckY, 10,obj_ground,false,true)) 
 	{ 
+		sprite_index = spr_playerRoll;
 		playerState = RunnerPlayerState.Slide;
 	}
 	
