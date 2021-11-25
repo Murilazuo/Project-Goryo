@@ -16,7 +16,7 @@ if(keyboard_check(vk_numpad4)){
 	room_goto(roomCredits);
 }
 if(keyboard_check(vk_numpad5)){
-	obj_GameManager.NextLevel(levels.B1Runner);
+	obj_GameManager.NextLevel(levels.D1Runner);
 }
 
 if(keyboard_check(vk_numpad6)){
