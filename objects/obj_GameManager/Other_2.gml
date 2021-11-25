@@ -120,7 +120,8 @@ function NextLevel(levelToGo){
 		room_goto(shooterDebugRoom);
 			break;
 		case levels.debugRunner:
-		audio_play_sound(snd_runner,1,1);
+		PlaySound(snd_runner,SndType.Music,1,1)
+
 		levelRoom = runnerPlayerDebugRoom;
 		gameState = GameState.Runner;
 		room_goto(runnerPlayerDebugRoom);
@@ -223,6 +224,11 @@ function GoToRoom(roomToGo, state, newLevelId){
 	levelRoom = roomToGo;
 	gameState = state;
 	levelId = newLevelId;
+	
+	if(gameState = GameState.Runner){
+		PlaySound(snd_runner,SndType.Music,1,1)
+	}
+	
 	room_goto(roomToGo);
 
 }
