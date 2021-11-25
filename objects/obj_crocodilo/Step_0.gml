@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+if visible == false return;
+
 if(distance_to_object(obj_playerBody)<700)
 {
 	if(!isStun)
