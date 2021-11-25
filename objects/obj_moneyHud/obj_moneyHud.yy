@@ -4,7 +4,7 @@
     "path": "sprites/spr_manager/spr_manager.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
