@@ -172,13 +172,19 @@ function ExitLevelState(){
 	var distanceToEndRoom = room_width - x;
 	
 	if(distanceToEndRoom < -500){
-		if obj_GameManager.levelId % 4 == 0{
+		if global.levelId % 4 == 0{
 			obj_GameManager.NextLevel(levels.endLevel);
 		}else {
-			var levelToGo = obj_GameManager.levelId;
-			levelToGo++;
+			
+			//var levelToGo = obj_GameManager.levelId;
+			//levelToGo++;
+			
+			global.levelId++;
+			
+			show_message(global.levelId);
 
-			obj_GameManager.NextLevel(levelToGo);
+
+			obj_GameManager.NextLevel(global.levelId);
 		
 		}
 	}else if(distanceToEndRoom > -5 && distanceToEndRoom < 5 ){

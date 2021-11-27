@@ -96,7 +96,9 @@ enum levels
 
 
 //Level Manager
-levelId = 1;
+global.levelId = 1
+
+;
 
 shooterStage1 = 0;
 shooterStage2 = 0;
@@ -155,7 +157,7 @@ function NextLevel(levelToGo){
 		case levels.B1Runner:
 		case 2:
 			GoToRoom(room1BRunner,GameState.Runner,2);
-				audio_play_sound(snd_runner,1,1);
+				PlaySound(snd_runner,SndType.Music,1,1);
 			break;
 		case levels.C1Shooter:
 		case 3:
@@ -223,7 +225,7 @@ function AddMoney(){
 function GoToRoom(roomToGo, state, newLevelId){
 	levelRoom = roomToGo;
 	gameState = state;
-	levelId = newLevelId;
+	global.levelId = newLevelId;
 	
 	if(gameState = GameState.Runner){
 		PlaySound(snd_runner,SndType.Music,1,1)

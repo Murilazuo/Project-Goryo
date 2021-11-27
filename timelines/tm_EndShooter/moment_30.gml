@@ -1,11 +1,12 @@
 
-if obj_GameManager.levelId % 4 == 0{
+if global.levelId % 4 == 0{
 			obj_GameManager.NextLevel(levels.endLevel);
 }else {
-var levelToGo = obj_GameManager.levelId;
-levelToGo++;
+//var levelToGo = obj_GameManager.levelId;
+global.levelId++;
 
-obj_GameManager.NextLevel(levelToGo);
+show_message(global.levelId);
 
 
+obj_GameManager.NextLevel(global.levelId);
 }

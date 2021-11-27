@@ -2,6 +2,6 @@
 // You can write your code in this editor
 if(sprite_index = spr_titleScreenJump)
 {
-	obj_GameManager.NextLevel(obj_GameManager.levelId);	
+	obj_GameManager.NextLevel(global.levelId);	
 }
 

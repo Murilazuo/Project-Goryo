@@ -22,6 +22,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_cursor","path":"objects/obj_cursor/obj_cursor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":121.0,"y":7232.0,"resourceVersion":"1.0","name":"inst_C590820_1_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_floorUi","path":"objects/obj_floorUi/obj_floorUi.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-640.0,"y":5792.0,"resourceVersion":"1.0","name":"inst_37BABEE2","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_glassParticle","path":"objects/obj_glassParticle/obj_glassParticle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":13.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":13664.0,"y":6944.0,"resourceVersion":"1.0","name":"inst_631B8589","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_EndShooterSequenceTrigger","path":"objects/obj_EndShooterSequenceTrigger/obj_EndShooterSequenceTrigger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4928.0,"y":7072.0,"resourceVersion":"1.0","name":"inst_4EFBBBE","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Ui","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[
@@ -863,6 +864,7 @@
     {"name":"inst_5D8F6657","path":"rooms/room1DRunner/room1DRunner.yy",},
     {"name":"inst_269E5997","path":"rooms/room1DRunner/room1DRunner.yy",},
     {"name":"inst_51B51662","path":"rooms/room1DRunner/room1DRunner.yy",},
+    {"name":"inst_4EFBBBE","path":"rooms/room1DRunner/room1DRunner.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
