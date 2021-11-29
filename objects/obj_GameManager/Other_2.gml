@@ -88,7 +88,7 @@ enum levels
 	start,
 	credits,
 	options,
-	endLevel
+	endLevel,
 	
 	
 }
@@ -171,7 +171,9 @@ function NextLevel(levelToGo){
 		//level 2
 		case levels.A2Runner:
 		case 5:
-			GoToRoom(room2ARunner,GameState.Runner,5);
+			gameState = GameState.Menu;
+			room_goto(roomEndGame);
+			//GoToRoom(room2ARunner,GameState.Runner,5);
 			break;
 		case levels.B2Shooter:
 		case 6:
