@@ -61,7 +61,7 @@ global.baseSpeed = startBaseSpeed;
 
 playerStop = false;
 
-
+levelsToUpgrade = 2;
 //LEVEL CALL ENUMS
 enum levels
 {
