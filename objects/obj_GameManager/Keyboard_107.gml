@@ -8,7 +8,6 @@ if global.levelId % 4 == 0{
 //levelToGo++;
 global.levelId++
 
-show_message(global.levelId);
 
 NextLevel(global.levelId);
 }
