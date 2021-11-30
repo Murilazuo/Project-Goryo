@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tabs",
-    "path": "sprites/spr_tabs/spr_tabs.yy",
+    "name": "spr_nextLvlButton",
+    "path": "sprites/spr_nextLvlButton/spr_nextLvlButton.yy",
   },
   "solid": false,
   "visible": true,

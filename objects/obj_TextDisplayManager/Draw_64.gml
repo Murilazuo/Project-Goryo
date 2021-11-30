@@ -2,12 +2,12 @@ if(obj_GameManager.gameState != GameState.Upgrade){
 draw_set_font(font_SairaCondensedBold);
 draw_set_halign(fa_left);
 draw_set_color(c_aqua);
-draw_text(1224,30,"SCORE: " +string(obj_GameManager.currentScore));
+draw_text(1324,30,"SCORE: " +string(obj_GameManager.currentScore));
 
 draw_set_color(c_green);
 draw_set_halign(fa_left);
-draw_sprite(spr_MoneyIcon,0,1180,45)
-draw_text(1224,60,"CASH:" + string(obj_GameManager.currentMoney));
+draw_sprite(spr_MoneyIcon,0,1280,45)
+draw_text(1324,60,"" + string(obj_GameManager.currentMoney));
 }
 else
 {

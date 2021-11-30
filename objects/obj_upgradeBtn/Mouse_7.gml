@@ -1,13 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if obj_GameManager.playerMoney >= price {
-	obj_GameManager.playerMoney -= price;
+if obj_GameManager.totalMoney >= price {
+	obj_GameManager.totalMoney -= price;
 	isBuy = true;
 	gunDescription = originalDescription;
 }
 
-show_debug_message(obj_GameManager.playerMoney);
+show_debug_message(obj_GameManager.totalMoney);
 
 
 if isBuy == true {

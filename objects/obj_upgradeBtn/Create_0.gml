@@ -3,5 +3,5 @@
 originalDescription = gunDescription;
 
 if(isSelect == false){
-	gunDescription += (" It's yours for " + string(price) + ".")
+	//gunDescription += (" It's yours for " + string(price) + ".")
 }
