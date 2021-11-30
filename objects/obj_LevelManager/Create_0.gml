@@ -8,7 +8,7 @@ canMove = false
 
 image_blend = default_color;
 
-show_debug_message(obj_GameManager.gameState);
+
 
 function NextFloor(timeToFollow){
 	canMove = false;
