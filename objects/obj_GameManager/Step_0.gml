@@ -17,16 +17,6 @@ if(activeEnemiesCount <= 0 && isSegOver = true)
 	
 }
 
-if keyboard_check_pressed(vk_escape)
-    {
-    paused = !paused;
-    if paused == false
-        {
-        instance_activate_all();
-        surface_free(paused_surf);
-                paused_surf = -1;
-        }
-    }
 
 
 
