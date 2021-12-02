@@ -46,7 +46,7 @@ if paused == true
 	
 	var inButtom = false;
 	
-	if((view_hport[0] - mouse_y * 2 ) > 160 && (view_hport[0] - mouse_y * 2 ) < 200 && (view_wport[0] - mouse_x * 2 ) > 644 && (view_wport[0] - mouse_x * 2 ) < 874){
+	if(window_mouse_get_y() > 663 && window_mouse_get_y() < 684 && window_mouse_get_x() > 660 && window_mouse_get_x() < 891){
 		buttonAlpha = 0.5;
 		buttonColor = c_yellow;
 		inButtom = true;
@@ -56,7 +56,7 @@ if paused == true
 
 		
 	if(mouse_check_button(mb_left)){
-		draw_sprite_ext(spr_cursorMenus,0,mouse_x * 2,mouse_y * 2,2,2,0,c_white,1);
+		draw_sprite_ext(spr_cursorMenus,0, window_mouse_get_x(),window_mouse_get_y(),2,2,0,c_white,1);
 		if(inButtom == true){
 		
 		instance_activate_all();
@@ -67,7 +67,10 @@ if paused == true
 		paused = false;
 		}
 	}else {
-		draw_sprite_ext(spr_cursorMenus,1,mouse_x * 2,mouse_y * 2,2,2,0,c_white,1);	
+		draw_sprite_ext(spr_cursorMenus,1,window_mouse_get_x(),window_mouse_get_y(),2,2,0,c_white,1);	
+		draw_text(x,y-20,window_mouse_get_x());
+		draw_text(x,y-40,window_mouse_get_y());
+
 	}
 	
 
