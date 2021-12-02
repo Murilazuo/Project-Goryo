@@ -2,7 +2,7 @@ x = mouse_x;
 y = mouse_y;
 
 
-if room != roomCredits || room != roomOptions||room != roomEndLevel || room != roomStart || room != upgradeRoom ||room != roomEndGame
+if room != roomCredits && room != roomOptions && room != roomEndLevel && room != roomStart && room != upgradeRoom && room != roomEndGame
 {
 	
 if keyboard_check_pressed(vk_escape)
@@ -15,6 +15,8 @@ if keyboard_check_pressed(vk_escape)
         surface_free(paused_surf);
                 paused_surf = -1;
         }
+		
+		
     }
 if paused == true
     {
