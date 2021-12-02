@@ -24,7 +24,7 @@ global.fxVolume = 0.5;
 global.musicVolume = 0.5;
 
 
-
+currentWeapon = 0;
 //SHOOTER VARIABLES
 bikeSpeed = 6;
 stageDifficulty = 1; //aumentar em determinados momentos do shooter

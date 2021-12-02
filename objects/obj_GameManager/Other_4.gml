@@ -43,12 +43,16 @@ activeEnemiesCount = 0;
 //VARIAVEIS DE PATHFINDING
 global.isLagBehindFree = true;
 
+
+
 //VARIÁVEIS DE ARMAS E PROJETEIS DO PLAYER
+	
 if(gameState = GameState.Runner){
 	maxHP = playerHP;
 	bulletSpeed = 20;
 	player.myHealth = maxHP;
 	//WEPON VAR
+
 	projectileDMG = currentDamage;
 	gunRPS = currentRPS;
 	gunOverheat = currentOverheat;

@@ -13,11 +13,16 @@ show_debug_message(obj_GameManager.totalMoney);
 if isBuy == true {
 	obj_upgradeBtn.isSelect = false;
 	isSelect =  true;
-		
+	
+	obj_GameManager.currentWeapon = weapon;
 	obj_GameManager.currentDamage = DMG;
 	obj_GameManager.currentRPS = RPS;
 	obj_GameManager.currentOverheat = overheat;
 	obj_GameManager.currentCooldown = cooldown;
 	obj_GameManager.currentPrecision = precision;
 }
+
+
+
+
 

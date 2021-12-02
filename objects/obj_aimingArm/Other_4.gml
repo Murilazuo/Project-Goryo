@@ -1,6 +1,6 @@
 /// @description graficos mao de tiro
 // You can write your code in this editor
-if(obj_GameManager.gameState == GameState.Shooter)
+/*if(obj_GameManager.gameState == GameState.Shooter)
 {
 	sprite_index = spr_armRight;
 	//sprLookForwards = spr_playerBiker;
