@@ -15,9 +15,16 @@ function Stop(){
 function Go(){
 	moving = true;
 	obj_nextMenu.image_alpha = 1;
+
+	mySpeed = 5;
+
+
+	if ((pointToGo - y) > 1300) || ((y - pointToGo) > 1300) mySpeed *= 4;
+	else if ((pointToGo - y) > 600) || ((y - pointToGo) > 600) mySpeed *= 2.5;
+
 	
 	image_alpha = 0.5;
-	mySpeed = 5;
+	
 	if(pointToGo < y)
 		mySpeed *= -1;
 	
