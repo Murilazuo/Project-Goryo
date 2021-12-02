@@ -9,6 +9,7 @@ function Stop(){
 	obj_exitUpgrade.vspeed = 0;
 	obj_seller.vspeed = 0;
 	obj_flavorTextDisplayPanel.vspeed = 0;
+	obj_cashDisplay.vspeed = 0;
 }
 
 function Go(){
@@ -25,6 +26,7 @@ function Go(){
 	obj_exitUpgrade.vspeed = mySpeed;
 	obj_seller.vspeed = mySpeed;
 	obj_flavorTextDisplayPanel.vspeed = mySpeed;
+	obj_cashDisplay.vspeed = mySpeed;
 
 }
 

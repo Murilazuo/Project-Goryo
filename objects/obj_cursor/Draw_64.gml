@@ -68,9 +68,9 @@ if paused == true
 		}
 	}else {
 		draw_sprite_ext(spr_cursorMenus,1,window_mouse_get_x(),window_mouse_get_y(),2,2,0,c_white,1);	
-		draw_text(x,y-20,window_mouse_get_x());
-		draw_text(x,y-40,window_mouse_get_y());
-
+		
+		//draw_text(window_mouse_get_x() + 50,window_mouse_get_y(),window_mouse_get_x());
+		//draw_text(window_mouse_get_x(),window_mouse_get_y()-50,window_mouse_get_y());
 	}
 	
 

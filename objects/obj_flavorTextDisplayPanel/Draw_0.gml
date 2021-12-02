@@ -8,5 +8,5 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
 
-draw_text_ext_transformed(x+8,y+2,textToShow,22,725,0.75,0.75,0);
+draw_text_ext_transformed(x+8,y+5,textToShow,22,725,0.75,0.75,0);
 
