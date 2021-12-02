@@ -157,11 +157,10 @@ function NextLevel(levelToGo){
 		case levels.B1Runner:
 		case 2:
 			GoToRoom(room1BRunner,GameState.Runner,2);
-				PlaySound(snd_runner,SndType.Music,1,1);
 			break;
 		case levels.C1Shooter:
 		case 3:
-			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
+			SetShooterTimeLine(tm_1CShooter,tm_1CShooter,tm_1CShooter);
 			GoToRoom(roomShooter,GameState.Shooter,3);
 			break;
 		case levels.D1Runner:
@@ -173,12 +172,15 @@ function NextLevel(levelToGo){
 		case 5:
 			gameState = GameState.Menu;
 			room_goto(roomEndGame);
-			//GoToRoom(room2ARunner,GameState.Runner,5);
+			GoToRoom(room2ARunner,GameState.Runner,5);
 			break;
 		case levels.B2Shooter:
 		case 6:
-			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
-			GoToRoom(roomShooter,GameState.Shooter,6);
+			gameState = GameState.Menu;
+			room_goto(roomEndGame);
+			
+			//SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
+			//GoToRoom(roomShooter,GameState.Shooter,6);
 			break;
 		case levels.C2Shooter:
 		case 7:
@@ -231,6 +233,8 @@ function GoToRoom(roomToGo, state, newLevelId){
 	
 	if(gameState = GameState.Runner){
 		PlaySound(snd_runner,SndType.Music,1,1)
+	}else{
+		audio_stop_all();	
 	}
 	
 	room_goto(roomToGo);
