@@ -4,7 +4,8 @@ function PreAttackReaction(attackStance)
 {
 	if(distance_to_object(obj_GameManager.player)<100 && isOnStance = false)
 	{
-		audio_play_sound(snd_swordOn,10,0);
+		PlaySound(snd_swordOn,SndType.FX,10,0);
+		
 		isOnStance = true;
 		sprite_index = attackStance;
 		part_particles_create(obj_ParticleManager.particleSystem,x,y-10,obj_ParticleManager.warningParticle,1);

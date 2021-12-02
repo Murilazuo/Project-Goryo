@@ -1,1 +1,2 @@
-audio_play_sound(snd_playerdeath,12,0);
+
+PlaySound(snd_playerdeath,SndType.FX,12,0);
