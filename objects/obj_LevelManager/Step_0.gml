@@ -1,5 +1,5 @@
 //Murilo
 ManagerDebugMode();
 
-if canMove == true
-	SetSpeed(mySpeed);
+//if canMove == true
+SetSpeed(mySpeed);

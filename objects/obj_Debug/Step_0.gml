@@ -7,6 +7,7 @@ if(keyboard_check(vk_numpad1)){
 }
 if(keyboard_check(vk_numpad2)){
 	obj_GameManager.NextLevel();
+	obj_GameManager.totalMoney +=9999;
 }
 if(keyboard_check(vk_numpad3)){
 	obj_GameManager.NextLevel(levels.debugRunner);
@@ -16,7 +17,7 @@ if(keyboard_check(vk_numpad4)){
 	room_goto(roomCredits);
 }
 if(keyboard_check(vk_numpad5)){
-	obj_GameManager.NextLevel(levels.D1Runner);
+	obj_GameManager.NextLevel(levels.B1Runner);
 }
 
 if(keyboard_check(vk_numpad6)){

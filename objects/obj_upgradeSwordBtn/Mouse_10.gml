@@ -6,3 +6,5 @@ event_inherited();
 
 obj_flavorTextDisplayPanel.textToShow = gunDescription;
 
+obj_cashDisplay.gunPrice = price;
+

@@ -5,3 +5,4 @@
 event_inherited();
 
 obj_flavorTextDisplayPanel.textToShow = "";
+

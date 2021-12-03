@@ -1,3 +1,5 @@
+if(instance_exists(obj_GameManager)){
+
 if (obj_GameManager.gameState == GameState.Menu || obj_GameManager.gameState == GameState.Upgrade) 
 {
 	if(mouse_check_button(mb_left)){
@@ -6,6 +8,7 @@ if (obj_GameManager.gameState == GameState.Menu || obj_GameManager.gameState == 
 		draw_sprite(spr_cursorMenus,1,x,y);	
 	}
 }
+
 
 
 if(object_exists(obj_GameManager.player))
@@ -20,3 +23,6 @@ if(object_exists(obj_GameManager.player))
 		draw_sprite(spr_cursorOverheat,global.heatLevel,x,y);		
 	}
 }
+
+}
+
