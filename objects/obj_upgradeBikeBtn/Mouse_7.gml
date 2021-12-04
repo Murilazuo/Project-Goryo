@@ -4,6 +4,7 @@
 if obj_GameManager.totalMoney >= price && isBuy = false{
 	obj_GameManager.totalMoney -= price;
 	isBuy = true;
+		audio_play_sound(snd_weaponBuy,10,0);
 }
 
 
@@ -11,7 +12,7 @@ if obj_GameManager.totalMoney >= price && isBuy = false{
 if isBuy == true {
 	obj_upgradeBikeBtn.isSelect = false;
 	isSelect =  true;
-		
+	audio_play_sound(snd_inventorySelect,10,0);
 	obj_GameManager.bikeSpeed = bikeSpeed;
 }
 

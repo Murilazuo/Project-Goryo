@@ -5,5 +5,5 @@
 event_inherited();
 
 obj_flavorTextDisplayPanel.textToShow = gunDescription;
-
+	audio_play_sound(snd_shopHover,10,0);
 obj_cashDisplay.gunPrice = price;
