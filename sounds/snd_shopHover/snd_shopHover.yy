@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.2,
+  "volume": 0.48,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_gunshot2.wav",
-  "duration": 1.269229,
+  "soundFile": "snd_shopHover.wav",
+  "duration": 0.421678,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_gunshot2",
+  "name": "snd_shopHover",
   "tags": [],
   "resourceType": "GMSound",
 }
