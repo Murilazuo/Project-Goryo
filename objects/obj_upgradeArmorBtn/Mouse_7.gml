@@ -6,8 +6,6 @@ if obj_GameManager.playerMoney >= price {
 	isBuy = true;
 }
 
-show_debug_message(obj_GameManager.playerMoney);
-
 
 if isBuy == true {
 	obj_upgradeArmorBtn.isSelect = false;

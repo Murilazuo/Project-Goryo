@@ -4,10 +4,8 @@
 if obj_GameManager.totalMoney >= price && isBuy = false {
 	obj_GameManager.totalMoney -= price;
 	isBuy = true;
-	gunDescription = originalDescription;
 }
 
-show_debug_message(obj_GameManager.totalMoney);
 
 
 if isBuy == true {
