@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if obj_GameManager.playerMoney >= price {
-	obj_GameManager.playerMoney -= price;
+if obj_GameManager.totalMoney >= price && isBuy = false {
+	obj_GameManager.totalMoney -= price;
 	isBuy = true;
 }
 
