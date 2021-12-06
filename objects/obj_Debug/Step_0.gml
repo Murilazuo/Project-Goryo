@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-//Murilo
 
+/*
 if(keyboard_check(vk_numpad1)){
 	obj_GameManager.NextLevel(levels.debugShooter);
 }
@@ -23,7 +23,7 @@ if(keyboard_check(vk_numpad5)){
 if(keyboard_check(vk_numpad6)){
 	obj_GameManager.NextLevel(levels.endLevel);
 }
-
+s
 if keyboard_check_pressed(vk_numpad0) debug = !debug;
 
 ManagerDebugMode();

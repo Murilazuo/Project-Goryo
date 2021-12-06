@@ -2,10 +2,13 @@
 // You can write your code in this editor
 //if(obj_GameManager.playerStop == true) return;
 
+if(canRide >= 30){
+	canRide = 30;
+}else canRide++;
 
 if(isFalling)
 {
-	y+=6
+	y+=vsp;
 	//y+= vsp;
 	//vsp+=fallAcceleration;
 	//vsp = clamp(vsp,0, maxSpeed);
