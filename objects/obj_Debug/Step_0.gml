@@ -1,30 +1,29 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-/*
-if(keyboard_check(vk_numpad1)){
+
+if(keyboard_check(ord("y"))){
 	obj_GameManager.NextLevel(levels.debugShooter);
 }
-if(keyboard_check(vk_numpad2)){
+if(keyboard_check(ord("u"))){
 	obj_GameManager.NextLevel();
 	obj_GameManager.totalMoney +=9999;
 }
-if(keyboard_check(vk_numpad3)){
+if(keyboard_check(ord("i"))){
 	obj_GameManager.NextLevel(levels.debugRunner);
-	//room_goto(runnerPlayerDebugRoom);
 }
-if(keyboard_check(vk_numpad4)){
+if(keyboard_check(ord("h"))){
 	room_goto(roomCredits);
 }
-if(keyboard_check(vk_numpad5)){
+if(keyboard_check(ord("j"))){
 	obj_GameManager.NextLevel(levels.B1Runner);
 }
 
-if(keyboard_check(vk_numpad6)){
+if(keyboard_check(ord("k"))){
 	obj_GameManager.NextLevel(levels.endLevel);
 }
-s
-if keyboard_check_pressed(vk_numpad0) debug = !debug;
+
+if keyboard_check_pressed(ord("l")) debug = !debug;
 
 ManagerDebugMode();
 if(instance_exists(obj_GameManager.player)){
