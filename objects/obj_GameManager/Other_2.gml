@@ -20,7 +20,7 @@ totalMoney = 600;
 healingItem = 0;
 
 //VOLUME
-global.fxVolume = 0.5;
+global.fxVolume = 0.25;
 global.musicVolume = 0.5;
 
 
@@ -107,6 +107,7 @@ shooterStage3 = 0;
 
 
 function NextLevel(levelToGo){
+	audio_stop_all();
 	
 	scoreTotal += currentScore;
 	totalMoney += currentMoney;
@@ -231,11 +232,7 @@ function GoToRoom(roomToGo, state, newLevelId){
 	gameState = state;
 	global.levelId = newLevelId;
 	
-	if(gameState = GameState.Runner){
-		PlaySound(snd_runner,SndType.Music,1,1)
-	}else{
-		audio_stop_all();	
-	}
+	PlaySound(snd_runner,SndType.Music,1,1)
 	
 	room_goto(roomToGo);
 
