@@ -2,26 +2,38 @@
 // You can write your code in this editor
 
 
-if(keyboard_check(ord("Y"))){
+if(keyboard_check_pressed(ord("Y"))){
 	obj_GameManager.NextLevel(levels.debugShooter);
 }
-if(keyboard_check(ord("U"))){
+if(keyboard_check_pressed(ord("U"))){
 	obj_GameManager.NextLevel();
 	obj_GameManager.totalMoney +=9999;
 }
-if(keyboard_check(ord("I"))){
+if(keyboard_check_pressed(ord("I"))){
 	obj_GameManager.NextLevel(levels.debugRunner);
 }
-if(keyboard_check(ord("H"))){
+if(keyboard_check_pressed(ord("H"))){
 	room_goto(roomCredits);
 }
-if(keyboard_check(ord("J"))){
+if(keyboard_check_pressed(ord("J"))){
 	obj_GameManager.NextLevel(levels.B1Runner);
 }
 
-if(keyboard_check(ord("K"))){
+if(keyboard_check_pressed(ord("K"))){
 	obj_GameManager.NextLevel(levels.endLevel);
 }
+if(keyboard_check_pressed(ord("P"))){
+
+if global.levelId % obj_GameManager.levelsToUpgrade == 0{
+			obj_GameManager.NextLevel(levels.endLevel);
+}else {
+global.levelId++
+
+obj_GameManager.NextLevel(global.levelId); 
+}
+
+}
+
 
 if keyboard_check_pressed(ord("L")) debug = !debug;
 

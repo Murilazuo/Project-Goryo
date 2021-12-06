@@ -181,7 +181,7 @@ function ExitLevelState(){
 			
 			global.levelId++;
 			
-			show_message(global.levelId);
+			//show_message(global.levelId);
 
 
 			obj_GameManager.NextLevel(global.levelId);
