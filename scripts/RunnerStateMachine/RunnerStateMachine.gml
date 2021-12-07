@@ -162,8 +162,10 @@ function FallState(){
 
 function IdleState(){
 	playerStateName = "Idle";
-	SetBaseSpeed(0);
+	//set sprite
 	SetSpeed(0);
+	
+	if place_empty(x,y,obj_ground) playerState = RunnerPlayerState.Fall;
 }
 
 
@@ -247,6 +249,8 @@ function SetAttackState(sprAttack, stateName, attackAngle,extraPositionX, extraP
 }
 
 function MoveRunner(){
+	if global.baseSpeed == 0 return;
+	
 	
 	if(CenterCameraDistance(id,axis.X) > playerCameraLimit){	//check if the player is in the limit of the camera
 		if(keyboard_check(gameManager.inputLeft)){	//move right

@@ -9,8 +9,8 @@ inputDown = ord("S");
 inputJump = ord("W")//vk_space;
 inputSlide = ord("S")//vk_shift;
 //Other Input
-inputInteract = ord("E");
-inputHealing = ord("Q");
+inputInteract = ord("W");
+inputHealing = ord("E");
 
 //COMBAT VARIABLES
 //bulletSpeed = 15;
