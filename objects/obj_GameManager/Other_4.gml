@@ -1,3 +1,4 @@
+
 player = noone;
 
 currentMoney = 0;

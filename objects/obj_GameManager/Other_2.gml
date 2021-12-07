@@ -98,9 +98,7 @@ enum levels
 
 
 //Level Manager
-global.levelId = 1
-
-;
+global.levelId = 1;
 
 shooterStage1 = 0;
 shooterStage2 = 0;
@@ -223,8 +221,15 @@ function NextLevel(levelToGo){
 		
 	}
 	
-	if(gameState == GameState.Menu){
-		PlaySound(snd_menuMusic,SndType.Music,1,1);
+	switch(gameState){
+		case GameState.Menu:
+		case GameState.Upgrade:
+			PlaySound(snd_menuMusic,SndType.Music,1,1);
+			break;
+		case GameState.Shooter:
+		case GameState.Runner:	
+			PlaySound(snd_runner,SndType.Music,1,1);
+			break;
 	}
 
 }
@@ -238,7 +243,6 @@ function GoToRoom(roomToGo, state, newLevelId){
 	gameState = state;
 	global.levelId = newLevelId;
 	
-	PlaySound(snd_runner,SndType.Music,1,1)
 	
 	room_goto(roomToGo);
 
