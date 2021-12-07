@@ -22,7 +22,9 @@ healingItem = 0;
 //VOLUME
 global.fxVolume = 0.25;
 global.musicVolume = 0.5;
+global.currentMusic = noone;
 
+PlaySound(snd_menuMusic,SndType.Music,1,1);
 
 currentWeapon = 0;
 //SHOOTER VARIABLES
@@ -219,6 +221,10 @@ function NextLevel(levelToGo){
 		room_goto(upgradeRoom);
 			break;
 		
+	}
+	
+	if(gameState == GameState.Menu){
+		PlaySound(snd_menuMusic,SndType.Music,1,1);
 	}
 
 }

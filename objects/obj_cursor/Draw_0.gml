@@ -7,13 +7,14 @@ if (obj_GameManager.gameState == GameState.Menu || obj_GameManager.gameState == 
 	}else {
 		draw_sprite(spr_cursorMenus,1,x,y);	
 	}
+
 }
 
 
 
 if(object_exists(obj_GameManager.player))
 {
-	
+
 	if(obj_GameManager.gameState=GameState.Runner && global.canAttack = true)
 	{
 		draw_sprite(spr_cursorMeleeAttack,global.heatLevel,x,y);

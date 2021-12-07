@@ -1,0 +1,1 @@
+	PlaySound(snd_menuClick,SndType.FX,1,0)

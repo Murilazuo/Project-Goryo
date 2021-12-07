@@ -4,7 +4,7 @@ function PreAttackReaction(attackStance)
 {
 	if(distance_to_object(obj_GameManager.player)<100 && isOnStance = false)
 	{
-		PlaySound(snd_swordOn,SndType.FX,10,0);
+		PlaySound(snd_swordOn,SndType.FX,1,0);
 		
 		isOnStance = true;
 		sprite_index = attackStance;

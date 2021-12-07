@@ -5,3 +5,4 @@ fullscreen = !fullscreen;
 SetBtnText();
 
 window_set_fullscreen(fullscreen);
+

@@ -281,6 +281,7 @@
     {"id":{"name":"obj_floorUi","path":"objects/obj_floorUi/obj_floorUi.yy",},"order":19,},
     {"id":{"name":"obj_basePlayer","path":"objects/obj_basePlayer/obj_basePlayer.yy",},"order":2,},
     {"id":{"name":"obj_playerBody","path":"objects/obj_playerBody/obj_playerBody.yy",},"order":1,},
+    {"id":{"name":"snd_menuClick","path":"sounds/snd_menuClick/snd_menuClick.yy",},"order":0,},
     {"id":{"name":"obj_sliderVolumeMusic","path":"objects/obj_sliderVolumeMusic/obj_sliderVolumeMusic.yy",},"order":4,},
     {"id":{"name":"WeaponCooldownValues","path":"scripts/WeaponCooldownValues/WeaponCooldownValues.yy",},"order":6,},
     {"id":{"name":"room2ARunner","path":"rooms/room2ARunner/room2ARunner.yy",},"order":3,},
@@ -358,6 +359,7 @@
     {"id":{"name":"spr_GuideAD","path":"sprites/spr_GuideAD/spr_GuideAD.yy",},"order":4,},
     {"id":{"name":"obj_btnGoToLevel","path":"objects/obj_btnGoToLevel/obj_btnGoToLevel.yy",},"order":1,},
     {"id":{"name":"snd_runner","path":"sounds/snd_runner/snd_runner.yy",},"order":4,},
+    {"id":{"name":"snd_menuMusic","path":"sounds/snd_menuMusic/snd_menuMusic.yy",},"order":1,},
     {"id":{"name":"spr_cursors","path":"sprites/spr_cursors/spr_cursors.yy",},"order":12,},
     {"id":{"name":"obj_BikerArm","path":"objects/obj_BikerArm/obj_BikerArm.yy",},"order":1,},
     {"id":{"name":"spr_wallDebug","path":"sprites/spr_wallDebug/spr_wallDebug.yy",},"order":3,},
@@ -470,6 +472,7 @@
     {"folderPath":"folders/Sprites/Tutorial.yy","order":11,"resourceVersion":"1.0","name":"Tutorial","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Tutorial.yy","order":13,"resourceVersion":"1.0","name":"Tutorial","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/player/Arms.yy","order":14,"resourceVersion":"1.0","name":"Arms","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/Place Holder.yy","order":32,"resourceVersion":"1.0","name":"Place Holder","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

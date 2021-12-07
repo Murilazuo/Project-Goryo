@@ -5,8 +5,13 @@ enum SndType { Music, FX}
 function PlaySound(snd, sndType, priority, loop){
 	switch(sndType){
 		case SndType.Music:
-			audio_play_sound(snd,priority,loop);
+			if(global.currentMusic != snd)	{
+				audio_play_sound(snd,priority,loop);
+				global.currentMusic = snd;
+			}
+			
 			audio_sound_gain(snd,global.musicVolume,0);
+
 			break;
 		case SndType.FX:
 			audio_play_sound(snd,priority,loop);
