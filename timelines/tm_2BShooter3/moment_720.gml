@@ -1,2 +1,3 @@
 SpawnHoverMine();
 SpawnHoverMine();
+SpawnHoverMine();

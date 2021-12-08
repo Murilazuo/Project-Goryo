@@ -1,0 +1,2 @@
+SpawnStalker();
+SpawnStalker(60);
