@@ -46,7 +46,7 @@ switch(playerState){
 if keyboard_check_pressed(obj_GameManager.inputHealing) && obj_GameManager.healingItem > 0 && myHealth < obj_GameManager.maxHP{
 		obj_GameManager.healingItem--;
 		myHealth += obj_GameManager.healingValue;
-		
+		PlaySound(snd_healing,SndType.FX,1,0);
 		myHealth = clamp(myHealth,0,obj_GameManager.maxHP);
 }
 

@@ -1,0 +1,1 @@
+PlaySound(snd_pills,SndType.FX,1,0);
