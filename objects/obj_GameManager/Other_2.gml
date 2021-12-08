@@ -223,9 +223,10 @@ function NextLevel(levelToGo){
 	
 	switch(gameState){
 		case GameState.Menu:
-		case GameState.Upgrade:
 			PlaySound(snd_menuMusic,SndType.Music,1,1);
 			break;
+		case GameState.Upgrade:
+			PlaySound(snd_shop,SndType.Music,1,1);
 		case GameState.Shooter:
 		case GameState.Runner:	
 			PlaySound(snd_runner,SndType.Music,1,1);
