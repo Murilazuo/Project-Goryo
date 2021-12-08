@@ -13,7 +13,7 @@ else
 		bikeSpeedNoHider = 0;
 }
 
-if(myHealth<=0)
+if(myHealth<=0 || x < -30)
 {
 	//start countdown -> destroy
 	myHealth=200;
