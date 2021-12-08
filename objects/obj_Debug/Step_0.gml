@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(keyboard_check_pressed(vk_numpad5))
+{
+		obj_GameManager.NextLevel(levels.C1Shooter);
+}
 
 if(keyboard_check_pressed(ord("Y"))){
 	obj_GameManager.NextLevel(levels.debugShooter);

@@ -100,6 +100,7 @@ enum levels
 //Level Manager
 global.levelId = 1;
 
+
 shooterStage1 = 0;
 shooterStage2 = 0;
 shooterStage3 = 0;
@@ -161,7 +162,7 @@ function NextLevel(levelToGo){
 			break;
 		case levels.C1Shooter:
 		case 3:
-			SetShooterTimeLine(tm_1CShooter,tm_1CShooter,tm_1CShooter);
+			SetShooterTimeLine(tm_1CShooter,tm_1CShooter2,tm_1CShooter3);
 			GoToRoom(roomShooter,GameState.Shooter,3);
 			break;
 		case levels.D1Runner:
