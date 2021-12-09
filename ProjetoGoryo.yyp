@@ -321,6 +321,7 @@
     {"id":{"name":"spr_framePortrair","path":"sprites/spr_framePortrair/spr_framePortrair.yy",},"order":3,},
     {"id":{"name":"Obj_macaco","path":"objects/Obj_macaco/Obj_macaco.yy",},"order":3,},
     {"id":{"name":"snd_metalHit2","path":"sounds/snd_metalHit2/snd_metalHit2.yy",},"order":6,},
+    {"id":{"name":"obj_btnQuit","path":"objects/obj_btnQuit/obj_btnQuit.yy",},"order":8,},
     {"id":{"name":"spr_Runcycle","path":"sprites/spr_Runcycle/spr_Runcycle.yy",},"order":0,},
     {"id":{"name":"spr_iconGunStats","path":"sprites/spr_iconGunStats/spr_iconGunStats.yy",},"order":1,},
     {"id":{"name":"spr_fxAttack","path":"sprites/spr_fxAttack/spr_fxAttack.yy",},"order":2,},

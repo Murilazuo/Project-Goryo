@@ -2,5 +2,4 @@
 // You can write your code in this editor
 if canInteract == false return;
 
-
- image_alpha = 1;
+game_end();

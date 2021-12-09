@@ -1,3 +1,6 @@
+global.levelId = 1;
+
+
 //attack
 inputShoot = mb_left;
 inputAttakMelee = mb_right;
@@ -98,7 +101,6 @@ enum levels
 
 
 //Level Manager
-global.levelId = 1;
 
 
 shooterStage1 = 0;
@@ -108,6 +110,7 @@ shooterStage3 = 0;
 
 
 function NextLevel(levelToGo){
+	
 	audio_stop_all();
 	
 	scoreTotal += currentScore;
@@ -174,7 +177,7 @@ function NextLevel(levelToGo){
 		case 5:
 			gameState = GameState.Menu;
 			room_goto(roomEndGame);
-			GoToRoom(room2ARunner,GameState.Runner,5);
+			//GoToRoom(room2ARunner,GameState.Runner,5);
 			break;
 		case levels.B2Shooter:
 		case 6:
