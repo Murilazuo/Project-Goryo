@@ -79,13 +79,15 @@ enum levels
 	
 	A2Runner,
 	B2Shooter,
-	C2Shooter,
+	//C2Shooter,
 	D2Runner,
 	
 	A3Shooter,
 	B3Runner,
-	C3Runner,
+	//C3Runner,
 	D3Shooter,
+	
+
 	
 	debugShooter,
 	debugRunner,
@@ -93,8 +95,9 @@ enum levels
 	start,
 	credits,
 	options,
-	endLevel,
 	
+	endLevel,
+
 	
 }
 
@@ -149,7 +152,7 @@ function NextLevel(levelToGo){
 			room_goto(roomOptions);
 			break;
 		case levels.endLevel:
-			gameState = GameState.Menu;
+			gameState = GameState.Menu
 			room_goto(roomEndLevel);
 			break;
 		
@@ -175,9 +178,7 @@ function NextLevel(levelToGo){
 		//level 2
 		case levels.A2Runner:
 		case 5:
-			gameState = GameState.Menu;
-			room_goto(roomEndGame);
-			//GoToRoom(room2ARunner,GameState.Runner,5);
+			GoToRoom(room2ARunner,GameState.Runner,5);
 			break;
 		case levels.B2Shooter:
 		case 6:
@@ -187,35 +188,41 @@ function NextLevel(levelToGo){
 			SetShooterTimeLine(tm_2BShooter,tm_2BShooter2,tm_2BShooter3);
 			GoToRoom(roomShooter,GameState.Shooter,6);
 			break;
-		case levels.C2Shooter: //CUT
+		/*case levels.C2Shooter: //CUT
 		case 7:
 			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
 			GoToRoom(roomShooter,GameState.Shooter,7);
 			break;
+			*/
 		case levels.D2Runner:
-		case 8:
-			GoToRoom(room2DRunner,GameState.Runner,8);
+		case 7:
+			GoToRoom(room2DRunner,GameState.Runner,7);
 			break;
 		//level 3
 		case levels.A3Shooter:
-		case 9:
+		case 8:
 			SetShooterTimeLine(tm_A3Shooter,tm_A3Shooter2,tm_A3Shooter3);
-			GoToRoom(roomShooter,GameState.Shooter,9);
+			GoToRoom(roomShooter,GameState.Shooter,8);
 			break;
 		case levels.B3Runner:
-		case 10:
-			GoToRoom(room3BRunner,GameState.Runner,10);
+		case 9:
+			GoToRoom(room3BRunner,GameState.Runner,9);
 			break;
-		case levels.C3Runner://CUT
+		/*case levels.C3Runner://CUT
 		case 11:
 			GoToRoom(room3CRunner,GameState.Runner,11);
 			break;
+			*/
 		case levels.D3Shooter:
-		case 12:
+		case 10:
 			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
-			GoToRoom(roomShooter,GameState.Shooter,12);
+			GoToRoom(roomShooter,GameState.Shooter,10);
 			break;
-		
+		case 11:
+			gameState = GameState.Menu;
+			room_goto(roomEndGame);
+			break;
+			
 		//upgrade
 		default:
 		levelRoom = upgradeRoom;
