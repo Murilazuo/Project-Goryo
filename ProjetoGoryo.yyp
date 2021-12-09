@@ -93,6 +93,7 @@
     {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},"order":13,},
     {"id":{"name":"obj_backGround","path":"objects/obj_backGround/obj_backGround.yy",},"order":3,},
     {"id":{"name":"PathManagerHoverbike","path":"scripts/PathManagerHoverbike/PathManagerHoverbike.yy",},"order":6,},
+    {"id":{"name":"snd_doorOpenClose","path":"sounds/snd_doorOpenClose/snd_doorOpenClose.yy",},"order":35,},
     {"id":{"name":"obj_btnEndLevel","path":"objects/obj_btnEndLevel/obj_btnEndLevel.yy",},"order":6,},
     {"id":{"name":"BulletSpawnAngleFix","path":"scripts/BulletSpawnAngleFix/BulletSpawnAngleFix.yy",},"order":3,},
     {"id":{"name":"spr_AttackUp","path":"sprites/spr_AttackUp/spr_AttackUp.yy",},"order":6,},

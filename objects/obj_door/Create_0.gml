@@ -3,3 +3,4 @@
 if sameXposition == true{
 	xPosition = x;	
 }
+floor = GetFloor();

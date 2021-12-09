@@ -21,8 +21,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "group1",
-    "path": "",
+    "name": "ProjetoGoryo",
+    "path": "ProjetoGoryo.yyp",
   },
   "resourceVersion": "1.0",
   "name": "Object69",
