@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function WeaponCooldown()
 {
-	if(currentHeat>=1 && isShooting = false)
+	if(currentHeat>0 && isShooting = false)
 	{
 		if(alarm[7]<0)
 		{
