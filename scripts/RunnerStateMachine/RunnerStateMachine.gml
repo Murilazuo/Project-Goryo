@@ -214,7 +214,8 @@ function AttackState(){
 			SetAttackState(spr_meleeAttack,"Middle",0, 50 , 0 );
 			break;
 		case PlayerAttackState.Down:
-			SetAttackState(spr_meleeSlide,"Down", 90 , 0 , -10 );
+			SetAttackState(spr_meleeSlide,"Down", 0 , 50 , -10 );
+
 			break;
 	}
 	
@@ -230,7 +231,7 @@ function AttackState(){
 			SetAttackState(spr_meleeAttack,"Middle",0, 50 , 0 );
 			break;
 		case PlayerAttackState.Down:
-			SetAttackState(spr_meleeSlide,"Down", 90 , 0 , -10 );
+			SetAttackState(spr_meleeSlide,"Down", 0 , 50 , -10 );
 			break;
 	}
 		
