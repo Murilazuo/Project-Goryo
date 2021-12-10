@@ -307,6 +307,7 @@
     {"id":{"name":"spr_claymore","path":"sprites/spr_claymore/spr_claymore.yy",},"order":0,},
     {"id":{"name":"Sprite56","path":"sprites/Sprite56/Sprite56.yy",},"order":16,},
     {"id":{"name":"spr_cashEffect","path":"sprites/spr_cashEffect/spr_cashEffect.yy",},"order":5,},
+    {"id":{"name":"room2ARunneraaaaaa","path":"rooms/room2ARunneraaaaaa/room2ARunneraaaaaa.yy",},"order":7,},
     {"id":{"name":"MonkeyStanceSwitch","path":"scripts/MonkeyStanceSwitch/MonkeyStanceSwitch.yy",},"order":0,},
     {"id":{"name":"tm_beginningEmpty","path":"timelines/tm_beginningEmpty/tm_beginningEmpty.yy",},"order":6,},
     {"id":{"name":"snd_HitFlesh2","path":"sounds/snd_HitFlesh2/snd_HitFlesh2.yy",},"order":21,},
@@ -413,6 +414,7 @@
     {"roomId":{"name":"roomShooter","path":"rooms/roomShooter/roomShooter.yy",},},
     {"roomId":{"name":"roomEndLevel","path":"rooms/roomEndLevel/roomEndLevel.yy",},},
     {"roomId":{"name":"roomEndGame","path":"rooms/roomEndGame/roomEndGame.yy",},},
+    {"roomId":{"name":"room2ARunneraaaaaa","path":"rooms/room2ARunneraaaaaa/room2ARunneraaaaaa.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":17,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
