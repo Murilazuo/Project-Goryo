@@ -22,3 +22,5 @@ switch(obj_GameManager.currentWeapon)
 	break;
 
 }
+
+depth = obj_GameManager.player.depth -1;

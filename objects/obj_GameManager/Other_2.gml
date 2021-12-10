@@ -185,17 +185,17 @@ function NextLevel(levelToGo){
 		
 		case levels.D2Runner:
 		case 7:
-			GoToRoom(room2DRunner,GameState.Runner,8);
+			GoToRoom(room2DRunner,GameState.Runner,7);
 			break;
 		//level 3
 		case levels.A3Shooter:
 		case 8:
 			SetShooterTimeLine(tm_A3Shooter,tm_A3Shooter2,tm_A3Shooter3);
-			GoToRoom(roomShooter,GameState.Shooter,9);
+			GoToRoom(roomShooter,GameState.Shooter,8);
 			break;
 		case levels.B3Runner:
 		case 9:
-			GoToRoom(room3BRunner,GameState.Runner,10);
+			GoToRoom(room3BRunner,GameState.Runner,9);
 			break;
 		case 11:
 			gameState = GameState.Menu;
