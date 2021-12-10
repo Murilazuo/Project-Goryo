@@ -11,6 +11,11 @@ function GetFloor(){
 		floorToReturn = 2;
 	else if(y < 6705 && y > 6482)
 		floorToReturn = 3;
+	else if(y < 6482 && y> 6261) floorToReturn = 4;
+	else if(y<6261 && y>6040) floorToReturn = 5;
+	else if(y<6040 && y>-5819) floorToReturn = 6;
+	else if(y<5819 && y>5598) floorToReturn = 7;
+			
 		
 	return floorToReturn;
 }

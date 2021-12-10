@@ -79,13 +79,13 @@ enum levels
 	
 	A2Runner,
 	B2Shooter,
-	C2Shooter,
+	//C2Shooter,
 	D2Runner,
 	
 	A3Shooter,
 	B3Runner,
-	C3Runner,
-	D3Shooter,
+	//C3Runner,
+	//D3Shooter,
 	
 	debugShooter,
 	debugRunner,
@@ -121,7 +121,6 @@ function NextLevel(levelToGo){
 		//debugs
 		case levels.debugShooter:
 		SetShooterTimeLine(tm_beginningEmpty,tm_beginningEmpty2,tm_beginningEmpty3);
-
 		levelRoom = shooterDebugRoom;
 		gameState = GameState.Shooter;
 		room_goto(shooterDebugRoom);
@@ -187,34 +186,34 @@ function NextLevel(levelToGo){
 			SetShooterTimeLine(tm_2BShooter,tm_2BShooter2,tm_2BShooter3);
 			GoToRoom(roomShooter,GameState.Shooter,6);
 			break;
-		case levels.C2Shooter: //CUT
+		/*case levels.C2Shooter: //CUT
 		case 7:
 			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
 			GoToRoom(roomShooter,GameState.Shooter,7);
-			break;
+			break;*/
 		case levels.D2Runner:
-		case 8:
+		case 7:
 			GoToRoom(room2DRunner,GameState.Runner,8);
 			break;
 		//level 3
 		case levels.A3Shooter:
-		case 9:
+		case 8:
 			SetShooterTimeLine(tm_A3Shooter,tm_A3Shooter2,tm_A3Shooter3);
 			GoToRoom(roomShooter,GameState.Shooter,9);
 			break;
 		case levels.B3Runner:
-		case 10:
+		case 9:
 			GoToRoom(room3BRunner,GameState.Runner,10);
 			break;
-		case levels.C3Runner://CUT
+		/*case levels.C3Runner://CUT
 		case 11:
 			GoToRoom(room3CRunner,GameState.Runner,11);
-			break;
-		case levels.D3Shooter:
+			break;*/
+		/*case levels.D3Shooter:
 		case 12:
 			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
 			GoToRoom(roomShooter,GameState.Shooter,12);
-			break;
+			break;*/
 		
 		//upgrade
 		default:
