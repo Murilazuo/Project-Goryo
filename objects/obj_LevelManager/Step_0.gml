@@ -1,4 +1,3 @@
-//Murilo
 ManagerDebugMode();
 
 //if canMove == true

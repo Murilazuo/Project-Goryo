@@ -1,4 +1,3 @@
-lastBaseSpeed = global.baseSpeed;
 
 global.baseSpeed = 0
 
