@@ -12,6 +12,24 @@ if(keyboard_check_pressed(49)) // 1 do teclado numerico
 }else if(keyboard_check_pressed(52))
 {
 		obj_GameManager.NextLevel(4);
+}else if(keyboard_check_pressed(53))
+{
+		obj_GameManager.NextLevel(5);
+}else if(keyboard_check_pressed(54))
+{
+		obj_GameManager.NextLevel(6);
+}else if(keyboard_check_pressed(55))
+{
+		obj_GameManager.NextLevel(7);
+}else if(keyboard_check_pressed(56))
+{
+		obj_GameManager.NextLevel(8);
+}else if(keyboard_check_pressed(57))
+{
+		obj_GameManager.NextLevel(9);
+}else if(keyboard_check_pressed(58))
+{
+		obj_GameManager.NextLevel(10);
 }else 
 
 //if(keyboard_check_pressed(vk_numpad5))

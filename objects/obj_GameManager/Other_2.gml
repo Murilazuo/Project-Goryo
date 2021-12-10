@@ -174,23 +174,15 @@ function NextLevel(levelToGo){
 		//level 2
 		case levels.A2Runner:
 		case 5:
-			gameState = GameState.Menu;
-			room_goto(roomEndGame);
-			//GoToRoom(room2ARunner,GameState.Runner,5);
+			GoToRoom(room2ARunner,GameState.Runner,5);
 			break;
 		case levels.B2Shooter:
 		case 6:
-			//gameState = GameState.Menu;
-			//room_goto(roomEndGame);
 			
 			SetShooterTimeLine(tm_2BShooter,tm_2BShooter2,tm_2BShooter3);
 			GoToRoom(roomShooter,GameState.Shooter,6);
 			break;
-		/*case levels.C2Shooter: //CUT
-		case 7:
-			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
-			GoToRoom(roomShooter,GameState.Shooter,7);
-			break;*/
+		
 		case levels.D2Runner:
 		case 7:
 			GoToRoom(room2DRunner,GameState.Runner,8);
@@ -205,15 +197,11 @@ function NextLevel(levelToGo){
 		case 9:
 			GoToRoom(room3BRunner,GameState.Runner,10);
 			break;
-		/*case levels.C3Runner://CUT
 		case 11:
-			GoToRoom(room3CRunner,GameState.Runner,11);
-			break;*/
-		/*case levels.D3Shooter:
-		case 12:
-			SetShooterTimeLine(tm_beginning,tm_beginning2,tm_beginning3);
-			GoToRoom(roomShooter,GameState.Shooter,12);
-			break;*/
+			gameState = GameState.Menu;
+			room_goto(roomEndGame);
+			break;
+		
 		
 		//upgrade
 		default:
