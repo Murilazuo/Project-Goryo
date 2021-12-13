@@ -1,4 +1,3 @@
-instance_destroy(other);
 
 if(obj_GameManager.healingItem<3)
 {
@@ -8,4 +7,7 @@ else
 {
 	obj_TextDisplayManager.medAtMax = true;
 }
+
+instance_destroy(other);
+
 

@@ -624,6 +624,7 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
+    {"name":"inst_7F66F60","path":"rooms/room3BRunner/room3BRunner.yy",},
     {"name":"inst_4C46B726_1_1_2_1_1","path":"rooms/room3BRunner/room3BRunner.yy",},
     {"name":"inst_F158EC4_1_1_2_1_1","path":"rooms/room3BRunner/room3BRunner.yy",},
     {"name":"inst_7026E6D5_1_1_2_1_1","path":"rooms/room3BRunner/room3BRunner.yy",},
@@ -705,7 +706,6 @@
     {"name":"inst_3866FA0E","path":"rooms/room3BRunner/room3BRunner.yy",},
     {"name":"inst_6E14A16C","path":"rooms/room3BRunner/room3BRunner.yy",},
     {"name":"inst_4F74CD8F","path":"rooms/room3BRunner/room3BRunner.yy",},
-    {"name":"inst_7F66F60","path":"rooms/room3BRunner/room3BRunner.yy",},
     {"name":"inst_3A03E5B1","path":"rooms/room3BRunner/room3BRunner.yy",},
     {"name":"inst_13ED3442","path":"rooms/room3BRunner/room3BRunner.yy",},
     {"name":"inst_258CE238","path":"rooms/room3BRunner/room3BRunner.yy",},

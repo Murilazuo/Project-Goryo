@@ -23,4 +23,6 @@ switch(obj_GameManager.currentWeapon)
 
 }
 
-depth = obj_GameManager.player.depth -1;
+if instance_exists(obj_GameManager.player){
+	depth = obj_GameManager.player.depth -1;
+}

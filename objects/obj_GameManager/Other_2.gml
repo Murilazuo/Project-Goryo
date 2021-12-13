@@ -79,13 +79,12 @@ enum levels
 	
 	A2Runner,
 	B2Shooter,
-	//C2Shooter,
 	D2Runner,
 	
 	A3Shooter,
 	B3Runner,
-	//C3Runner,
-	//D3Shooter,
+	
+	endGame,
 	
 	debugShooter,
 	debugRunner,
@@ -197,7 +196,8 @@ function NextLevel(levelToGo){
 		case 9:
 			GoToRoom(room3BRunner,GameState.Runner,9);
 			break;
-		case 11:
+		case levels.endGame:
+		case 10:
 			gameState = GameState.Menu;
 			room_goto(roomEndGame);
 			break;
